@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "uoc-attclimate-web"
+  title: "Attclimate research project"
   navbar:
     left:
       - href: index.qmd

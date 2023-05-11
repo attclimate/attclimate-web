@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+The ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change.
