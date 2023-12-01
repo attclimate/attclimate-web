@@ -32,7 +32,7 @@ jobs:
           QUARTO_PRINT_STACK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          quarto render catala
+          quarto render --profile catala
           querto render --profile english
           if [ -f "_book" ]; then
             echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
