@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Attclimate - Projecte de recerca - About</title>
+<title>Attclimate - Projecte de recerca - About the Project</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +87,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">El projecte</span></a>
+ <span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./team.html" rel="" target="">
+ <span class="menu-text">Equip</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Recerca</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html" rel="" target="">
+ <span class="menu-text">Codi</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -96,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Català</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="././en/index.html" rel="" target="">
+    <a class="nav-link" href="././en/index_en.html" rel="" target="">
  <span class="menu-text">English</span></a>
   </li>  
 </ul>
@@ -118,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About the Project</h1>
 </div>
 
 
@@ -133,8 +145,24 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>EN ANGLÈS</p>
-<p>The ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change.</p>
+<div style="text-align: justify">
+<p>The ATTCLIMATE project proposes a way to better understand people’s attitudes and behaviors regarding climate change and various policies to mitigate anthropogenic changes in the environment. Specifically, it has <strong>three research lines</strong> linked to the attitudes of citizens and political elites towards climate change and support for mitigation policies.</p>
+<section id="line-1-attitudes-towards-climate-change" class="level2">
+<h2 class="anchored" data-anchor-id="line-1-attitudes-towards-climate-change">Line 1: Attitudes towards Climate Change</h2>
+<p><img src="img/volca.jpeg" class="img-fluid"></p>
+<p>The project aims to improve existing research designs and methods to better understand how extreme climate events provoke changes in attitudes towards climate change and mitigation policies. It will also assess people’s willingness to change their vote in the face of these events.</p>
+</section>
+<section id="line-2-positions-of-political-representatives" class="level2">
+<h2 class="anchored" data-anchor-id="line-2-positions-of-political-representatives">Line 2: Positions of Political Representatives</h2>
+<p><img src="img/votacio.jpg" class="img-fluid"></p>
+<p>ATTCLIMATE aims to analyze the competition between parties regarding climate change policies and study their incentives to vote for or against bills in this field. It also intends to study changes in the voting behavior of members of different representative chambers after extreme weather events, and whether ideology is capable of moderating their response.</p>
+</section>
+<section id="line-3-corrective-measures-against-climate-change" class="level2">
+<h2 class="anchored" data-anchor-id="line-3-corrective-measures-against-climate-change">Line 3: Corrective Measures Against Climate Change</h2>
+<p><img src="img/mani.jpeg" class="img-fluid"></p>
+<p>The project will analyze support for mitigation policies in Spain. It will use experimental techniques in an <em>ad hoc</em> survey to assess the likelihood that individuals will accept the expansion of green policies based on different environmental, political, and party scenarios. It will evaluate the heterogeneity of profiles that support the expansion of policies in favor of climate change. Finally, it will address whether individuals most affected by the consequences of climate change are also more willing to engage in mitigation policies.</p>
+</section>
+</div>
 
 
 
@@ -370,6 +398,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

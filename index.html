@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Attclimate - Projecte de recerca - Attclimate project</title>
+<title>Attclimate - Projecte de recerca</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +87,19 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">El projecte</span></a>
+ <span class="menu-text">Sobre</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./team.html" rel="" target="">
+ <span class="menu-text">Equip</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Recerca</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./data.html" rel="" target="">
+ <span class="menu-text">Codi</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -96,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Català</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="././en/index.html" rel="" target="">
+    <a class="nav-link" href="././en/index_en.html" rel="" target="">
  <span class="menu-text">English</span></a>
   </li>  
 </ul>
@@ -116,26 +128,59 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Attclimate project</h1>
+
+
+<style>
+  body {
+    background-image: url("img/sequera.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* text color to white for better contrast on the image */      }
+
+  /* Create the dark overlay */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity (last value) for the desired darkness */
+  }
+  
+  /* Center the content within the page */
+ .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+    /* Center the content within the page */
+ .bottom-content {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+<div class="centered-content">
+<h1>
+Projecte de Recerca ATTClimate
+</h1>
+<p>
+Anàlisi del suport ciutadà per implementar o reforçar polítiques de mitigació contra el canvi climàtic.
+</p>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>EN CATALÀ</p>
-<p>Political attitudes, climate change and support for mitigation policies (ATTCLIMATE) project of the University’s Law and Political Science Studies.</p>
-<p><strong>Work in progress</strong></p>
+<div class="bottom-content">
+<p>
+El projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: “Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)”), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra.
+</p>
+</div>
 
 
 
@@ -371,6 +416,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
