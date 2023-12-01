@@ -27,9 +27,16 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: 'Render'
         env:
+          QUARTO_PRINT_STACK: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          quarto render catala
+          querto render --profile english
+          if [ -f "_book" ]; then
+            echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
+          elif [ -f "_site" ]; then
+            echo "QUARTO_OUTPUT=_site" >> $GITHUB_ENV
+          fi
+        shell: bash
