@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: ./_site/en
+
+
+website:
+  title: "Attclimate research project"
+  navbar:
+    left:
+      - href: index_en.qmd
+        text: Home
+      - href: about_en.qmd
+        text: About
+    right:
+      - href: ../index.html
+        text: Català
+      - href: ./index.html
+        text: English
+
+lang: en
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
