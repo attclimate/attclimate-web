@@ -40,3 +40,9 @@ jobs:
             echo "QUARTO_OUTPUT=_site" >> $GITHUB_ENV
           fi
         shell: bash
+      
+      - name: Publish to GitHub Pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          render: false
