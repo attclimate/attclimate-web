@@ -11,10 +11,16 @@ website:
         text: Home
       - href: about_en.qmd
         text: About
+      - href: team_en.qmd
+        text: Team
+      - href: research_en.qmd
+        text: Research
+      - href: data_en.qmd
+        text: Code
     right:
       - href: ../index.html
         text: Català
-      - href: ./index.html
+      - href: ./index_en.html
         text: English
 
 lang: en
@@ -24,6 +30,10 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 2
+    link-external-icon: true
+    link-external-newwindow: true
 
 editor: visual
 
+theme: darkly

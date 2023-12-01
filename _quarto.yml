@@ -4,3 +4,6 @@ project:
 profile:
   default: catala
   group: [catala, english]
+  
+
+theme: darkly

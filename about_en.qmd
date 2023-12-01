@@ -1,7 +1,25 @@
 ---
-title: "About"
+title: "About the Project"
 ---
 
-EN ANGLÈS
+::: {style="text-align: justify"}
+The ATTCLIMATE project proposes a way to better understand people's attitudes and behaviors regarding climate change and various policies to mitigate anthropogenic changes in the environment. Specifically, it has **three research lines** linked to the attitudes of citizens and political elites towards climate change and support for mitigation policies.
 
-The ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change.
+## Line 1: Attitudes towards Climate Change
+
+![](img/volca.jpeg)
+
+The project aims to improve existing research designs and methods to better understand how extreme climate events provoke changes in attitudes towards climate change and mitigation policies. It will also assess people's willingness to change their vote in the face of these events.
+
+## Line 2: Positions of Political Representatives
+
+![](img/votacio.jpg)
+
+ATTCLIMATE aims to analyze the competition between parties regarding climate change policies and study their incentives to vote for or against bills in this field. It also intends to study changes in the voting behavior of members of different representative chambers after extreme weather events, and whether ideology is capable of moderating their response.
+
+## Line 3: Corrective Measures Against Climate Change
+
+![](img/mani.jpeg)
+
+The project will analyze support for mitigation policies in Spain. It will use experimental techniques in an *ad hoc* survey to assess the likelihood that individuals will accept the expansion of green policies based on different environmental, political, and party scenarios. It will evaluate the heterogeneity of profiles that support the expansion of policies in favor of climate change. Finally, it will address whether individuals most affected by the consequences of climate change are also more willing to engage in mitigation policies.
+:::

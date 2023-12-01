@@ -1,0 +1,23 @@
+---
+title: "Equip"
+---
+
+<div style="text-align: justify"> 
+
+El projecte està liderat pels professors Marc Guinjoan i Toni Rodon, i compta amb un equip format per analistes de dades, assistents de recerca i estudiants de doctorat.
+
+[Marc Guinjoan (UOC)](https://sites.google.com/site/marcguinjoan) és co-investigador principal del projecte. Guinjoan és professor associat de la Universitat Oberta de Catalunya i investigador del Grup de recerca Institucions i Economia Política (Universitat de Barcelona). Els seus interessos de recerca se centren en les institucions, el populisme, la psicologia política i el comportament polític i electoral. També està interessat en processos de descentralització i identitats. Juntament amb en Toni Rodon ha començat recentment a treballar en política ambiental.
+
+[Toni Rodon (UPF)](https://tonirodon.cat/ca/) també és co-investigador principal del projecte. Rodon és professor lector al Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra, i investigador a la London School of Economics and Political Science (Regne Unit). Els seus interessos de recerca inclouen els camps del comportament polític, l'opinió pública, l'economia política històrica i la geografia política, entre d'altres. 
+
+[Roger Sanjaume](https://rogersanjaume.cat/) és programador analista de dades. Actualment, treballa com a enginyer de dades en una cooperativa del sector elèctric. Ha col·laborat amb projectes de recerca com l'Institutions and Political Economy Research Group (IPErG) com a analista de dades. És editor del manual del postgrau "Analista de dades per a l'anàlisi política i la gestió pública" de la Universitat de Barcelona.
+
+Cèlia Estruch és ajudant de recerca. Ha realitzat el “Master in Political Science and Political Economy” a la London School of Economics and Political Science (Regne Unit). També ha cursat el postgrau "Analista de dades per a l'anàlisi política i la gestió pública" a la Universitat de Barcelona i el Grau de Filosofia, Política i Economia a la Universitat Pompeu Fabra.
+
+Joel Ardiaca és ajudant de recerca. Actualment, treballa com a estadístic al Centre d'Estudis d'Opinió i està cursant el màster en Estadística i Investigació Operativa a la Universitat Politècnica de Catalunya. Ha cursat el doble grau en Estadística i Sociologia a la Universitat Autònoma de Barcelona.
+
+Elena Romanin és estudiant de doctorat  en Ciències Polítiques i Socials, a la Universitat Pompeu Fabra. Anteriorment ha estat investigadora en el Research and Expertise Centre for Survey Methodology (UPF), on ha col·laborat en el projecte de recerca [ICOS Cities Pilot Applications in Urban Landscapes - Towards integrated city Observatories for greenhouse gases (PAUL)](https://www.icos-cp.eu/about/icos-in-nutshell/mission). Ha realitzat el Master in Economics and Development a la Università degli Studi di Firenze, i el Grau en International Studies a la Università degli Studi di Trento.
+
+També formen part de l’equip del projecte en Joaquín Rozas, n’Emmanuele Murgolo i en Nikandros Ioannidis, estudiants de doctorat de la Universitat Pompeu Fabra. 
+
+</div> 

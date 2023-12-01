@@ -1,7 +1,25 @@
 ---
-title: "About"
+title: "Sobre el projecte"
 ---
 
-EN CATALÀ
+::: {style="text-align: justify"}
+El projecte ATTCLIMATE planteja una via per entendre millor les actituds i el comportament de les persones davant el canvi climàtic i les diferents polítiques per mitigar els canvis antropogènics en el medi ambient. Concretament, té **tres línies de recerca** vinculades amb les actituds ciutadanes i de les elits polítiques davant el canvi climàtic i el suport a les polítiques de mitigació.
 
-The ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change.
+## Línia 1: Actituds envers el canvi climàtic
+
+![](img/volca.jpeg)
+
+El projecte té com a objectiu millorar els dissenys i mètodes de recerca existents per entendre millor com els esdeveniments climàtics extrems provoquen canvis en les actituds envers el canvi climàtic i les polítiques de mitigació. També avaluarà la voluntat de les persones de canviar el seu vot davant aquests successos.
+
+## Línia 2: Posicions dels representants polítics
+
+![](img/votacio.jpg)
+
+L'ATTCLIMATE pretén analitzar la competència entre partits pel que fa a les polítiques de canvi climàtic i estudiar els seus incentius per votar a favor o en contra dels projectes de llei sobre l'àmbit. També pretén estudiar els canvis en el comportament de vot dels membres de les diferents cambres representatives després d'esdeveniments meteorològics extrems, i si la ideologia és capaç de moderar la seva resposta.
+
+## Línia 3: Mesures correctores contra el canvi climàtic
+
+![](img/mani.jpeg)
+
+El projecte analitzarà el suport a les polítiques de mitigació a Espanya. Utilitzarà tècniques experimentals en una enquesta *ad hoc* per avaluar la probabilitat que els individus acceptin l'expansió de les polítiques verdes basades en diferents escenaris ambientals, polítics i de partit. Avaluarà l'heterogeneïtat dels perfils que donen suport a l'ampliació de polítiques a favor del canvi climàtic. Finalment, adreçarà si els individus més afectats per les conseqüències del canvi climàtic també estan més disposats a involucrar-se en polítiques de mitigació.
+:::

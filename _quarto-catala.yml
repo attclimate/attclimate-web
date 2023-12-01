@@ -9,11 +9,17 @@ website:
       - href: index.qmd
         text: Inici
       - href: about.qmd
-        text: El projecte
+        text: Sobre
+      - href: team.qmd
+        text: Equip
+      - href: research.qmd
+        text: Recerca
+      - href: data.qmd
+        text: Codi
     right:
       - href: /index.html
         text: Català
-      - href: ./en/index.html
+      - href: ./en/index_en.html
         text: English
 
 lang: ca
@@ -23,6 +29,10 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    toc-depth: 2
+    link-external-icon: true
+    link-external-newwindow: true
 
 editor: visual
 
+theme: darkly

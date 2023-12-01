@@ -1,7 +1,49 @@
----
-title: "Attclimate project"
----
+```{=html}
+<style>
+  body {
+    background-image: url("img/sequera.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* text color to white for better contrast on the image */      }
 
-EN ANGLÈS
+  /* Create the dark overlay */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity (last value) for the desired darkness */
+  }
+  
+  /* Center the content within the page */
+ .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+    /* Center the content within the page */
+ .bottom-content {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+  }
+</style>
+```
+::: centered-content
+<h1>ATTClimate Research Project</h1>
 
-**Work in progress**
+<p>Analysis of citizen support to implement or strengthen policies for mitigating climate change.</p>
+:::
+
+::: bottom-content
+<p>The project has received funding from the Spanish Ministry of Science and Innovation (title: "Political Attitudes, Climate Change, and Support for Mitigation Policies (ATTCLIMATE)"), and is developed by the Faculty of Law and Political Science of the Open University of Catalonia and the Department of Political and Social Sciences of Pompeu Fabra University.</p>
+:::
