@@ -33,7 +33,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           quarto render --profile catala
-          querto render --profile english
+          quarto render --profile english
           if [ -f "_book" ]; then
             echo "QUARTO_OUTPUT=_book" >> $GITHUB_ENV
           elif [ -f "_site" ]; then
