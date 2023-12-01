@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Attclimate project",
-    "section": "",
-    "text": "Political attitudes, climate change and support for mitigation policies (ATTCLIMATE) project of the University’s Law and Political Science Studies.\nWork in progress"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change."
+    "text": "EN CATALÀ\nThe ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change."
+  },
+  {
+    "objectID": "about_en.html",
+    "href": "about_en.html",
+    "title": "About",
+    "section": "",
+    "text": "EN ANGLÈS\nThe ATTCLIMATE project proposes a new research approach with the aim of advancing the understanding of attitudes towards climate change. We seek to make a theoretical, methodological and empirical contribution to the field of environmental policy through the use of quantitative data. It aims to evaluate the different levels of support for climate change mitigation policies, using secondary data in order to estimate the extent to which the climatic conditions in which individuals live - and extreme weather phenomena - interact with their political characteristics and individual socioeconomics to modulate attitudes in relation to climate change."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Attclimate project",
+    "section": "",
+    "text": "EN CATALÀ\nPolitical attitudes, climate change and support for mitigation policies (ATTCLIMATE) project of the University’s Law and Political Science Studies.\nWork in progress"
+  },
+  {
+    "objectID": "index_en.html",
+    "href": "index_en.html",
+    "title": "Attclimate project",
+    "section": "",
+    "text": "EN ANGLÈS\nWork in progress"
   }
 ]
