@@ -16,6 +16,8 @@ website:
         text: Recerca
       - href: data.qmd
         text: Codi
+      - href: map.qmd
+        text: Mapa
     right:
       - href: /index.html
         text: Català
@@ -32,5 +34,6 @@ format:
     toc-depth: 2
     link-external-icon: true
     link-external-newwindow: true
+    page-layout: full
 
 editor: visual
