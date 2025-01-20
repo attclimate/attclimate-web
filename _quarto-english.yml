@@ -35,3 +35,7 @@ format:
     link-external-newwindow: true
 
 editor: visual
+
+margin-header: "Supported by"
+margin-footer:  |
+  ![](./img/ministeri.jpg)
