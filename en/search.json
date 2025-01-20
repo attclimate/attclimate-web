@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "map.html",
+    "href": "map.html",
+    "title": "Attclimate research project",
+    "section": "",
+    "text": "xcvxb cb\n\n\n\nbdbdfbgf"
+  },
+  {
+    "objectID": "research_en.html",
+    "href": "research_en.html",
+    "title": "Research",
+    "section": "",
+    "text": "Work in progress"
+  },
+  {
     "objectID": "team.html",
     "href": "team.html",
     "title": "Equip",
@@ -12,6 +26,13 @@
     "title": "Team",
     "section": "",
     "text": "The project is led by professors Marc Guinjoan and Toni Rodon, and includes a team of data analysts, research assistants, and doctoral students.\nMarc Guinjoan (UOC) is a co-principal investigator of the project. Guinjoan is an associate professor at the Open University of Catalonia and a researcher at the Research Group on Institutions and Political Economy (University of Barcelona). His research interests focus on institutions, populism, political psychology, and political and electoral behavior. He is also interested in processes of decentralization and identities. Together with Toni Rodon, he has recently started working on environmental politics.\nToni Rodon (UPF) is also a co-principal investigator of the project. Rodon is a lecturer at the Department of Political and Social Sciences at Pompeu Fabra University, and a researcher at the London School of Economics and Political Science (United Kingdom). His research interests include political behavior, public opinion, historical political economy, and political geography, among others.\nRoger Sanjaume is a data analyst programmer. He currently works as a data engineer in an electric sector cooperative. He has collaborated with research projects such as the Institutions and Political Economy Research Group (IPErG) as a data analyst. He is the editor of the postgraduate manual “Data Analyst for Political Analysis and Public Management” at the University of Barcelona.\nCèlia Estruch is a research assistant. She has completed the “Master in Political Science and Political Economy” at the London School of Economics and Political Science (United Kingdom). She has also completed the postgraduate program “Data Analyst for Political Analysis and Public Management” at the University of Barcelona and the Degree in Philosophy, Politics, and Economics at Pompeu Fabra University.\nJoel Ardiaca is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master’s degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Autonomous University of Barcelona.\nElena Romanin is a doctoral student in Political and Social Sciences at Pompeu Fabra University. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project ICOS Cities Pilot Applications in Urban Landscapes - Towards integrated city Observatories for greenhouse gases (PAUL). She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.\nAlso part of the project team are Joaquín Rozas, Emmanuele Murgolo, and Nikandros Ioannidis, doctoral students at Pompeu Fabra University."
+  },
+  {
+    "objectID": "data_en.html",
+    "href": "data_en.html",
+    "title": "Code",
+    "section": "",
+    "text": "Project Repository"
   },
   {
     "objectID": "about_en.html",
@@ -42,25 +63,25 @@
     "text": "The project will analyze support for mitigation policies in Spain. It will use experimental techniques in an ad hoc survey to assess the likelihood that individuals will accept the expansion of green policies based on different environmental, political, and party scenarios. It will evaluate the heterogeneity of profiles that support the expansion of policies in favor of climate change. Finally, it will address whether individuals most affected by the consequences of climate change are also more willing to engage in mitigation policies."
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Recerca",
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "Codi",
     "section": "",
-    "text": "En construcció"
+    "text": "Repositori del projecte"
   },
   {
     "objectID": "index_en.html",
     "href": "index_en.html",
     "title": "\nATTClimate Research Project\n",
     "section": "",
-    "text": "ATTClimate Research Project\n\n\nAnalysis of citizen support to implement or strengthen policies for mitigating climate change.\n\n\n\n\nThe project has received funding from the Spanish Ministry of Science and Innovation (title: “Political Attitudes, Climate Change, and Support for Mitigation Policies (ATTCLIMATE)”), and is developed by the Faculty of Law and Political Science of the Open University of Catalonia and the Department of Political and Social Sciences of Pompeu Fabra University."
+    "text": "Analysis of citizen support to implement or strengthen policies for mitigating climate change.\n\n\n\n\nThe project has received funding from the Spanish Ministry of Science and Innovation (title: “Political Attitudes, Climate Change, and Support for Mitigation Policies (ATTCLIMATE)”), and is developed by the Faculty of Law and Political Science of the Open University of Catalonia and the Department of Political and Social Sciences of Pompeu Fabra University."
   },
   {
-    "objectID": "map.html",
-    "href": "map.html",
-    "title": "Attclimate research project",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Recerca",
     "section": "",
-    "text": "xcvxb cb\n\n\n\nbdbdfbgf"
+    "text": "En construcció"
   },
   {
     "objectID": "about.html",
@@ -91,31 +112,10 @@
     "text": "El projecte analitzarà el suport a les polítiques de mitigació a Espanya. Utilitzarà tècniques experimentals en una enquesta ad hoc per avaluar la probabilitat que els individus acceptin l’expansió de les polítiques verdes basades en diferents escenaris ambientals, polítics i de partit. Avaluarà l’heterogeneïtat dels perfils que donen suport a l’ampliació de polítiques a favor del canvi climàtic. Finalment, adreçarà si els individus més afectats per les conseqüències del canvi climàtic també estan més disposats a involucrar-se en polítiques de mitigació."
   },
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Codi",
-    "section": "",
-    "text": "Repositori del projecte"
-  },
-  {
-    "objectID": "research_en.html",
-    "href": "research_en.html",
-    "title": "Research",
-    "section": "",
-    "text": "Work in progress"
-  },
-  {
-    "objectID": "data_en.html",
-    "href": "data_en.html",
-    "title": "Code",
-    "section": "",
-    "text": "Project Repository"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nProjecte de Recerca ATTClimate\n",
     "section": "",
-    "text": "Projecte de Recerca ATTClimate\n\n\nAnàlisi del suport ciutadà per implementar o reforçar polítiques de mitigació contra el canvi climàtic.\n\n\n\n\nEl projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: “Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)”), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra."
+    "text": "Anàlisi del suport ciutadà per implementar o reforçar polítiques de mitigació contra el canvi climàtic.\n\n\n\n\nEl projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: “Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)”), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra."
   }
 ]
