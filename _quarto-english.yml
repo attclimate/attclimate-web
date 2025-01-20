@@ -17,6 +17,8 @@ website:
         text: Research
       - href: data_en.qmd
         text: Code
+      - href: map.qmd
+        text: Map
     right:
       - href: ../index.html
         text: Català
