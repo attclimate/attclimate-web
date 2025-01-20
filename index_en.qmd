@@ -40,7 +40,6 @@
 ```
 ::: centered-content
 <h1>ATTClimate Research Project</h1>
-
 <p>Analysis of citizen support to implement or strengthen policies for mitigating climate change.</p>
 :::
 
