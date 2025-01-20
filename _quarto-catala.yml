@@ -37,7 +37,3 @@ format:
     page-layout: full
 
 editor: visual
-
-margin-header: "Amb la col·laboració de"
-margin-footer:  |
-  ![](./img/ministeri.jpg)

@@ -46,4 +46,5 @@
 
 ::: bottom-content
 <p>The project has received funding from the Spanish Ministry of Science and Innovation (title: "Political Attitudes, Climate Change, and Support for Mitigation Policies (ATTCLIMATE)"), and is developed by the Faculty of Law and Political Science of the Open University of Catalonia and the Department of Political and Social Sciences of Pompeu Fabra University.</p>
+![](img/ministeri.jpg){width=50%}
 :::
