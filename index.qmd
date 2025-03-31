@@ -54,7 +54,10 @@
 :::
 
 ::: bottom-content
-<p>El projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: "Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)"), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra.</p>
+<p>El projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: "Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)"), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra.
+
+Projecte TED2021-132191B-I00, finançat per MCIN/AEI/10.13039/501100011033 i per la Unió Europea "NextGenerationEU"/PRTR
+</p>
 ![](img/ministeri.jpg){width=50%}
 
 :::
