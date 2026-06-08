@@ -1,9 +1,31 @@
 project:
   type: website
+  output-dir: ./_site
 
-profile:
-  default: catala
-  group: [catala, english]
-  
+website:
+  title: "ATTClimate Research Project"
+  navbar:
+    left:
+      - href: index_en.qmd
+        text: Home
+      - href: data_en.qmd
+        text: CORA Data
+      - href: survey_analysis.qmd
+        text: Survey Analysis
+      - href: papers.qmd
+        text: Papers
+      - href: team_en.qmd
+        text: Team
 
-theme: darkly
+lang: en
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    link-external-icon: true
+    link-external-newwindow: true
+
+editor: visual

@@ -1,6 +1,53 @@
 ---
-title: "Code"
+title: "CORA Data"
 ---
 
-[Project Repository](https://github.com/attclimate/attclimate-web)
+::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
 
+## ATTClimate Survey Data
+
+The ATTClimate project has made its survey data publicly available through the **CORA** (Consorci de Serveis Universitaris de Catalunya) research data repository. CORA is the open-access repository for research data produced by Catalan universities and research institutions.
+
+The data are deposited at [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/).
+
+---
+
+### ATTCLIMATE Survey
+
+The **ATTCLIMATE Survey** is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.
+
+**Coverage and sample:**
+
+| Wave | Fieldwork period | N |
+|------|-----------------|---|
+| Wave 1 | February 2023 | ~4,765 |
+| Wave 2 | April 2024 | ~3,019 |
+| Wave 3 | October–November 2024 | ~3,734 |
+| Wave 4 | 2025 | ~3,997 |
+
+Wave 3 was split around the DANA flooding event of 30 October 2024, allowing pre/post comparisons of extreme weather event effects on climate attitudes.
+
+**Thematic coverage includes:**
+
+- Support for climate mitigation policies (carbon taxes, low-emission zones, renewable energy, etc.)
+- Beliefs about the origin and severity of climate change
+- Political ideology and party preferences
+- Institutional trust
+- Territorial identity
+- Sociodemographic characteristics
+
+**Available materials:**
+
+- Harmonised cross-sectional dataset (all waves stacked)
+- Longitudinal panel dataset (respondents tracked across waves)
+- Individual wave datasets
+- Codebook (variable descriptions, value labels, availability by wave)
+- Original questionnaires (Spanish and English)
+
+**Citation:**
+
+> Guinjoan, Marc; Rodon, Toni et al. (2026). *ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change*. CORA, Repositori de Dades de Recerca.
+
+**Repository:** [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/)
+
+:::
