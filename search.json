@@ -7,6 +7,41 @@
     "text": "Repositori del projecte"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ATTClimate Research Project",
+    "section": "",
+    "text": "Understanding citizen support for climate change mitigation policies in Spain\n  \n  ↓ scroll to explore"
+  },
+  {
+    "objectID": "index.html#what-is-attclimate",
+    "href": "index.html#what-is-attclimate",
+    "title": "ATTClimate Research Project",
+    "section": "What is ATTClimate?",
+    "text": "What is ATTClimate?\nATTClimate (Political Attitudes, Climate Change, and Support for Mitigation Policies) is a research project that investigates how Spanish citizens form their opinions about climate change and the public policies designed to address it. At its core, the project asks: who supports climate policies, why, and under what conditions?\nClimate change is one of the defining challenges of our time, yet the implementation of effective mitigation policies depends critically on public support. Policies such as carbon taxes, low-emission zones, renewable energy subsidies, or restrictions on fossil fuels all entail real costs and trade-offs that citizens must accept for democracies to enact them. ATTClimate seeks to understand the political, social, and psychological factors that shape whether individuals back or oppose these measures."
+  },
+  {
+    "objectID": "index.html#research-lines",
+    "href": "index.html#research-lines",
+    "title": "ATTClimate Research Project",
+    "section": "Research Lines",
+    "text": "Research Lines\nThe project pursues three interconnected research lines:\n1. Attitudes towards climate change and extreme weather events. We examine how direct exposure to extreme climate events — droughts, floods, heatwaves — shapes individual attitudes towards climate change and their support for mitigation policies. Using panel survey data collected before and after major events (including the DANA flooding of October 2024), we assess whether lived experience with climate impacts translates into stronger or more durable policy support.\n2. Positions of political representatives. We analyse how political parties compete over climate change issues and how elected representatives vote on climate-related legislation. We study whether ideology conditions parliamentary behaviour after extreme weather events, and whether party dynamics amplify or suppress elite responsiveness to climate concerns.\n3. Support for mitigation policies: costs, redistribution, and experiments. Using survey experiments embedded in original data collections, we estimate how the framing of climate policies — in terms of economic costs, distributional consequences, or co-benefits — affects public acceptance. We pay particular attention to which social groups support or resist different policy instruments, and whether targeted compensation schemes can broaden coalitions behind ambitious climate action."
+  },
+  {
+    "objectID": "index.html#data",
+    "href": "index.html#data",
+    "title": "ATTClimate Research Project",
+    "section": "Data",
+    "text": "Data\nATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations. The panel design allows us to track attitude change over time and link individual survey responses to real-world climate events. All harmonised data are available through the CORA research data repository."
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "ATTClimate Research Project",
+    "section": "Funding",
+    "text": "Funding\nThe project is funded by the Spanish Ministry of Science and Innovation (MCIN/AEI/10.13039/501100011033) and the European Union NextGenerationEU/PRTR (reference: TED2021-132191B-I00). It is jointly developed by the Faculty of Law and Political Science at the Universitat Oberta de Catalunya (UOC) and the Department of Political and Social Sciences at the Universitat Pompeu Fabra (UPF)."
+  },
+  {
     "objectID": "survey_analysis.html",
     "href": "survey_analysis.html",
     "title": "Survey Analysis",
