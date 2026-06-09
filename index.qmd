@@ -1,6 +1,5 @@
 ```{=html}
 <style>
-  /* ── Hero ── */
   .hero-section {
     background-image: url("img/sequera.jpeg");
     background-size: cover;
@@ -11,7 +10,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-top: -64px; /* pulls it up behind the navbar */
+    margin-top: -64px;
   }
   .hero-section::before {
     content: "";
@@ -46,8 +45,6 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-
-  /* ── Body content ── */
   body {
     background-color: #1a1a2e;
   }
@@ -58,8 +55,24 @@
     line-height: 1.9;
     color: #e0e0e0;
   }
-  .project-body h
-
+  .project-body h2 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    padding-bottom: 0.4rem;
+  }
+  .funding-footer {
+    text-align: center;
+    padding: 2.5rem 1rem 4rem;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.55);
+    border-top: 1px solid rgba(255,255,255,0.1);
+    max-width: 860px;
+    margin: 0 auto;
+  }
+</style>
 <div class="hero-section">
   <div class="hero-text">
     <h1>ATTClimate Research Project</h1>
