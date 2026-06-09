@@ -1,19 +1,24 @@
 ```{=html}
 <style>
-
-  body {
+  /* ── Hero ── */
+  .hero-section {
     background-image: url("img/sequera.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-body::before {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -64px; /* pulls it up behind the navbar */
+  }
+  .hero-section::before {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(0, 0, 0, 0.45);
   }
-
   .hero-text {
     position: relative;
     text-align: center;
@@ -21,37 +26,47 @@ body::before {
     padding: 2rem;
     max-width: 800px;
   }
-
   .hero-text h1 {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    letter-spacing: 0.5px;
   }
-
   .hero-text p {
-    font-size: 1.2rem;
-    margin-bottom: 0;
+    font-size: 1.3rem;
+    opacity: 0.9;
+  }
+  .scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255,255,255,0.7);
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
+  /* ── Body content ── */
+  body {
+    background-color: #1a1a2e;
+  }
   .project-body {
-    max-width: 880px;
+    max-width: 860px;
     margin: 0 auto;
-    padding: 3rem 1.5rem 2rem;
-    line-height: 1.8;
+    padding: 4rem 2rem 2rem;
+    line-height: 1.9;
+    color: #e0e0e0;
   }
+  .project-body h
 
-  .funding-footer {
-    text-align: center;
-    padding: 2rem 1rem 3rem;
-    font-size: 0.88rem;
-    opacity: 0.75;
-  }
-</style>
-
+<div class="hero-section">
   <div class="hero-text">
     <h1>ATTClimate Research Project</h1>
     <p>Understanding citizen support for climate change mitigation policies in Spain</p>
   </div>
+  <div class="scroll-hint">↓ scroll to explore</div>
+</div>
 ```
 
 ::: project-body
