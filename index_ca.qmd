@@ -1,0 +1,67 @@
+```{=html}
+<style>
+  body {
+    background-image: url("img/sequera.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff; /* text color to white for better contrast on the image */      }
+
+  /* Create the dark overlay */
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity (last value) for the desired darkness */
+  }
+  
+  /* Center the content within the page */
+ .centered-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+    /* Center the content within the page */
+ .bottom-content {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Center the content within the page */
+ .quarto-title-block {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+```
+
+::: centered-content
+<h1>Projecte de Recerca ATTClimate</h1>
+
+<p>Anàlisi del suport ciutadà per implementar o reforçar polítiques de mitigació contra el canvi climàtic.</p>
+:::
+
+::: bottom-content
+<p>
+
+El projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: "Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)"), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra.
+
+Projecte TED2021-132191B-I00, finançat per MCIN/AEI/10.13039/501100011033 i per la Unió Europea "NextGenerationEU"/PRTR
+
+</p>
+
+![](img/ministeri.jpg){width="50%"}
+:::

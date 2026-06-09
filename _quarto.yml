@@ -6,12 +6,12 @@ website:
   title: "ATTClimate Research Project"
   navbar:
     left:
-      - href: index_en.qmd
+      - href: index.qmd
         text: Home
       - href: data_en.qmd
         text: CORA Data
       - href: survey_analysis.qmd
-        text: Survey Analysis
+        text: Survey Analysisf
       - href: papers.qmd
         text: Papers
       - href: team_en.qmd
