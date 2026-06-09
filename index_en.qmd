@@ -62,7 +62,6 @@
 ```
 
 ::: project-body
-
 ## What is ATTClimate?
 
 **ATTClimate** (*Political Attitudes, Climate Change, and Support for Mitigation Policies*) is a research project that investigates how Spanish citizens form their opinions about climate change and the public policies designed to address it. At its core, the project asks: *who supports climate policies, why, and under what conditions?*
@@ -86,13 +85,10 @@ ATTClimate has fielded four waves of original survey data (2023–2025) among th
 ## Funding
 
 The project is funded by the **Spanish Ministry of Science and Innovation** (MCIN/AEI/10.13039/501100011033) and the European Union NextGenerationEU/PRTR (reference: TED2021-132191B-I00). It is jointly developed by the Faculty of Law and Political Science at the **Universitat Oberta de Catalunya (UOC)** and the Department of Political and Social Sciences at the **Universitat Pompeu Fabra (UPF)**.
-
 :::
 
 ::: funding-footer
-
 Project TED2021-132191B-I00 · MCIN/AEI/10.13039/501100011033 · European Union "NextGenerationEU"/PRTR
 
 ![](img/ministeri.jpg){width="35%"}
-
 :::

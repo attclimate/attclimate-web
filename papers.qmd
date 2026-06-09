@@ -2,228 +2,284 @@
 title: "Papers"
 format:
   html:
-    toc: true
-    toc-depth: 2
+    toc: false
+    page-layout: full
 ---
 
-::: {style="max-width: 900px; margin: 0 auto;"}
-## Published
-
-------------------------------------------------------------------------
-
-### The Limits of Alarm: How Climate Scenarios Fail to Increase Willingness to Act and Pay for Climate Change Policies
-
-**Toni Rodon, Marc Guinjoan, Cèlia Estruch-Garcia**
-
-*Political Studies Review*, Vol. 24(2), pp. 325–334 (2026). <https://doi.org/10.1177/14789299251399359>
-
-A widespread assumption in climate communication is that confronting the public with vivid projections of future climate scenarios will increase their support for mitigation policies. This article puts that assumption to a rigorous empirical test. Using two vignette experiments embedded in representative surveys of the Spanish population, the authors causally examine whether exposure to information about alternative climate scenarios — ranging from moderate to catastrophic — affects citizens' commitment to climate action in two key dimensions: their support for publicly funded climate initiatives, and their willingness to contribute financially.
-
-The experimental results are strikingly null. Across both surveys and both outcome measures, exposure to future climate scenario information has no significant effect on individuals' willingness to act or to pay. This finding holds across different ideological groups: left-wing and right-wing respondents alike are unaffected by the climate scenario treatments. The authors rule out a range of alternative explanations, including ceiling effects (respondents who already support climate action) and floor effects (hardened sceptics who cannot be moved), finding that the null result is robust and not an artifact of sample composition.
-
-The article makes two main contributions. Theoretically, it challenges the prevailing assumption that fear-based or risk-based messaging strategies can generate the political will for ambitious climate policies. Empirically, it provides rare null results on a question that has attracted much speculation but little rigorous evidence. The findings have direct implications for communication strategies in climate politics: priming citizens with projections of climate change impacts is unlikely to translate into greater support for costly policies, and alternative approaches — perhaps those centred on co-benefits, social norms, or collective framing — may be more effective in building public coalitions behind climate action.
-
 ```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/the_limits_of_alarm.svg" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 2: Predicted support for climate change policies at different scenario levels" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 2: Predicted support for climate change policies at different scenario levels. The figure shows that exposure to alarming vs. moderate climate scenarios produces no significant difference in policy support.
-  </figcaption>
-</figure>
+<div id="papers-layout">
+
+<!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
+<aside id="papers-sidebar">
+  <p class="sidebar-title">Filter</p>
+
+  <div class="filter-group">
+    <span class="filter-label">Status</span>
+    <label><input type="checkbox" class="filter-cb" data-filter="status" value="published" checked> Published</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="status" value="working" checked> Working Papers</label>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-label">Approach</span>
+    <label><input type="checkbox" class="filter-cb" data-filter="approach" value="survey" checked> Survey data</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="approach" value="aggregate" checked> Aggregate data</label>
+  </div>
+
+  <div class="filter-group">
+    <span class="filter-label">Author</span>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="ardiaca" checked> Ardiaca</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="biering" checked> Biering</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="estruch" checked> Estruch-Garcia</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="falco" checked> Falcó-Gimeno</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="guinjoan" checked> Guinjoan</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="mas" checked> Mas</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="mugica" checked> Mugica</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="munoz" checked> Muñoz</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="rodon" checked> Rodon</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="romanin" checked> Romanin</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="sanjaume" checked> Sanjaume</label>
+    <label><input type="checkbox" class="filter-cb" data-filter="author" value="sorribas" checked> Sorribas-Navarro</label>
+  </div>
+
+  <button id="reset-filters" class="btn btn-sm btn-outline-secondary" style="width:100%; margin-top:0.25rem;">Reset</button>
+</aside>
+
+<!-- ── Papers list ──────────────────────────────────────────────────────── -->
+<div id="papers-list">
+
+<p id="no-results" style="display:none; color:#aaa; font-style:italic;">No papers match the current filters.</p>
+
+<!-- ── PUBLISHED ─────────────────────────────────────────────────── -->
+<h5 class="section-heading">Published</h5>
+
+<div class="paper-card"
+     data-status="published"
+     data-approach="survey"
+     data-authors="rodon guinjoan estruch">
+
+  <h6 class="paper-title">The Limits of Alarm: How Climate Scenarios Fail to Increase Willingness to Act and Pay for Climate Change Policies</h6>
+  <p class="paper-authors">Toni Rodon, Marc Guinjoan, Cèlia Estruch-Garcia</p>
+  <p class="paper-venue"><em>Political Studies Review</em>, Vol. 24(2), pp. 325–334 (2026). <a href="https://doi.org/10.1177/14789299251399359" target="_blank">https://doi.org/10.1177/14789299251399359</a></p>
+
+  <p>A widespread assumption in climate communication is that confronting the public with vivid projections of future climate scenarios will increase their support for mitigation policies. This article puts that assumption to a rigorous empirical test. Using two vignette experiments embedded in representative surveys of the Spanish population, the authors causally examine whether exposure to information about alternative climate scenarios — ranging from moderate to catastrophic — affects citizens' commitment to climate action in two key dimensions: their support for publicly funded climate initiatives, and their willingness to contribute financially.</p>
+  <p>The experimental results are strikingly null. Across both surveys and both outcome measures, exposure to future climate scenario information has no significant effect on individuals' willingness to act or to pay. This finding holds across different ideological groups: left-wing and right-wing respondents alike are unaffected by the climate scenario treatments. The authors rule out a range of alternative explanations, including ceiling effects and floor effects, finding that the null result is robust and not an artifact of sample composition.</p>
+  <p>The article challenges the prevailing assumption that fear-based or risk-based messaging strategies can generate the political will for ambitious climate policies, and suggests that alternative approaches — centred on co-benefits, social norms, or collective framing — may be more effective in building public coalitions behind climate action.</p>
+</div>
+
+<hr class="section-divider">
+
+<!-- ── WORKING PAPERS ─────────────────────────────────────────────── -->
+<h5 class="section-heading">Working Papers</h5>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="guinjoan ardiaca falco munoz rodon romanin">
+
+  <h6 class="paper-title">Beliefs about Climate Change and Mitigation Policies: The Effect of the 2024 Valencia Floods</h6>
+  <p class="paper-authors">Marc Guinjoan, Joel Ardiaca, Albert Falcó-Gimeno, Jordi Muñoz, Toni Rodon, Elena Romanin</p>
+
+  <p>On 29 October 2024, the DANA storm system brought catastrophic flooding to the Valencia region, killing 227 people in one of the deadliest natural disasters in Spain's modern history. The authors exploit a unique opportunity: a representative survey of the Spanish population was already in the field when the floods struck, enabling an Unexpected Event during Survey Design (UESD) analysis that compares respondents interviewed before and after the disaster.</p>
+  <p>Using a difference-in-differences (DiD) approach, the paper estimates how the Valencia floods affected three distinct dimensions: awareness of and beliefs about climate change, perceptions of local climate severity, and support for mitigation policies. The geographic granularity of the data allows the authors to distinguish between affected areas and unaffected parts of Spain, treating geographic exposure as quasi-random assignment.</p>
+  <p>The findings reveal a nuanced pattern. Perceptions of local climate severity increased significantly among respondents in affected areas, suggesting that direct exposure to a catastrophic event does reshape how citizens assess climate risk in their immediate surroundings. However, general beliefs about the origin and global salience of climate change were only marginally affected. A follow-up survey conducted several months later assesses whether these changes persist or fade as the immediate crisis recedes.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="guinjoan rodon">
+
+  <h6 class="paper-title">Climate Conditions, Ideology and Attitudes towards Mitigation Policies: A Conjoint Experiment</h6>
+  <p class="paper-authors">Marc Guinjoan, Toni Rodon</p>
+
+  <p>Why do citizens who broadly endorse climate action so often resist specific mitigation measures? This paper argues that the gap between diffuse and specific support for climate policy hinges on the personal costs and lifestyle changes that concrete measures require. Using a conjoint experiment embedded in a representative survey of Spain (N = 4,764, January 2023), the authors simultaneously vary three key dimensions: the severity of projected future climate conditions, the state of the economy, and the specific mitigation policy on offer.</p>
+  <p>The three policies span the main dimensions of policy intrusiveness: a corporate tax on polluting enterprises (cost shifted to firms), a per-kilometre charge on fossil fuel vehicles (personal cost, mobility), and a restriction on meat in bars and restaurants (personal cost, lifestyle). This design allows the authors to estimate how much each attribute independently drives support, and how ideology and climate beliefs moderate these effects.</p>
+  <p>The results reveal a sharp political asymmetry. Citizens strongly support policies that shift costs onto corporations, but actively resist those requiring personal sacrifice or lifestyle adjustment. Consistent with the "low-cost hypothesis," the ideological gap is widest for the least intrusive instrument and narrows considerably for the most demanding ones — suggesting that ideological cues matter most when personal stakes are lowest.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="rodon guinjoan estruch sanjaume">
+
+  <h6 class="paper-title">Do Natural Disasters Drive Support for Climate Change Policies?</h6>
+  <p class="paper-authors">Toni Rodon, Marc Guinjoan, Cèlia Estruch-Garcia, Roger Sanjaume</p>
+
+  <p>A central premise of much climate communication is that direct exposure to natural disasters will make citizens more receptive to climate action. This paper puts that premise to one of the most comprehensive empirical tests to date, using data from the United States to exploit geographic and temporal variation in disaster exposure on a massive scale.</p>
+  <p>The authors combine fine-grained geographic data from FEMA — covering approximately 15,000 federally declared natural disasters between 2005 and 2022 — with individual-level survey data from the Cooperative Election Study (CES), tracking around 500,000 individuals over this period. They employ three complementary empirical strategies: a large-N observational analysis; a panel analysis exploiting within-individual changes; and a UESD quasi-experimental approach.</p>
+  <p>Across all three research designs, the results are consistent: there is no systematic relationship between the occurrence of extreme climate events and changes in climate beliefs or support for pro-environmental policies. The paper contributes to a growing debate about the limits of experiential learning in climate politics.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="biering guinjoan">
+
+  <h6 class="paper-title">Don't Call It Degrowth! Evidence from a Framing and Labeling Experiment in Spain</h6>
+  <p class="paper-authors">Gabriel Biering, Marc Guinjoan</p>
+
+  <p>The political fate of degrowth may depend less on the merits of the underlying policies than on how they are named and communicated. This paper isolates these communicative mechanisms with a clean experimental design: a 2×2 survey experiment in a representative sample of the Spanish population (N = 3,000) that independently varies framing (well-being vs. reduction) and labeling (with or without the "degrowth" label).</p>
+  <p>The results are consistent and clear. Support is highest under the well-being frame without the label. Describing the concept primarily in terms of reducing consumption and production substantially lowers the probability of choosing it, and attaching the "degrowth" label imposes an additional penalty. Crucially, these effects are similar across climate-attitude subgroups: even citizens who are highly concerned about climate change are sensitive to how degrowth is named and framed.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="aggregate"
+     data-authors="mas guinjoan">
+
+  <h6 class="paper-title">Expanding Global Coverage of Climate Change Support over Space and Time</h6>
+  <p class="paper-authors">Jordi Mas, Marc Guinjoan</p>
+
+  <p>Public support is a critical determinant of climate policy success, yet existing data on climate attitudes are deeply fragmented — inconsistent in format, skewed towards high-income democracies, and difficult to compare across countries and over time. This paper introduces a globally representative panel dataset capturing public attitudes toward climate change in over 150 countries between 2010 and 2024.</p>
+  <p>The dataset integrates more than 8,000 country-year-item observations drawn from 12 major international surveys, including the World Risk Poll, Latinobarómetro, Afrobarometer, and the Gallup World Poll. To overcome inconsistencies in wording and response scales, the authors apply a Bayesian ordinal Item Response Theory (IRT) model with partial pooling, estimating a common latent score for each country-year even when data are missing or surveys are inconsistent.</p>
+  <p>The resulting dataset significantly expands geographic coverage, extends temporal depth with a consistent longitudinal panel from 2010 to 2024, and dramatically improves the representation of low- and middle-income countries. It is publicly available and offers a valuable resource for researchers and policymakers engaged in global climate governance.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="aggregate"
+     data-authors="rodon guinjoan mugica">
+
+  <h6 class="paper-title">From Storms to the Floor: Natural Disasters and Climate Change Rhetoric in the US Congress</h6>
+  <p class="paper-authors">Toni Rodon, Marc Guinjoan, Julia Mugica</p>
+
+  <p>While much research has examined how natural disasters affect public opinion, far less attention has been paid to whether extreme weather events shape the behaviour of political elites. This paper fills that gap by examining climate change rhetoric in the US House of Representatives over nearly four decades (1981–2017).</p>
+  <p>The authors combine a comprehensive dataset of congressional floor speeches with geographically detailed FEMA disaster data, and apply NLP and transformer-based machine learning models to identify climate-related discourse. This allows them to exploit temporal and geographic variation in disaster exposure — when disasters hit districts represented by sitting members of Congress.</p>
+  <p>Major disasters do prompt legislators — particularly Republican members — to more frequently reference climate change in their floor speeches. This partisan asymmetry suggests that extreme events can trigger rhetorical engagement even among climate sceptics. However, disaster-driven rhetoric is not necessarily supportive of climate action — in some cases it appears reactive or dismissive.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="aggregate"
+     data-authors="sorribas rodon guinjoan">
+
+  <h6 class="paper-title">From Rubbish to the Ballot Box: The Electoral Effects of Door-to-Door Waste Policies</h6>
+  <p class="paper-authors">Pilar Sorribas-Navarro, Toni Rodon, Marc Guinjoan</p>
+
+  <p>Kerbside door-to-door (DtD) waste collection schemes have spread across European cities as a primary tool for meeting EU recycling targets, requiring households to separate waste into multiple fractions on designated days — a visible, inconvenient, and often contested policy change. Despite their proliferation, the electoral consequences of DtD implementation have remained largely unstudied.</p>
+  <p>This paper examines whether and how DtD waste schemes affect electoral outcomes in Catalonia, Spain — a setting where the policy has been gradually adopted by municipalities since the early 2000s. Using census-tract-level data and a staggered difference-in-differences design that exploits the sequential rollout of DtD adoption, the authors estimate the electoral effect of DtD implementation across multiple electoral contests.</p>
+  <p>DtD implementation inflicts a measurable electoral penalty on the implementing party, particularly in the short term. This electoral cost is conditioned by how long the scheme has been in place, whether the implementing party had previously campaigned on environmental issues, and the social capital of the municipality. The results have important implications for the politics of environmental reform.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="guinjoan rodon ardiaca">
+
+  <h6 class="paper-title">Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides</h6>
+  <p class="paper-authors">Marc Guinjoan, Toni Rodon, Joel Ardiaca</p>
+
+  <p>Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that the perceived costs of a policy, its anticipated benefits, and its distributive consequences jointly determine whether citizens support or oppose climate measures — dimensions that existing research has studied in isolation.</p>
+  <p>The authors address this through two experimental studies in Spain. Study 1 tests how exposure to the costs or benefits of ten specific climate policies affects stated support: cost framing significantly reduces support, while benefit framing produces a more modest positive effect. Study 2 implements a conjoint experiment allowing respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages.</p>
+  <p>The conjoint results show that redistribution plays a central role: citizens strongly favour policies that improve the situation of the poorest, suggesting potential coalition-building strategies around eco-social policies. Ideological divides are substantial: left-wing voters are more supportive overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="guinjoan rodon">
+
+  <h6 class="paper-title">The Price of Climate Policies: Willingness to Trade Off Income for Environmental Quality</h6>
+  <p class="paper-authors">Marc Guinjoan, Toni Rodon</p>
+
+  <p>How much income are citizens actually willing to sacrifice for better climate conditions? This paper answers that question using a novel conjoint experiment embedded in the ATTCLIMATE 2024 survey (N = 3,002 respondents in Spain). Respondents evaluated pairs of hypothetical cities varying randomly across six attributes: air quality, preparedness for extreme weather events, cooling infrastructure, cycling and pedestrian zones, monthly salary, and city size.</p>
+  <p>Income is by far the most important determinant of city choice: respondents are highly sensitive to income differences and require relatively little additional income to accept worse climate conditions. Among climate attributes, poor air quality is the most salient, followed by cooling infrastructure, preparedness for extreme events, and cycling infrastructure — but all four require modest income compensation compared to income itself.</p>
+  <p>Heterogeneity analyses show that left-leaning respondents and those who attribute climate change to human activity place somewhat greater weight on climate attributes, but income remains the dominant factor across all groups. These findings challenge optimistic accounts of a "post-materialist" shift and suggest that climate policy design must grapple with citizens' continued prioritisation of economic security.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="romanin">
+
+  <h6 class="paper-title">Seeing Green? Misperceptions of Climate Change Beliefs and Behaviors in Spain</h6>
+  <p class="paper-authors">Elena Romanin</p>
+
+  <p>This study examines whether citizens hold accurate beliefs about others' climate concern and sustainable behaviors in Spain, and whether correcting these misperceptions shifts climate policy support. Drawing on a nationally representative survey of 2,656 respondents combined with a pre-registered factorial vignette experiment that varies message framing (positive vs. negative) and reference group scale (national vs. regional), the analysis yields two main findings.</p>
+  <p>First, contrary to the underestimation pattern dominant in the literature, Spaniards substantially <em>over</em>estimate both the share of citizens who prioritize climate change as a top societal issue (perceived: 42%; actual: 22%) and the prevalence of sustainable behaviors. This overestimation is not driven by projection: it persists among respondents who neither personally prioritize climate change nor regularly engage in the behaviors examined.</p>
+  <p>Second, providing accurate normative information produces no significant effect on support for any of the three policies tested, regardless of framing, reference group, or respondents' prior beliefs. These findings call for caution in assuming that social-norm messaging alone can build climate policy support, and expand the geographical scope of this literature to Southern Europe.</p>
+</div>
+
+<div class="paper-card"
+     data-status="working"
+     data-approach="survey"
+     data-authors="romanin">
+
+  <h6 class="paper-title">Healthier, Not Just Greener: Public Response to Different Benefit Framings in Carbon Tax Support in Spain</h6>
+  <p class="paper-authors">Elena Romanin</p>
+
+  <p>Efforts to implement climate policies often face public resistance. This study, based on a pre-registered survey experiment in Spain (N = 2,768), tests how different framings of carbon taxation — emphasizing costs, primary climate benefits, co-benefits, and their combinations — shape public support. Compared to a no-information baseline, cost-focused messages reduce support, while benefit frames increase it, particularly those highlighting local co-benefits such as improved air quality and public health.</p>
+  <p>Co-benefits also prove more effective at offsetting the negative impact of cost salience. These results suggest that immediate, tangible outcomes resonate more strongly with the public than distant climate goals. Analysis of open-ended responses confirms this interpretation: co-benefits were more cognitively salient, with respondents more frequently referencing them when explaining their views.</p>
+  <p>The study also uncovers heterogeneity in responses: cost information lowers support especially among left-leaning and lower-income individuals, while benefit framing is more persuasive among right-leaning and higher-income respondents. Together, these findings underscore the modest but systematic role of framing in shaping attitudes toward carbon taxation and its potential to inform the design of more publicly acceptable climate policies.</p>
+</div>
+
+</div><!-- #papers-list -->
+</div><!-- #papers-layout -->
+
+<script>
+(function () {
+  const cards  = Array.from(document.querySelectorAll('.paper-card'));
+  const cbs    = Array.from(document.querySelectorAll('.filter-cb'));
+  const noRes  = document.getElementById('no-results');
+  const reset  = document.getElementById('reset-filters');
+
+  // Section headings to show/hide based on visible cards beneath them
+  function updateHeadings() {
+    document.querySelectorAll('.section-heading, .section-divider').forEach(el => {
+      el.style.display = '';
+    });
+    // Hide "Working Papers" heading if all WP cards hidden
+    const wpVisible = cards.some(c => c.dataset.status === 'working' && c.style.display !== 'none');
+    const pubVisible = cards.some(c => c.dataset.status === 'published' && c.style.display !== 'none');
+    document.querySelectorAll('.section-heading').forEach(h => {
+      if (h.textContent.trim() === 'Working Papers' && !wpVisible) h.style.display = 'none';
+      if (h.textContent.trim() === 'Published' && !pubVisible) h.style.display = 'none';
+    });
+    // Hide divider if published section hidden
+    if (!pubVisible) {
+      const div = document.querySelector('.section-divider');
+      if (div) div.style.display = 'none';
+    }
+  }
+
+  function applyFilters() {
+    // Build map: filterGroup -> set of checked values
+    const groups = {};
+    cbs.forEach(cb => {
+      const g = cb.dataset.filter;
+      if (!groups[g]) groups[g] = [];
+      if (cb.checked) groups[g].push(cb.value);
+    });
+
+    let anyVisible = false;
+    cards.forEach(card => {
+      // status: single value
+      const statusOk = !groups.status || groups.status.length === 0 ||
+                       groups.status.includes(card.dataset.status);
+      // approach: single value
+      const approachOk = !groups.approach || groups.approach.length === 0 ||
+                         groups.approach.includes(card.dataset.approach);
+      // author: space-separated list on card; OR logic
+      const cardAuthors = (card.dataset.authors || '').split(' ');
+      const authorOk = !groups.author || groups.author.length === 0 ||
+                       groups.author.some(a => cardAuthors.includes(a));
+
+      const show = statusOk && approachOk && authorOk;
+      card.style.display = show ? '' : 'none';
+      if (show) anyVisible = true;
+    });
+
+    noRes.style.display = anyVisible ? 'none' : '';
+    updateHeadings();
+  }
+
+  cbs.forEach(cb => cb.addEventListener('change', applyFilters));
+  reset.addEventListener('click', () => {
+    cbs.forEach(cb => { cb.checked = true; });
+    applyFilters();
+  });
+
+  applyFilters();
+})();
+</script>
 ```
-
-------------------------------------------------------------------------
-
-## Working Papers
-
-------------------------------------------------------------------------
-
-### Beliefs about Climate Change and Mitigation Policies: The Effect of the 2024 Valencia Floods
-
-**Marc Guinjoan, Joel Ardiaca, Albert Falcó-Gimeno, Jordi Muñoz, Toni Rodon, Elena Romanin**
-
-On 29 October 2024, the DANA storm system brought catastrophic flooding to the Valencia region, killing 227 people in one of the deadliest natural disasters in Spain's modern history. The authors exploit a unique opportunity: a representative survey of the Spanish population was already in the field when the floods struck, enabling an Unexpected Event during Survey Design (UESD) analysis that compares respondents interviewed before and after the disaster.
-
-Using a difference-in-differences (DiD) approach, the paper estimates how the Valencia floods affected three distinct dimensions: awareness of and beliefs about climate change, perceptions of local climate severity, and support for mitigation policies. The geographic granularity of the data allows the authors to distinguish between affected areas — those directly inundated or in close proximity to flood zones — and unaffected parts of Spain, treating geographic exposure as quasi-random assignment.
-
-The findings reveal a nuanced pattern. Perceptions of local climate severity increased significantly among respondents in affected areas relative to those elsewhere, suggesting that direct exposure to a catastrophic event does reshape how citizens assess climate risk in their immediate surroundings. However, general beliefs about the origin and global salience of climate change — whether it is human-caused, how serious a threat it poses — were only marginally affected, indicating that the disaster's impact on more abstract climate cognition was limited. Support for specific mitigation policies increased modestly in the aftermath of the floods, but the effect was concentrated in particular policy areas and subgroups of the population. A follow-up survey conducted several months later allows the authors to assess whether these changes persist or fade as the immediate crisis recedes.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/beliefs_about_climate_change.svg" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Main results: DiD estimates of the effect of Valencia floods on climate attitudes" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Difference-in-differences estimates comparing pre/post-flood changes in climate attitudes and policy support between affected and unaffected areas.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### Climate Conditions, Ideology and Attitudes towards Mitigation Policies: A Conjoint Experiment
-
-**Marc Guinjoan, Toni Rodon**
-
-Why do citizens who broadly endorse climate action so often resist specific mitigation measures? This paper argues that the gap between diffuse and specific support for climate policy hinges on the personal costs and lifestyle changes that concrete measures require. Using a conjoint experiment embedded in a representative survey of Spain (N = 4,764, January 2023), the authors systematically vary three key dimensions simultaneously: the severity of projected future climate conditions, the state of the economy, and the specific mitigation policy on offer.
-
-The three policies were deliberately selected to span the main dimensions of policy intrusiveness: a corporate tax on polluting enterprises (cost shifted to firms), a per-kilometre charge on fossil fuel vehicles (personal cost, mobility), and a restriction on meat in bars and restaurants (personal cost, lifestyle). This design allows the authors to estimate how much each attribute independently drives support, and how ideology and climate beliefs moderate these effects.
-
-The results reveal a sharp and politically important asymmetry. Citizens strongly support policies that shift costs onto corporations, but actively resist those requiring personal sacrifice or lifestyle adjustment. Left-leaning individuals and climate believers are somewhat more willing to accept intrusive measures, but even they fall short of net support for personally costly policies. Consistent with the "low-cost hypothesis," the ideological gap is widest for the least intrusive instrument and narrows considerably for the most demanding ones — suggesting that ideological cues matter most when personal stakes are lowest. Finally, exposure to catastrophic future scenarios produces only modest adjustments in support, reinforcing the conclusion that fear-based messaging alone cannot build public acceptance for climate policies that require real personal trade-offs.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/climate_conditions_ideology.svg" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 1: Marginal Means for the three climate policies by attribute levels" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 1: Marginal Means for the three climate policies across climate condition, economic context, and ideology. Citizens support shifting costs to corporations but resist personal sacrifice.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### Do Natural Disasters Drive Support for Climate Change Policies?
-
-**Toni Rodon, Marc Guinjoan, Cèlia Estruch-Garcia, Roger Sanjaume**
-
-A central premise of much climate communication is that direct exposure to natural disasters — floods, wildfires, hurricanes — will make citizens more receptive to climate action. This paper puts that premise to one of the most comprehensive empirical tests to date, using data from the United States to exploit geographic and temporal variation in disaster exposure on a massive scale.
-
-The authors combine fine-grained geographic data from the Federal Emergency Management Agency (FEMA) — covering approximately 15,000 federally declared natural disasters between 2005 and 2022 — with individual-level survey data from the Cooperative Election Study (CES), which tracks around 500,000 individuals over this period. They employ three complementary empirical strategies to identify causal effects: a large-N observational analysis linking county-level disaster exposure to individual climate attitudes; a panel analysis exploiting within-individual changes in policy support, with a specific focus on people who changed their place of residence; and an Unexpected Event during Survey Design (UESD) quasi-experimental approach leveraging surveys conducted in close temporal proximity to sudden disaster events.
-
-Across all three research designs, the results are consistent and striking: there is no systematic relationship between the occurrence of extreme climate events and changes in climate beliefs or support for pro-environmental policies. This null finding holds broadly across ideological groups, with only minor nuances. The paper contributes to a growing debate about the limits of experiential learning in climate politics, and suggests that the assumed link between lived experience of disasters and political support for climate action may be considerably weaker than commonly believed.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/do_natural_disasters.svg" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 3: Coefficient plots showing shifts in climate attitudes following natural disasters" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 3: Coefficient plots for the UESD analysis. Effects of natural disasters on climate change beliefs and policy support are consistently small and statistically indistinguishable from zero.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### Don't Call It Degrowth! Evidence from a Framing and Labeling Experiment in Spain
-
-**Gabriel Biering, Marc Guinjoan**
-
-The political fate of degrowth — the family of proposals for organizing prosperity within ecological limits — may depend less on the merits of the underlying policies than on how they are named and communicated. This paper isolates these communicative mechanisms with a clean experimental design: a 2×2 survey experiment in a representative sample of the Spanish population (N = 3,000) that independently varies two dimensions.
-
-The first dimension is framing: degrowth is either described in terms of well-being and quality of life (positive frame) or in terms of reducing consumption and production (reduction frame). The second dimension is labeling: the option is either explicitly called "degrowth" or presented without the label. The outcome is the probability that a respondent selects degrowth as their preferred future economic model. The 2×2 design allows the authors to estimate the independent and additive effects of each manipulation, as well as to test for interactions.
-
-The results are consistent and clear. Support for degrowth is highest under the well-being frame without the label. Describing the concept primarily in terms of reducing consumption and production substantially lowers the probability of choosing it, and attaching the "degrowth" label imposes an additional penalty on top of the framing effect. The combination of reduction framing and explicit labeling yields the lowest support. Crucially, these effects are similar across climate-attitude subgroups: even citizens who are highly concerned about climate change and broadly supportive of environmental policy are sensitive to how degrowth is named and framed. The findings speak directly to ongoing debates about the political feasibility of growth-critical proposals.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/dont_call_it_degrowth.png" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 1: Predicted probability of choosing degrowth by treatment condition" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 1: Predicted probability of choosing degrowth as preferred economic model by framing and labeling condition. Well-being framing without label yields the highest support; reduction framing with label the lowest.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### Expanding Global Coverage of Climate Change Support over Space and Time
-
-**Jordi Mas, Marc Guinjoan**
-
-Public support is a critical determinant of the success or failure of climate policy, yet existing data on climate attitudes are deeply fragmented — inconsistent in format, skewed towards high-income democracies, and difficult to compare across countries and over time. This paper addresses these limitations by introducing a globally representative panel dataset capturing public attitudes toward climate change in over 150 countries between 2010 and 2024.
-
-The dataset integrates more than 8,000 country-year-item observations drawn from 12 major international and regional surveys, including the World Risk Poll, Latinobarómetro, Afrobarometer, and the Gallup World Poll. Because these surveys use different question wording, response scales, and sampling designs, direct comparisons are methodologically problematic. To overcome this challenge, the authors apply a Bayesian ordinal Item Response Theory (IRT) model with partial pooling, which treats each survey item as an indicator of a latent underlying dimension of climate support and estimates a common latent score for each country-year even when data are missing or surveys are inconsistent.
-
-The resulting dataset offers three main improvements over existing resources. First, it significantly expands geographic coverage, with consistent data for over 100 countries and at least partial coverage for nearly all countries worldwide. Second, it extends temporal depth, providing a consistent longitudinal panel from 2010 to 2024, with a longer historical series reaching back to the early 1990s for some countries. Third, it dramatically improves the representation of low- and middle-income countries, which have been systematically underrepresented in cross-national climate attitude research. The dataset is organized in an accessible tabular format and is publicly available, offering a valuable resource for researchers and policymakers engaged in global climate governance and public engagement.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/expanding_global_coverage.png" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 2: Global coverage of climate change attitude survey data" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 2: Global coverage of climate change attitude survey data after harmonisation. The dataset provides consistent estimates for over 150 countries.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### From Storms to the Floor: Natural Disasters and Climate Change Rhetoric in the US Congress
-
-**Toni Rodon, Marc Guinjoan, Julia Mugica**
-
-While much research has examined how natural disasters affect public opinion on climate change, far less attention has been paid to whether and how extreme weather events shape the behaviour of political elites — those who ultimately make climate policy. This paper fills that gap by examining climate change rhetoric in the US House of Representatives over nearly four decades (1981–2017).
-
-The authors combine a comprehensive dataset of congressional floor speeches with geographically detailed data from FEMA on federally declared natural disasters, and apply Natural Language Processing (NLP) and transformer-based machine learning models to identify climate-related discourse in the text corpus. This allows them to exploit temporal and geographic variation in disaster exposure — when disasters hit districts represented by sitting members of Congress — to assess whether these events prompt legislators to engage more frequently or more intensely with climate change in their floor speeches.
-
-The results reveal a more complex picture than simple null findings might suggest. Climate-related discourse in Congress has increased substantially over the study period, reflecting the growing political salience of the issue. Critically, major disasters do prompt legislators — particularly Republican members — to more frequently reference climate change in their speeches. This partisan asymmetry is theoretically important: it suggests that extreme events can trigger rhetorical engagement even among those who are most sceptical of climate action. However, the paper also examines the content and sentiment of this discourse and finds that disaster-driven rhetoric is not necessarily supportive of climate action — in some cases it appears reactive or dismissive. Partisan dynamics thus condition not just whether climate change is discussed after disasters, but also how it is discussed.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/from_storms_to_the_floor.png" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 9: Predicted probability of climate change speech by natural disaster and party" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 9: Predicted probability of a climate change speech following a natural disaster, by party. Natural disasters prompt more climate-related rhetoric especially among Republicans.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### From Rubbish to the Ballot Box: The Electoral Effects of Door-to-Door Waste Policies
-
-**Pilar Sorribas-Navarro, Toni Rodon, Marc Guinjoan**
-
-Kerbside door-to-door (DtD) waste collection schemes have spread across European cities as a primary tool for meeting binding recycling targets set by EU policy. These schemes require households to separate waste into multiple fractions and place them outside their homes on designated days — a visible, inconvenient, and often contested policy change that directly affects citizens' daily routines. Despite their proliferation, the electoral consequences of DtD implementation have remained largely unstudied.
-
-This paper fills that gap by examining whether and how DtD waste schemes affect electoral outcomes in Catalonia, Spain — a setting where the policy has been gradually adopted by municipalities since the early 2000s and has been a consistent source of political controversy, including protests and mobilization by right-wing and far-right parties. Using census-tract-level data and a staggered difference-in-differences design that exploits the sequential rollout of DtD adoption across municipalities, the authors estimate the electoral effect of DtD implementation across multiple electoral contests and examine heterogeneity by policy design characteristics.
-
-The findings provide clear evidence of electoral consequences: DtD implementation inflicts a measurable electoral penalty on the implementing party, particularly in the short term following adoption. This electoral cost is conditioned by several factors, including how long the scheme has been in place (the penalty diminishes over time as citizens adapt), whether the implementing party had previously campaigned on environmental issues (ideological credibility reduces the cost), and the social capital of the municipality (more cohesive communities are more resistant to mobilizing against the policy). The results have important implications for understanding the politics of environmental reform and the conditions under which ambitious sustainability policies can be sustained democratically.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/from_rubbish_to_the_ballot.svg" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 7: The effect of DtD implementation on the vote share of the implementing party" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 7: The effect of door-to-door waste collection implementation on the vote share of the implementing party. DtD adoption generates a short-term electoral penalty that varies by context.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides
-
-**Marc Guinjoan, Toni Rodon, Joel Ardiaca**
-
-Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that three dimensions — the perceived costs of a policy, its anticipated benefits, and its distributive consequences across social groups — jointly determine whether citizens support or oppose climate measures, and that existing research has studied these dimensions in isolation rather than together.
-
-The authors address this gap through two experimental studies in Spain. Study 1 embeds a vignette experiment in two surveys to test how exposure to the costs or benefits of ten specific climate policies affects stated support. Cost framing significantly reduces support for climate policies, while benefit framing produces a more modest positive effect — suggesting that the asymmetric salience of losses over gains documented in other domains extends to climate politics. Study 2 implements a conjoint experiment that allows respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages, providing a richer picture of how these dimensions interact.
-
-The conjoint results add an important new dimension: redistribution plays a central role in shaping preferences. Citizens strongly favour policies that improve the situation of the poorest — a finding that suggests potential coalition-building strategies around eco-social policies that combine climate ambition with progressive redistribution. Ideological divides are substantial: left-wing voters are both more supportive of climate policies overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing. These findings have direct implications for how climate policy reforms should be designed and communicated to maximize public support across the ideological spectrum.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/public_support_climate_policies.png" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 2: Change in support for climate policies when costs/benefits are highlighted" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 2: Change in support for ten climate policies when exposed to cost versus benefit framing. Cost framing consistently and significantly reduces support; benefit framing has more modest effects.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-
-### The Price of Climate Policies: Willingness to Trade Off Income for Environmental Quality
-
-**Marc Guinjoan, Toni Rodon**
-
-How much income are citizens actually willing to sacrifice for better climate conditions in their living environment? This paper answers that question directly using a novel conjoint experiment embedded in the ATTCLIMATE 2024 survey (N = 3,002 respondents in Spain). Respondents evaluated pairs of hypothetical cities that varied randomly across six attributes: air quality, preparedness for extreme weather events, cooling infrastructure, cycling and pedestrian zones, monthly salary, and city size. By including income as one of the attributes alongside climate-related amenities, the design allows the authors to estimate willingness to pay (WTP) — the additional income required to compensate for the absence of each climate amenity — as a proportion of average monthly salary.
-
-The results deliver a sobering message for climate optimists. Income is by far the most important determinant of city choice: respondents are highly sensitive to income differences and require relatively little additional income to accept worse climate conditions. Among the four climate attributes, poor air quality is the most salient, followed by cooling infrastructure, preparedness for extreme events, and cycling and pedestrian infrastructure — but all four require modest income compensation compared to the effect of income itself. The income-climate substitution elasticity is low, and preferences are characterised by a strong orientation toward material considerations over environmental amenities.
-
-Heterogeneity analyses show that left-leaning respondents and those who attribute climate change to human activity place somewhat greater weight on climate attributes, but income remains the dominant factor across all ideological and attitudinal groups. These findings challenge optimistic accounts of a "post-materialist" shift in advanced democracies and suggest that climate policy design must grapple with citizens' continued prioritisation of economic security over environmental quality.
-
-```{=html}
-<figure style="margin: 1.5rem 0; text-align: center;">
-  <img src="img/papers/the_price_of_climate_policies.png" style="max-width: 90%; border: 1px solid #ddd; border-radius: 4px;" alt="Figure 1: Average Marginal Component Effects for city attributes" />
-  <figcaption style="font-size: 0.85rem; color: #666; margin-top: 0.5rem;">
-    Figure 1: Average Marginal Component Effects (AMCEs) on city choice probability. Income dominates all climate-related attributes by a wide margin.
-  </figcaption>
-</figure>
-```
-
-------------------------------------------------------------------------
-:::
