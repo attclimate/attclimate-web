@@ -1,1 +1,104 @@
-/* css styles */
+/* ── Papers page layout ───────────────────────────────────────────────────── */
+#papers-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+#papers-sidebar {
+  width: 190px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 4.5rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 1rem 1rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.sidebar-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+}
+
+.filter-group {
+  margin-bottom: 0.9rem;
+}
+
+.filter-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.82rem;
+  opacity: 0.85;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  padding: 0.1rem 0;
+  line-height: 1.4;
+}
+
+/* ── Papers list ─────────────────────────────────────────────────────────── */
+#papers-list {
+  flex: 1;
+  min-width: 0;
+}
+
+.section-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.6;
+  margin-bottom: 1.25rem;
+}
+
+.section-divider {
+  margin: 2rem 0 1.5rem;
+  opacity: 0.15;
+}
+
+.paper-card {
+  margin-bottom: 2.25rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.paper-card:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.paper-authors {
+  font-size: 0.88rem;
+  opacity: 0.75;
+  margin-bottom: 0.2rem;
+}
+
+.paper-venue {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  margin-bottom: 0.75rem;
+}
+
+.paper-card p {
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin-bottom: 0.5rem;
+}
