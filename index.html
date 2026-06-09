@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index_en.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./survey_analysis.html"> 
-<span class="menu-text">Survey Analysis</span></a>
+<span class="menu-text">Survey Analysisf</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
@@ -127,72 +127,89 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
-Projecte de Recerca ATTClimate
-</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">ATTClimate Research Project</h1></header>
 
 
 
 
 <style>
+
   body {
     background-image: url("img/sequera.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #ffffff; /* text color to white for better contrast on the image */      }
-
-  /* Create the dark overlay */
-  body::before {
+}
+body::before {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity (last value) for the desired darkness */
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
   }
-  
-  /* Center the content within the page */
- .centered-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+  .hero-text {
+    position: relative;
     text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    max-width: 800px;
   }
-  
-    /* Center the content within the page */
- .bottom-content {
-    position: absolute;
-    top: 88%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-size: 14px;
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
   }
-  
-  /* Center the content within the page */
- .quarto-title-block {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+
+  .project-body {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 2rem;
+    line-height: 1.8;
+  }
+
+  .funding-footer {
     text-align: center;
+    padding: 2rem 1rem 3rem;
+    font-size: 0.88rem;
+    opacity: 0.75;
   }
 </style>
-<div class="centered-content">
 
-<p>
-Anàlisi del suport ciutadà per implementar o reforçar polítiques de mitigació contra el canvi climàtic.
-</p>
+  <div class="hero-text">
+    
+    <p>Understanding citizen support for climate change mitigation policies in Spain</p>
+  </div>
+<div class="project-body">
+<section id="what-is-attclimate" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-attclimate">What is ATTClimate?</h2>
+<p><strong>ATTClimate</strong> (<em>Political Attitudes, Climate Change, and Support for Mitigation Policies</em>) is a research project that investigates how Spanish citizens form their opinions about climate change and the public policies designed to address it. At its core, the project asks: <em>who supports climate policies, why, and under what conditions?</em></p>
+<p>Climate change is one of the defining challenges of our time, yet the implementation of effective mitigation policies depends critically on public support. Policies such as carbon taxes, low-emission zones, renewable energy subsidies, or restrictions on fossil fuels all entail real costs and trade-offs that citizens must accept for democracies to enact them. ATTClimate seeks to understand the political, social, and psychological factors that shape whether individuals back or oppose these measures.</p>
+</section>
+<section id="research-lines" class="level2">
+<h2 class="anchored" data-anchor-id="research-lines">Research Lines</h2>
+<p>The project pursues three interconnected research lines:</p>
+<p><strong>1. Attitudes towards climate change and extreme weather events.</strong> We examine how direct exposure to extreme climate events — droughts, floods, heatwaves — shapes individual attitudes towards climate change and their support for mitigation policies. Using panel survey data collected before and after major events (including the DANA flooding of October 2024), we assess whether lived experience with climate impacts translates into stronger or more durable policy support.</p>
+<p><strong>2. Positions of political representatives.</strong> We analyse how political parties compete over climate change issues and how elected representatives vote on climate-related legislation. We study whether ideology conditions parliamentary behaviour after extreme weather events, and whether party dynamics amplify or suppress elite responsiveness to climate concerns.</p>
+<p><strong>3. Support for mitigation policies: costs, redistribution, and experiments.</strong> Using survey experiments embedded in original data collections, we estimate how the framing of climate policies — in terms of economic costs, distributional consequences, or co-benefits — affects public acceptance. We pay particular attention to which social groups support or resist different policy instruments, and whether targeted compensation schemes can broaden coalitions behind ambitious climate action.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations. The panel design allows us to track attitude change over time and link individual survey responses to real-world climate events. All harmonised data are available through the <a href="https://cora.csuc.cat/repositoris/">CORA research data repository</a>.</p>
+</section>
+<section id="funding" class="level2">
+<h2 class="anchored" data-anchor-id="funding">Funding</h2>
+<p>The project is funded by the <strong>Spanish Ministry of Science and Innovation</strong> (MCIN/AEI/10.13039/501100011033) and the European Union NextGenerationEU/PRTR (reference: TED2021-132191B-I00). It is jointly developed by the Faculty of Law and Political Science at the <strong>Universitat Oberta de Catalunya (UOC)</strong> and the Department of Political and Social Sciences at the <strong>Universitat Pompeu Fabra (UPF)</strong>.</p>
+</section>
 </div>
-<div class="bottom-content">
-<p>
-</p><p>El projecte ha rebut finançament del Ministeri de Ciència i Innovació espanyol (títol: “Actituds polítiques, canvi climàtic i suport a les polítiques de mitigació (ATTCLIMATE)”), i el desenvolupen la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya i el Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra.</p>
-<p>Projecte TED2021-132191B-I00, finançat per MCIN/AEI/10.13039/501100011033 i per la Unió Europea “NextGenerationEU”/PRTR</p>
-<p></p>
-<p><img src="img/ministeri.jpg" class="img-fluid" style="width:50.0%"></p>
+<div class="funding-footer">
+<p>Project TED2021-132191B-I00 · MCIN/AEI/10.13039/501100011033 · European Union “NextGenerationEU”/PRTR</p>
+<p><img src="img/ministeri.jpg" class="img-fluid" style="width:35.0%"></p>
 </div>
 
 
