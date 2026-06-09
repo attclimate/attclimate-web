@@ -1,5 +1,10 @@
+---
+title: ""
+---
+
 ```{=html}
 <style>
+  /* Break hero out of Quarto's content container */
   .hero-section {
     background-image: url("img/sequera.jpeg");
     background-size: cover;
@@ -11,6 +16,8 @@
     justify-content: center;
     position: relative;
     margin-top: -64px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
   }
   .hero-section::before {
     content: "";
@@ -71,6 +78,10 @@
     border-top: 1px solid rgba(255,255,255,0.1);
     max-width: 860px;
     margin: 0 auto;
+  }
+  /* Hide Quarto's auto-generated title */
+  .quarto-title-block, h1.title {
+    display: none;
   }
 </style>
 <div class="hero-section">
