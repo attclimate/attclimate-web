@@ -80,7 +80,7 @@ title: ""
     margin: 0 auto;
   }
   /* Hide Quarto's auto-generated title */
-  .quarto-title-block, h1.title {
+  .quarto-title-block {
     display: none;
   }
   .hero-text h1 {
@@ -96,6 +96,8 @@ title: ""
   <div class="scroll-hint">↓ scroll to explore</div>
 </div>
 ```
+
+
 
 ::: project-body
 ## What is ATTClimate?
