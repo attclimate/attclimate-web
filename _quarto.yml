@@ -11,7 +11,7 @@ website:
       - href: data_en.qmd
         text: CORA Data
       - href: survey_analysis.qmd
-        text: Survey Analysisf
+        text: Survey Analysis
       - href: papers.qmd
         text: Papers
       - href: team_en.qmd

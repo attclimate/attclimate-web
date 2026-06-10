@@ -98,6 +98,9 @@ title: ""
 ```
 
 
+::: centered-content
+<h1>ATTClimate Research Project</h1>
+:::
 
 ::: project-body
 ## What is ATTClimate?
