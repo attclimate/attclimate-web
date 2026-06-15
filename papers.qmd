@@ -52,6 +52,22 @@ format:
 <!-- ── PUBLISHED ─────────────────────────────────────────────────── -->
 <h5 class="section-heading">Published</h5>
 
+
+<div class="paper-card"
+     data-status="published"
+     data-approach="survey"
+     data-authors="guinjoan rodon ardiaca">
+
+  <h6 class="paper-title">Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides</h6>
+  <p class="paper-authors">Marc Guinjoan, Toni Rodon, Joel Ardiaca</p>
+ <p class="paper-venue"><em>Accepted at West European Politics</em>
+ 
+  <p>Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that the perceived costs of a policy, its anticipated benefits, and its distributive consequences jointly determine whether citizens support or oppose climate measures — dimensions that existing research has studied in isolation.</p>
+  <p>The authors address this through two experimental studies in Spain. Study 1 tests how exposure to the costs or benefits of ten specific climate policies affects stated support: cost framing significantly reduces support, while benefit framing produces a more modest positive effect. Study 2 implements a conjoint experiment allowing respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages.</p>
+  <p>The conjoint results show that redistribution plays a central role: citizens strongly favour policies that improve the situation of the poorest, suggesting potential coalition-building strategies around eco-social policies. Ideological divides are substantial: left-wing voters are more supportive overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing.</p>
+</div>
+
+
 <div class="paper-card"
      data-status="published"
      data-approach="survey"
@@ -159,19 +175,6 @@ format:
   <p>Kerbside door-to-door (DtD) waste collection schemes have spread across European cities as a primary tool for meeting EU recycling targets, requiring households to separate waste into multiple fractions on designated days — a visible, inconvenient, and often contested policy change. Despite their proliferation, the electoral consequences of DtD implementation have remained largely unstudied.</p>
   <p>This paper examines whether and how DtD waste schemes affect electoral outcomes in Catalonia, Spain — a setting where the policy has been gradually adopted by municipalities since the early 2000s. Using census-tract-level data and a staggered difference-in-differences design that exploits the sequential rollout of DtD adoption, the authors estimate the electoral effect of DtD implementation across multiple electoral contests.</p>
   <p>DtD implementation inflicts a measurable electoral penalty on the implementing party, particularly in the short term. This electoral cost is conditioned by how long the scheme has been in place, whether the implementing party had previously campaigned on environmental issues, and the social capital of the municipality. The results have important implications for the politics of environmental reform.</p>
-</div>
-
-<div class="paper-card"
-     data-status="working"
-     data-approach="survey"
-     data-authors="guinjoan rodon ardiaca">
-
-  <h6 class="paper-title">Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides</h6>
-  <p class="paper-authors">Marc Guinjoan, Toni Rodon, Joel Ardiaca</p>
-
-  <p>Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that the perceived costs of a policy, its anticipated benefits, and its distributive consequences jointly determine whether citizens support or oppose climate measures — dimensions that existing research has studied in isolation.</p>
-  <p>The authors address this through two experimental studies in Spain. Study 1 tests how exposure to the costs or benefits of ten specific climate policies affects stated support: cost framing significantly reduces support, while benefit framing produces a more modest positive effect. Study 2 implements a conjoint experiment allowing respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages.</p>
-  <p>The conjoint results show that redistribution plays a central role: citizens strongly favour policies that improve the situation of the poorest, suggesting potential coalition-building strategies around eco-social policies. Ideological divides are substantial: left-wing voters are more supportive overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing.</p>
 </div>
 
 <div class="paper-card"
