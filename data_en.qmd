@@ -27,6 +27,8 @@ The **ATTCLIMATE Survey** is a four-wave panel study of the Spanish population f
 
 Wave 3 was split around the DANA flooding event of 30 October 2024, allowing pre/post comparisons of extreme weather event effects on climate attitudes.
 
+Under the follow-up **ATTCLIMPOLS** project (PID2025-173985OB-I00), the panel will be extended with three further waves (2027, 2028, 2029), each with a representative sample of approximately 4,000 respondents. The resulting seven-wave dataset will span six years, making it one of the longest-running climate attitudes panels available internationally.
+
 **Thematic coverage includes:**
 
 - Support for climate mitigation policies (carbon taxes, low-emission zones, renewable energy, etc.)

@@ -3,7 +3,7 @@ project:
   output-dir: ./_site
 
 website:
-  title: "ATTClimate Research Project"
+  title: "ATTClimate / ATTClimpols"
   navbar:
     left:
       - href: index.qmd
@@ -11,7 +11,7 @@ website:
       - href: data_en.qmd
         text: CORA Data
       - href: survey_analysis.qmd
-        text: Survey Analysis
+        text: Shiny App
       - href: papers.qmd
         text: Papers
       - href: team_en.qmd
@@ -21,7 +21,9 @@ lang: en
 
 format:
   html:
-    theme: darkly
+    theme:
+      dark: darkly
+      light: flatly
     css: styles.css
     toc: true
     toc-depth: 2

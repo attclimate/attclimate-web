@@ -2,25 +2,78 @@
 title: "Team"
 ---
 
+```{=html}
+<style>
+  .member {
+    display: flex;
+    gap: 1.1rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  .member-photo {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+  }
+  .member-bio {
+    flex: 1;
+  }
+</style>
+```
+
 ::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
+
+The team below has developed the **ATTCLIMATE** project (2022–2025) and continues its work under the newly funded **ATTCLIMPOLS** project (2026–2029).
 
 ## Principal Investigators
 
+::: member
+![](img/members/guinjoan.jpg){.member-photo}
+::: member-bio
 [**Marc Guinjoan (UAB)**](https://sites.google.com/site/marcguinjoan) is a co-principal investigator of the project. He is a lecturer in the Department of Political Science and Public Law at the Universitat Autònoma de Barcelona. His main research areas include political and electoral behavior, political parties, electoral systems, populism, and political psychology. He has also worked extensively on decentralization processes, identities, and territorial preferences.
+:::
+:::
 
+::: member
+![](img/members/rodon.jpg){.member-photo}
+::: member-bio
 [**Toni Rodon (UPF)**](https://tonirodon.cat/) is a co-principal investigator of the project. Rodon is an Associate Professor at the Department of Political and Social Sciences at Universitat Pompeu Fabra, and a researcher at the London School of Economics and Political Science (United Kingdom). His research interests include political behavior, public opinion, historical political economy, and political geography, among others.
+:::
+:::
 
 ---
 
 ## Current Team
 
+::: member
+![](img/members/mas.jpg){.member-photo}
+::: member-bio
 [**Jordi Mas (UOC)**](https://www.jordimas.cat/) is a researcher in the project. Mas is a lecturer at the Faculty of Law and Political Science at the Universitat Oberta de Catalunya. His research interests include the fields of data governance, political economy and political institutions.
+:::
+:::
 
+::: member
+![](img/members/romanin.jpg){.member-photo}
+::: member-bio
 **Elena Romanin** is a doctoral student in Political and Social Sciences at Universitat Pompeu Fabra. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project [ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL)](https://www.icos-cp.eu/about/icos-in-nutshell/mission). She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.
+:::
+:::
 
-**Gabriel Biering** is a researcher in the project.
+::: member
+![](img/members/biering.jpg){.member-photo}
+::: member-bio
+**Gabriel Biering** is a PhD Candidate in the Department of Political Science at the Universitat Autònoma de Barcelona. He holds a research master's degree in Institutions and Political Economy M.Sc. (Universitat de Barcelona, 2024) and a bachelor's degree in Philosophy, Politics and Economics B.A. (Universität Witten/Herdecke, 2021). His research focuses on democratic responsiveness and climate change.
+:::
+:::
 
+::: member
+![](img/members/ardiaca.jpg){.member-photo}
+::: member-bio
 **Joel Ardiaca** is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master's degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Universitat Autònoma de Barcelona.
+:::
+:::
 
 ---
 

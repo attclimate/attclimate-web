@@ -60,8 +60,8 @@ format:
 
   <h6 class="paper-title">Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides</h6>
   <p class="paper-authors">Marc Guinjoan, Toni Rodon, Joel Ardiaca</p>
- <p class="paper-venue"><em>Accepted at West European Politics</em>
- 
+ <p class="paper-venue"><em>West European Politics</em> (2026). <a href="https://doi.org/10.1080/01402382.2026.2701769" target="_blank">https://doi.org/10.1080/01402382.2026.2701769</a></p>
+
   <p>Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that the perceived costs of a policy, its anticipated benefits, and its distributive consequences jointly determine whether citizens support or oppose climate measures — dimensions that existing research has studied in isolation.</p>
   <p>The authors address this through two experimental studies in Spain. Study 1 tests how exposure to the costs or benefits of ten specific climate policies affects stated support: cost framing significantly reduces support, while benefit framing produces a more modest positive effect. Study 2 implements a conjoint experiment allowing respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages.</p>
   <p>The conjoint results show that redistribution plays a central role: citizens strongly favour policies that improve the situation of the poorest, suggesting potential coalition-building strategies around eco-social policies. Ideological divides are substantial: left-wing voters are more supportive overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing.</p>

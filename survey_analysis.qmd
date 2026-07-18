@@ -1,26 +1,26 @@
 ---
-title: "Survey Analysis"
+title: "Shiny App"
 format:
   html:
     toc: false
-    page-layout: full
 ---
 
-```{=html}
-<style>
-  body { background-color: #ffffff; }
-  .quarto-title-block { margin-bottom: 0.5rem; }
-</style>
+::: {style="max-width: 720px; margin: 3rem auto; text-align: center;"}
 
-<p style="margin-bottom:1rem; color:#555;">
-  Interactive explorer for the ATTCLIMATE survey data. Browse variables by thematic section,
-  inspect distributions across survey waves, and visualise how attitudes have evolved over time.
+## Interactive Survey Explorer
+
+Browse ATTCLIMATE survey variables by thematic section, inspect distributions across survey waves, and visualise how attitudes have evolved over time.
+
+The explorer runs as a separate Shiny application and opens in a new browser tab.
+
+<p style="margin: 2rem 0;">
+<a href="https://mguinjoan.shinyapps.io/attclimate/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+Open the Shiny App &nearr;
+</a>
 </p>
 
-<iframe
-  src="https://mguinjoan.shinyapps.io/attclimate/"
-  frameborder="0"
-  style="width:100%; height:85vh; border:none;"
-  title="ATTCLIMATE Survey Explorer">
-</iframe>
-```
+<p class="text-muted-theme" style="font-size: 0.85rem;">
+mguinjoan.shinyapps.io/attclimate
+</p>
+
+:::
