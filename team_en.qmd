@@ -89,4 +89,6 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 
 [**Cèlia Estruch**](https://celiaestruch.cat/) was a research assistant in the project. She has completed the Master in Political Science and Political Economy at the London School of Economics and Political Science (United Kingdom), the postgraduate program in Data Analysis for Political Analysis and Public Management at the University of Barcelona, and a Degree in Philosophy, Politics, and Economics at Universitat Pompeu Fabra.
 
+[**Julia Múgica**](https://juliamugica.net/) is a Mexican scientist and artist with an interdisciplinary background in biology, psychology, and computational physics. She is interested in understanding how collectives make decisions that result in behavioral synchrony. Her research combines data analysis, collective behavior, complex systems, and natural language processing, in both scientific and artistic contexts. She was a researcher in the ATTCLIMATE project, contributing to a paper analysing US legislators' speeches on climate change using natural language processing.
+
 :::
