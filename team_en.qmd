@@ -75,6 +75,13 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 :::
 :::
 
+::: member
+![](img/members/ioannidis.jpg){.member-photo}
+::: member-bio
+**Nikandros Ioannidis** is PhD in Political and Social Sciences from the Universitat Pompeu Fabra and is Special Teaching Staff at the Cyprus University of Technology. His research focuses on political behaviour, public opinion, and the analysis of conflict- and climate-related attitudes using advanced quantitative and computational methods. He has extensive expertise in spatiotemporal analysis, geocoded data integration, and the construction of large-scale datasets.
+:::
+:::
+
 ---
 
 ## Former Members
