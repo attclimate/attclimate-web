@@ -318,30 +318,33 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="filter-group">
     <span class="filter-label">Status</span>
-    <label><input type="checkbox" class="filter-cb" data-filter="status" value="published" checked=""> Published</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="status" value="working" checked=""> Working Papers</label>
+    <select class="filter-select" data-filter="status">
+      <option value="all">All</option>
+      <option value="published">Published</option>
+      <option value="working">Working Papers</option>
+    </select>
   </div>
 
   <div class="filter-group">
     <span class="filter-label">Approach</span>
-    <label><input type="checkbox" class="filter-cb" data-filter="approach" value="survey" checked=""> Survey data</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="approach" value="aggregate" checked=""> Aggregate data</label>
+    <select class="filter-select" data-filter="approach">
+      <option value="all">All</option>
+      <option value="survey">Survey data</option>
+      <option value="aggregate">Aggregate data</option>
+    </select>
   </div>
 
   <div class="filter-group">
     <span class="filter-label">Author</span>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="ardiaca" checked=""> Ardiaca</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="biering" checked=""> Biering</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="estruch" checked=""> Estruch-Garcia</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="falco" checked=""> Falcó-Gimeno</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="guinjoan" checked=""> Guinjoan</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="mas" checked=""> Mas</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="mugica" checked=""> Mugica</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="munoz" checked=""> Muñoz</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="rodon" checked=""> Rodon</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="romanin" checked=""> Romanin</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="sanjaume" checked=""> Sanjaume</label>
-    <label><input type="checkbox" class="filter-cb" data-filter="author" value="sorribas" checked=""> Sorribas-Navarro</label>
+    <select class="filter-select" data-filter="author">
+      <option value="all">All</option>
+      <option value="ardiaca">Ardiaca</option>
+      <option value="biering">Biering</option>
+      <option value="guinjoan">Guinjoan</option>
+      <option value="mas">Mas</option>
+      <option value="rodon">Rodon</option>
+      <option value="romanin">Romanin</option>
+    </select>
   </div>
 
   <button id="reset-filters" class="btn btn-sm btn-outline-secondary" style="width:100%; margin-top:0.25rem;">Reset</button>
@@ -488,10 +491,10 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 (function () {
-  const cards  = Array.from(document.querySelectorAll('.paper-card'));
-  const cbs    = Array.from(document.querySelectorAll('.filter-cb'));
-  const noRes  = document.getElementById('no-results');
-  const reset  = document.getElementById('reset-filters');
+  const cards   = Array.from(document.querySelectorAll('.paper-card'));
+  const selects = Array.from(document.querySelectorAll('.filter-select'));
+  const noRes   = document.getElementById('no-results');
+  const reset   = document.getElementById('reset-filters');
 
   // Section headings to show/hide based on visible cards beneath them
   function updateHeadings() {
@@ -513,26 +516,16 @@ ul.task-list li input[type="checkbox"] {
   }
 
   function applyFilters() {
-    // Build map: filterGroup -> set of checked values
-    const groups = {};
-    cbs.forEach(cb => {
-      const g = cb.dataset.filter;
-      if (!groups[g]) groups[g] = [];
-      if (cb.checked) groups[g].push(cb.value);
-    });
+    // Build map: filterGroup -> selected value ('all' or a specific value)
+    const values = {};
+    selects.forEach(s => { values[s.dataset.filter] = s.value; });
 
     let anyVisible = false;
     cards.forEach(card => {
-      // status: single value
-      const statusOk = !groups.status || groups.status.length === 0 ||
-                       groups.status.includes(card.dataset.status);
-      // approach: single value
-      const approachOk = !groups.approach || groups.approach.length === 0 ||
-                         groups.approach.includes(card.dataset.approach);
-      // author: space-separated list on card; OR logic
+      const statusOk = values.status === 'all' || values.status === card.dataset.status;
+      const approachOk = values.approach === 'all' || values.approach === card.dataset.approach;
       const cardAuthors = (card.dataset.authors || '').split(' ');
-      const authorOk = !groups.author || groups.author.length === 0 ||
-                       groups.author.some(a => cardAuthors.includes(a));
+      const authorOk = values.author === 'all' || cardAuthors.includes(values.author);
 
       const show = statusOk && approachOk && authorOk;
       card.style.display = show ? '' : 'none';
@@ -543,9 +536,9 @@ ul.task-list li input[type="checkbox"] {
     updateHeadings();
   }
 
-  cbs.forEach(cb => cb.addEventListener('change', applyFilters));
+  selects.forEach(s => s.addEventListener('change', applyFilters));
   reset.addEventListener('click', () => {
-    cbs.forEach(cb => { cb.checked = true; });
+    selects.forEach(s => { s.value = 'all'; });
     applyFilters();
   });
 

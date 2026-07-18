@@ -6,7 +6,7 @@
   --muted-text: rgba(255, 255, 255, 0.7);
 }
 
-[data-bs-theme="light"] {
+body.quarto-light {
   --surface-tint: rgba(0, 0, 0, 0.035);
   --surface-border: rgba(0, 0, 0, 0.1);
   --surface-divider: rgba(0, 0, 0, 0.12);
@@ -54,13 +54,14 @@
   opacity: 0.85;
 }
 
-.filter-group label {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  cursor: pointer;
-  padding: 0.1rem 0;
-  line-height: 1.4;
+.filter-select {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--surface-border);
+  background: var(--surface-tint);
+  color: inherit;
+  font-size: 0.85rem;
 }
 
 /* ── Papers list ─────────────────────────────────────────────────────────── */
