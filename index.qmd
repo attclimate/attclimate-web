@@ -220,6 +220,8 @@ title: ""
 
 Climate change is one of the defining challenges of our time, yet the implementation of effective mitigation policies depends critically on public support. Policies such as carbon taxes, low-emission zones, renewable energy subsidies, or restrictions on fossil fuels all entail real costs and trade-offs that citizens must accept for democracies to enact them. This research programme seeks to understand the political, social, and psychological factors that shape whether individuals back or oppose these measures.
 
+The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) was based at the **Universitat Oberta de Catalunya (UOC)** and the **Universitat Pompeu Fabra (UPF)**, co-directed by Marc Guinjoan and Toni Rodon. **ATTCLIMPOLS** (2026–2029) is based at the **Universitat Autònoma de Barcelona (UAB)**, led by Marc Guinjoan as principal investigator.
+
 ::::: project-grid
 ::: {.project-card .surface-card}
 [2022 – 2025]{.badge-status .ongoing}
@@ -316,8 +318,6 @@ Numbers on the upper arcs show how many panelists answered *both* waves on eithe
 <strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033
 
 </p>
-
-Jointly developed by the Faculty of Law and Political Science at the **Universitat Oberta de Catalunya (UOC)**, the Department of Political and Social Sciences at the **Universitat Pompeu Fabra (UPF)**, and the Department of Political Science and Public Law at the **Universitat Autònoma de Barcelona (UAB)**.
 
 ::: funding-logos
 ![](img/ministeri.jpg){width="220"}
