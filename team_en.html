@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Team – ATTClimate Research Project</title>
+<title>Team – ATTClimate / ATTClimpols</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -39,10 +39,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-58b840c486574247c09a3f35ba47c43c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-64daa3a02a5d4cfaaf6a1140655e5ce1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d03312063cfab2e1753bdcbb830eb4d1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +77,167 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ATTClimate Research Project</span>
+    <span class="navbar-title">ATTClimate / ATTClimpols</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -102,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./survey_analysis.html"> 
-<span class="menu-text">Survey Analysis</span></a>
+<span class="menu-text">Shiny App</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
@@ -115,6 +277,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -123,11 +286,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#current-team" id="toc-current-team" class="nav-link active" data-scroll-target="#current-team">Current Team</a></li>
+  <li><a href="#former-members" id="toc-former-members" class="nav-link" data-scroll-target="#former-members">Former Members</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -148,33 +319,83 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<style>
+  .member {
+    display: flex;
+    gap: 1.1rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  .member-photo {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+  }
+  .member-bio {
+    flex: 1;
+  }
+</style>
 <div style="text-align: justify; max-width: 860px; margin: 0 auto;">
+<p>The team below has developed the <strong>ATTCLIMATE</strong> project (2022–2025) and continues its work under the newly funded <strong>ATTCLIMPOLS</strong> project (2026–2029).</p>
 <section id="principal-investigators" class="level2">
 <h2 class="anchored" data-anchor-id="principal-investigators">Principal Investigators</h2>
-<p><a href="https://sites.google.com/site/marcguinjoan"><strong>Marc Guinjoan (UAB)</strong></a> is a co-principal investigator of the project. He is a lecturer in the Department of Political Science and Public Law at the Universitat Autònoma de Barcelona. His main research areas include political and electoral behavior, political parties, electoral systems, populism, and political psychology. He has also worked extensively on decentralization processes, identities, and territorial preferences.</p>
-<p><a href="https://tonirodon.cat/"><strong>Toni Rodon (UPF)</strong></a> is a co-principal investigator of the project. Rodon is an Associate Professor at the Department of Political and Social Sciences at Universitat Pompeu Fabra, and a researcher at the London School of Economics and Political Science (United Kingdom). His research interests include political behavior, public opinion, historical political economy, and political geography, among others.</p>
-<hr>
+<div class="member">
+<p><img src="img/members/guinjoan.jpg" class="member-photo img-fluid"> ::: member-bio <a href="https://sites.google.com/site/marcguinjoan"><strong>Marc Guinjoan (UAB)</strong></a> is a co-principal investigator of the project. He is a lecturer in the Department of Political Science and Public Law at the Universitat Autònoma de Barcelona. His main research areas include political and electoral behavior, political parties, electoral systems, populism, and political psychology. He has also worked extensively on decentralization processes, identities, and territorial preferences.</p>
+</div>
 </section>
+</div>
+<div class="member">
+<p><img src="img/members/rodon.jpg" class="member-photo img-fluid"> ::: member-bio <a href="https://tonirodon.cat/"><strong>Toni Rodon (UPF)</strong></a> is a co-principal investigator of the project. Rodon is an Associate Professor at the Department of Political and Social Sciences at Universitat Pompeu Fabra, and a researcher at the London School of Economics and Political Science (United Kingdom). His research interests include political behavior, public opinion, historical political economy, and political geography, among others.</p>
+</div>
+<p>:::</p>
+<hr>
 <section id="current-team" class="level2">
 <h2 class="anchored" data-anchor-id="current-team">Current Team</h2>
-<p><a href="https://www.jordimas.cat/"><strong>Jordi Mas (UOC)</strong></a> is a researcher in the project. Mas is a lecturer at the Faculty of Law and Political Science at the Universitat Oberta de Catalunya. His research interests include the fields of data governance, political economy and political institutions.</p>
-<p><strong>Elena Romanin</strong> is a doctoral student in Political and Social Sciences at Universitat Pompeu Fabra. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project <a href="https://www.icos-cp.eu/about/icos-in-nutshell/mission">ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL)</a>. She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.</p>
-<p><strong>Gabriel Biering</strong> is a researcher in the project.</p>
-<p><strong>Joel Ardiaca</strong> is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master’s degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Universitat Autònoma de Barcelona.</p>
+<div class="member">
+<p><img src="img/members/mas.jpg" class="member-photo img-fluid"> ::: member-bio <a href="https://www.jordimas.cat/"><strong>Jordi Mas (UOC)</strong></a> is a researcher in the project. Mas is a lecturer at the Faculty of Law and Political Science at the Universitat Oberta de Catalunya. His research interests include the fields of data governance, political economy and political institutions.</p>
+</div>
+<p>:::</p>
+<div class="member">
+<p><img src="img/members/romanin.jpg" class="member-photo img-fluid"> ::: member-bio <strong>Elena Romanin</strong> is a doctoral student in Political and Social Sciences at Universitat Pompeu Fabra. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project <a href="https://www.icos-cp.eu/about/icos-in-nutshell/mission">ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL)</a>. She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.</p>
+</div>
+<p>:::</p>
+<div class="member">
+<p><img src="img/members/biering.jpg" class="member-photo img-fluid"> ::: member-bio <strong>Gabriel Biering</strong> is a PhD Candidate in the Department of Political Science at the Universitat Autònoma de Barcelona. He holds a research master’s degree in Institutions and Political Economy M.Sc. (Universitat de Barcelona, 2024) and a bachelor’s degree in Philosophy, Politics and Economics B.A. (Universität Witten/Herdecke, 2021). His research focuses on democratic responsiveness and climate change.</p>
+</div>
+<p>:::</p>
+<div class="member">
+<p><img src="img/members/ardiaca.jpg" class="member-photo img-fluid"> ::: member-bio <strong>Joel Ardiaca</strong> is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master’s degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Universitat Autònoma de Barcelona.</p>
+</div>
+<p>:::</p>
 <hr>
 </section>
 <section id="former-members" class="level2">
 <h2 class="anchored" data-anchor-id="former-members">Former Members</h2>
 <p><a href="https://rogersanjaume.cat/"><strong>Roger Sanjaume</strong></a> was a data analyst programmer in the project. He currently works as a data engineer in an electric sector cooperative. He has collaborated with research projects such as the Institutions and Political Economy Research Group (IPErG) as a data analyst.</p>
 <p><strong>Cèlia Estruch</strong> was a research assistant in the project. She has completed the Master in Political Science and Political Economy at the London School of Economics and Political Science (United Kingdom), the postgraduate program in Data Analysis for Political Analysis and Public Management at the University of Barcelona, and a Degree in Philosophy, Politics, and Economics at Universitat Pompeu Fabra.</p>
+<p>:::</p>
+
+
 </section>
-</div>
-
-
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {

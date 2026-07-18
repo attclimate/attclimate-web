@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ATTClimate Research Project</title>
+<title>ATTClimate / ATTClimpols</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -39,10 +39,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-58b840c486574247c09a3f35ba47c43c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-64daa3a02a5d4cfaaf6a1140655e5ce1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-d03312063cfab2e1753bdcbb830eb4d1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +77,167 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ATTClimate Research Project</span>
+    <span class="navbar-title">ATTClimate / ATTClimpols</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -102,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./survey_analysis.html"> 
-<span class="menu-text">Survey Analysis</span></a>
+<span class="menu-text">Shiny App</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
@@ -115,6 +277,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -127,7 +290,8 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">ATTClimate Research Project</h1></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
 
 
 
@@ -135,11 +299,13 @@ ul.task-list li input[type="checkbox"] {
 <style>
   /* Break hero out of Quarto's content container */
   .hero-section {
-    background-image: url("img/sequera.jpeg");
+    background-image:
+      linear-gradient(180deg, rgba(10,10,20,0.55) 0%, rgba(10,10,20,0.25) 45%, rgba(10,10,20,0.75) 100%),
+      url("img/sequera.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: center 35%;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: min(64vh, 520px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,112 +314,299 @@ ul.task-list li input[type="checkbox"] {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
   }
-  .hero-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.45);
-  }
   .hero-text {
     position: relative;
     text-align: center;
     color: #ffffff;
     padding: 2rem;
-    max-width: 800px;
+    max-width: 780px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    margin-bottom: 1.1rem;
+    backdrop-filter: blur(2px);
   }
   .hero-text h1 {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     font-weight: 700;
-    margin-bottom: 1rem;
-    letter-spacing: 0.5px;
+    margin-bottom: 0.9rem;
+    letter-spacing: 0.2px;
+    text-shadow: 0 2px 18px rgba(0,0,0,0.35);
   }
   .hero-text p {
-    font-size: 1.3rem;
-    opacity: 0.9;
+    font-size: 1.15rem;
+    opacity: 0.92;
+    line-height: 1.6;
   }
   .scroll-hint {
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.25rem;
     left: 50%;
     transform: translateX(-50%);
     color: rgba(255,255,255,0.7);
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  body {
-    background-color: #1a1a2e;
-  }
   .project-body {
-    max-width: 860px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 4rem 2rem 2rem;
-    line-height: 1.9;
-    color: #e0e0e0;
+    padding: 3.5rem 2rem 1rem;
+    line-height: 1.85;
   }
   .project-body h2 {
-    color: #ffffff;
-    font-size: 1.6rem;
-    margin-top: 2.5rem;
-    margin-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
+    font-size: 1.55rem;
+    margin-top: 2.75rem;
+    margin-bottom: 0.9rem;
+    border-bottom: 1px solid var(--surface-divider);
     padding-bottom: 0.4rem;
+  }
+  .project-body .lede {
+    font-size: 1.08rem;
+    color: var(--muted-text);
+  }
+  /* Two-project cards */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .project-card {
+    padding: 1.4rem 1.5rem;
+  }
+  .project-card .badge-status {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .badge-status.ongoing { background: rgba(46, 160, 67, 0.18); color: #2ea043; }
+  .badge-status.new { background: rgba(0, 123, 255, 0.18); color: #3b8bff; }
+  .project-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .project-card p {
+    font-size: 0.94rem;
+    margin-bottom: 0;
+  }
+  /* Research line cards */
+  .rl-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.1rem;
+    margin: 1.25rem 0 1rem;
+  }
+  .rl-card {
+    padding: 1.25rem 1.35rem;
+  }
+  .rl-card .rl-num {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--muted-text);
+    margin-bottom: 0.4rem;
+  }
+  .rl-card p {
+    font-size: 0.92rem;
+    margin-bottom: 0;
   }
   .funding-footer {
     text-align: center;
     padding: 2.5rem 1rem 4rem;
-    font-size: 0.88rem;
-    color: rgba(255,255,255,0.55);
-    border-top: 1px solid rgba(255,255,255,0.1);
-    max-width: 860px;
+    font-size: 0.85rem;
+    color: var(--muted-text);
+    border-top: 1px solid var(--surface-divider);
+    max-width: 900px;
     margin: 0 auto;
+  }
+  .funding-footer .grant-line {
+    margin-bottom: 0.35rem;
+  }
+  .funding-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
   }
   /* Hide Quarto's auto-generated title */
   .quarto-title-block {
     display: none;
   }
-  .hero-text h1 {
-    display: block !important;
-    color: #ffffff !important;
-}
+  /* Panel structure diagram */
+  .panel-diagram-wrap {
+    padding: 1.75rem 1.5rem 1.25rem;
+    margin: 1.5rem 0 1.75rem;
+    overflow-x: auto;
+  }
+  .panel-diagram-wrap svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+  .panel-diagram-wrap .arc-label,
+  .panel-diagram-wrap .node-period,
+  .panel-diagram-wrap .node-n {
+    fill: var(--muted-text);
+  }
+  .panel-diagram-wrap .node-label {
+    fill: #ffffff;
+  }
+  .panel-diagram-wrap .arc-line {
+    fill: none;
+    stroke: var(--muted-text);
+    stroke-width: 1.5;
+    stroke-dasharray: 4 3;
+  }
+  .panel-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.9rem;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .panel-stat {
+    padding: 0.9rem 1.1rem;
+    text-align: center;
+  }
+  .panel-stat .stat-value {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .panel-stat .stat-label {
+    font-size: 0.8rem;
+    color: var(--muted-text);
+    margin-top: 0.2rem;
+  }
 </style>
 <div class="hero-section">
   <div class="hero-text">
-    
-    <p>Understanding citizen support for climate change mitigation policies in Spain</p>
+    <span class="hero-eyebrow">ATTCLIMATE · ATTCLIMPOLS</span>
+    <h1>Attitudes, Climate Change and Support for Mitigation Policies</h1>
+    <p>Tracking how citizens and political elites in Spain respond to climate change — and what it takes to turn public concern into durable policy support.</p>
   </div>
   <div class="scroll-hint">↓ scroll to explore</div>
 </div>
-<div class="centered-content">
-<h1>
-ATTClimate Research Project
-</h1>
-</div>
 <div class="project-body">
-<section id="what-is-attclimate" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-attclimate">What is ATTClimate?</h2>
-<p><strong>ATTClimate</strong> (<em>Political Attitudes, Climate Change, and Support for Mitigation Policies</em>) is a research project that investigates how Spanish citizens form their opinions about climate change and the public policies designed to address it. At its core, the project asks: <em>who supports climate policies, why, and under what conditions?</em></p>
-<p>Climate change is one of the defining challenges of our time, yet the implementation of effective mitigation policies depends critically on public support. Policies such as carbon taxes, low-emission zones, renewable energy subsidies, or restrictions on fossil fuels all entail real costs and trade-offs that citizens must accept for democracies to enact them. ATTClimate seeks to understand the political, social, and psychological factors that shape whether individuals back or oppose these measures.</p>
+<section id="what-is-this-project-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-this-project-about">What is this project about?</h2>
+<p><strong>ATTClimate</strong> <em>(Political Attitudes, Climate Change, and Support for Mitigation Policies)</em> investigates how Spanish citizens form their opinions about climate change and the public policies designed to address it. At its core, the project asks: <em>who supports climate policies, why, and under what conditions?</em></p>
+<p>Climate change is one of the defining challenges of our time, yet the implementation of effective mitigation policies depends critically on public support. Policies such as carbon taxes, low-emission zones, renewable energy subsidies, or restrictions on fossil fuels all entail real costs and trade-offs that citizens must accept for democracies to enact them. This research programme seeks to understand the political, social, and psychological factors that shape whether individuals back or oppose these measures.</p>
+<div class="project-grid">
+<div class="project-card surface-card">
+<p><span class="badge-status ongoing">2022 – 2025</span></p>
+<h3 class="anchored">
+ATTCLIMATE
+</h3>
+<p>
+The original project (TED2021-132344A-I00), co-directed by Marc Guinjoan (UAB) and Toni Rodon (UPF). It fielded four nationally representative panel survey waves (2023–2025) on climate attitudes and policy support, producing one of the first panel-format climate surveys in the world.
+</p>
+</div>
+<div class="project-card surface-card">
+<p><span class="badge-status new">2026 – 2029 · New</span></p>
+<h3 class="anchored">
+ATTCLIMPOLS
+</h3>
+<p>
+<em>From Attitudes to Action in Climate Politics</em> (PID2025-173985OB-I00) builds directly on ATTCLIMATE. It extends the Spanish panel with three further waves (2027–2029), constructs a harmonised cross-country database of climate attitudes covering 100+ countries, and deepens the study of political elites’ responses to climate change.
+</p>
+</div>
+</div>
 </section>
 <section id="research-lines" class="level2">
 <h2 class="anchored" data-anchor-id="research-lines">Research Lines</h2>
-<p>The project pursues three interconnected research lines:</p>
-<p><strong>1. Attitudes towards climate change and extreme weather events.</strong> We examine how direct exposure to extreme climate events — droughts, floods, heatwaves — shapes individual attitudes towards climate change and their support for mitigation policies. Using panel survey data collected before and after major events (including the DANA flooding of October 2024), we assess whether lived experience with climate impacts translates into stronger or more durable policy support.</p>
-<p><strong>2. Positions of political representatives.</strong> We analyse how political parties compete over climate change issues and how elected representatives vote on climate-related legislation. We study whether ideology conditions parliamentary behaviour after extreme weather events, and whether party dynamics amplify or suppress elite responsiveness to climate concerns.</p>
-<p><strong>3. Support for mitigation policies: costs, redistribution, and experiments.</strong> Using survey experiments embedded in original data collections, we estimate how the framing of climate policies — in terms of economic costs, distributional consequences, or co-benefits — affects public acceptance. We pay particular attention to which social groups support or resist different policy instruments, and whether targeted compensation schemes can broaden coalitions behind ambitious climate action.</p>
+<div class="rl-grid">
+<div class="rl-card surface-card">
+<p>
+<strong>Longitudinal survey data.</strong> A seven-wave Spanish panel (2023–2029) tracking how attitudes evolve over time, including how exposure to extreme weather events — such as the October 2024 DANA floods — shapes climate beliefs and policy support.
+</p>
+</div>
+<div class="rl-card surface-card">
+<p>
+<strong>Quality data for climate research.</strong> A harmonised, cross-country database of climate attitudes covering 100+ countries, providing a robust empirical foundation for climate change research worldwide.
+</p>
+</div>
+<div class="rl-card surface-card">
+<p>
+<strong>Support for public policy.</strong> A deeper look at what drives support for climate mitigation policies — from cost and redistribution framing to how political parties and representatives respond to climate change.
+</p>
+</div>
+</div>
 </section>
 <section id="data" class="level2">
 <h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations. The panel design allows us to track attitude change over time and link individual survey responses to real-world climate events. All harmonised data are available through the <a href="https://cora.csuc.cat/repositoris/">CORA research data repository</a>.</p>
+<p>ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations, with three further waves planned under ATTCLIMPOLS (2027–2029). The panel design allows us to track attitude change over time and link individual survey responses to real-world climate events. All harmonised data are available through the <a href="https://cora.csuc.cat/repositoris/">CORA research data repository</a> — see the <a href="./data_en.html">CORA Data</a> page for details. You can also explore the survey data interactively via the <a href="./survey_analysis.html">Shiny App</a>.</p>
+<section id="panel-structure" class="level3">
+<h3 class="anchored" data-anchor-id="panel-structure">Panel structure</h3>
+<p>ATTClimate is not four independent cross-sections: each wave attempts to re-interview the same panelists as the previous ones. Retention between consecutive waves is partial — typical of long-running online panels — but large enough to support both simple wave-to-wave trackers and individual-level fixed-effects models that isolate within-person attitude change.</p>
+<div class="panel-diagram-wrap surface-card">
+<svg viewbox="0 0 880 315" role="img" aria-label="Diagram of the ATTCLIMATE panel structure across four survey waves, showing sample size per wave and the number of repeated respondents linking each pair of waves.">
+  <!-- Top arcs: consecutive waves -->
+  <path class="arc-line" d="M110,116 Q220,42 330,116"></path>
+  <text class="arc-label" x="220" y="58" text-anchor="middle" font-size="15" font-weight="600">1,655</text>
+  <path class="arc-line" d="M330,116 Q440,42 550,116"></path>
+  <text class="arc-label" x="440" y="58" text-anchor="middle" font-size="15" font-weight="600">1,996</text>
+  <path class="arc-line" d="M550,116 Q660,42 770,116"></path>
+  <text class="arc-label" x="660" y="58" text-anchor="middle" font-size="15" font-weight="600">1,905</text>
+
+  <!-- Bottom arc: W1-W4 -->
+  <path class="arc-line" d="M110,184 Q440,272 770,184"></path>
+  <text class="arc-label" x="440" y="286" text-anchor="middle" font-size="14" font-style="italic">1,570 respondents answered both Wave 1 and Wave 4</text>
+
+  <!-- Nodes -->
+  <circle cx="110" cy="150" r="34" fill="#002B6E"></circle>
+  <text class="node-label" x="110" y="156" text-anchor="middle" font-size="15" font-weight="700">W1</text>
+  <text class="node-period" x="110" y="205" text-anchor="middle" font-size="12.5">Feb '23</text>
+  <text class="node-n" x="110" y="224" text-anchor="middle" font-size="12.5">N = 4,764</text>
+
+  <circle cx="330" cy="150" r="34" fill="#0054A8"></circle>
+  <text class="node-label" x="330" y="156" text-anchor="middle" font-size="15" font-weight="700">W2</text>
+  <text class="node-period" x="330" y="205" text-anchor="middle" font-size="12.5">Apr '24</text>
+  <text class="node-n" x="330" y="224" text-anchor="middle" font-size="12.5">N = 3,019</text>
+
+  <circle cx="550" cy="150" r="34" fill="#4D8FCC"></circle>
+  <text class="node-label" x="550" y="156" text-anchor="middle" font-size="15" font-weight="700">W3</text>
+  <text class="node-period" x="550" y="205" text-anchor="middle" font-size="12.5">Oct–Nov '24</text>
+  <text class="node-n" x="550" y="224" text-anchor="middle" font-size="12.5">N = 3,644</text>
+
+  <circle cx="770" cy="150" r="34" fill="#8AB5DE"></circle>
+  <text x="770" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#002B6E">W4</text>
+  <text class="node-period" x="770" y="205" text-anchor="middle" font-size="12.5">May '25</text>
+  <text class="node-n" x="770" y="224" text-anchor="middle" font-size="12.5">N = 3,997</text>
+</svg>
+</div>
+<p>Numbers on the upper arcs show how many panelists answered <em>both</em> waves on either side of the arc; the lower arc shows the same for the two endpoint waves, Wave 1 and Wave 4. In total, <strong>737 respondents completed all four waves</strong>, forming the balanced core of the panel used in tracker and fixed-effects analyses.</p>
 </section>
-<section id="funding" class="level2">
-<h2 class="anchored" data-anchor-id="funding">Funding</h2>
-<p>The project is funded by the <strong>Spanish Ministry of Science and Innovation</strong> (MCIN/AEI/10.13039/501100011033) and the European Union NextGenerationEU/PRTR (reference: TED2021-132191B-I00). It is jointly developed by the Faculty of Law and Political Science at the <strong>Universitat Oberta de Catalunya (UOC)</strong> and the Department of Political and Social Sciences at the <strong>Universitat Pompeu Fabra (UPF)</strong>.</p>
 </section>
 </div>
 <div class="funding-footer">
-<p>Project TED2021-132191B-I00 · MCIN/AEI/10.13039/501100011033 · European Union “NextGenerationEU”/PRTR</p>
-<p><img src="img/ministeri.jpg" class="img-fluid" style="width:35.0%"></p>
+<p class="grant-line">
+</p><p><strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union “NextGenerationEU”/PRTR</p>
+<p></p>
+<p class="grant-line">
+</p><p><strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033</p>
+<p></p>
+<p>Jointly developed by the Faculty of Law and Political Science at the <strong>Universitat Oberta de Catalunya (UOC)</strong>, the Department of Political and Social Sciences at the <strong>Universitat Pompeu Fabra (UPF)</strong>, and the Department of Political Science and Public Law at the <strong>Universitat Autònoma de Barcelona (UAB)</strong>.</p>
+<div class="funding-logos">
+<p><img src="img/ministeri.jpg" class="img-fluid" width="220"></p>
+</div>
 </div>
 
 
@@ -261,6 +614,19 @@ ATTClimate Research Project
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
