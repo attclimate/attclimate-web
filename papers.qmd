@@ -44,7 +44,7 @@ format:
     </select>
   </div>
 
-  <button id="reset-filters" class="btn btn-sm btn-outline-secondary" style="width:100%; margin-top:0.25rem;">Reset</button>
+  <button id="reset-filters" class="btn btn-sm btn-outline-secondary">Reset</button>
 </aside>
 
 <!-- ── Papers list ──────────────────────────────────────────────────────── -->
