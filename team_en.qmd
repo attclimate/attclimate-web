@@ -60,19 +60,19 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 ::: member
 ![](img/members/romanin.jpg){.member-photo}
 
-**Elena Romanin** is a doctoral student in Political and Social Sciences at Universitat Pompeu Fabra. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project [ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL)](https://www.icos-cp.eu/about/icos-in-nutshell/mission). She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.
+[**Elena Romanin**](https://elenaromanin.github.io/index.html) is a doctoral student in Political and Social Sciences at Universitat Pompeu Fabra. She has previously been a researcher at the Research and Expertise Centre for Survey Methodology (UPF), where she collaborated on the research project [ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL)](https://www.icos-cp.eu/about/icos-in-nutshell/mission). She has completed the Master in Economics and Development at the University of Florence, and the Degree in International Studies at the University of Trento.
 :::
 
 ::: member
 ![](img/members/biering.jpg){.member-photo}
 
-**Gabriel Biering** is a PhD Candidate in the Department of Political Science at the Universitat Autònoma de Barcelona. He holds a research master's degree in Institutions and Political Economy M.Sc. (Universitat de Barcelona, 2024) and a bachelor's degree in Philosophy, Politics and Economics B.A. (Universität Witten/Herdecke, 2021). His research focuses on democratic responsiveness and climate change.
+[**Gabriel Biering**](https://directori.uab.cat/uabdirectori/veureDetallPersona?cid=354f67785a376b446c5564744f68727876434b6173413d3d&cole=P_INVESTIGADOR) is a PhD Candidate in the Department of Political Science at the Universitat Autònoma de Barcelona. He holds a research master's degree in Institutions and Political Economy M.Sc. (Universitat de Barcelona, 2024) and a bachelor's degree in Philosophy, Politics and Economics B.A. (Universität Witten/Herdecke, 2021). His research focuses on democratic responsiveness and climate change.
 :::
 
 ::: member
 ![](img/members/ardiaca.jpg){.member-photo}
 
-**Joel Ardiaca** is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master's degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Universitat Autònoma de Barcelona.
+[**Joel Ardiaca**](https://joelardiaca.github.io/) is a research assistant. He currently works as a statistician at the Centre for Opinion Studies and is pursuing a master's degree in Statistics and Operations Research at the Polytechnic University of Catalonia. He has completed a double degree in Statistics and Sociology at the Universitat Autònoma de Barcelona.
 :::
 
 ::: member
@@ -87,6 +87,6 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 
 [**Roger Sanjaume**](https://rogersanjaume.cat/) was a data analyst programmer in the project. He currently works as a data engineer in an electric sector cooperative. He has collaborated with research projects such as the Institutions and Political Economy Research Group (IPErG) as a data analyst.
 
-**Cèlia Estruch** was a research assistant in the project. She has completed the Master in Political Science and Political Economy at the London School of Economics and Political Science (United Kingdom), the postgraduate program in Data Analysis for Political Analysis and Public Management at the University of Barcelona, and a Degree in Philosophy, Politics, and Economics at Universitat Pompeu Fabra.
+[**Cèlia Estruch**](https://celiaestruch.cat/) was a research assistant in the project. She has completed the Master in Political Science and Political Economy at the London School of Economics and Political Science (United Kingdom), the postgraduate program in Data Analysis for Political Analysis and Public Management at the University of Barcelona, and a Degree in Philosophy, Politics, and Economics at Universitat Pompeu Fabra.
 
 :::
