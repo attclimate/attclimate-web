@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CORA Data – ATTClimate / ATTClimpols</title>
+<title>Attclimate dataset – ATTClimate / ATTClimpols</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -290,22 +290,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#attclimate-survey-data" id="toc-attclimate-survey-data" class="nav-link active" data-scroll-target="#attclimate-survey-data">ATTClimate Survey Data</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CORA Data</h1>
+<h1 class="title">Attclimate dataset</h1>
 </div>
 
 
@@ -322,14 +314,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="attclimate-survey-data" class="level2" style="text-align: justify; max-width: 860px; margin: 0 auto;">
-<h2 class="anchored" data-anchor-id="attclimate-survey-data">ATTClimate Survey Data</h2>
-<p>The ATTClimate project has made its survey data publicly available through the <strong>CORA</strong> (Consorci de Serveis Universitaris de Catalunya) research data repository. CORA is the open-access repository for research data produced by Catalan universities and research institutions.</p>
-<p>The data are deposited at <a href="https://cora.csuc.cat/repositoris/">cora.csuc.cat/repositoris</a>.</p>
-<hr>
-<section id="attclimate-survey" class="level3">
-<h3 class="anchored" data-anchor-id="attclimate-survey">ATTCLIMATE Survey</h3>
-<p>The <strong>ATTCLIMATE Survey</strong> is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.</p>
+<div style="text-align: justify; max-width: 860px; margin: 0 auto;">
+<p>The ATTCLIMATE Survey is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.</p>
+<p>The ATTClimate project is publicly available through the <strong>CORA</strong> (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at <a href="https://cora.csuc.cat/repositoris/">cora.csuc.cat/repositoris</a>.</p>
 <p><strong>Coverage and sample:</strong></p>
 <table class="caption-top table">
 <thead>
@@ -362,8 +349,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Wave 3 was split around the DANA flooding event of 30 October 2024, allowing pre/post comparisons of extreme weather event effects on climate attitudes.</p>
-<p>Under the follow-up <strong>ATTCLIMPOLS</strong> project (PID2025-173985OB-I00), the panel will be extended with three further waves (2027, 2028, 2029), each with a representative sample of approximately 4,000 respondents. The resulting seven-wave dataset will span six years, making it one of the longest-running climate attitudes panels available internationally.</p>
 <p><strong>Thematic coverage includes:</strong></p>
 <ul>
 <li>Support for climate mitigation policies (carbon taxes, low-emission zones, renewable energy, etc.)</li>
@@ -386,8 +371,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Guinjoan, Marc; Rodon, Toni et al.&nbsp;(2026). <em>ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change</em>. CORA, Repositori de Dades de Recerca.</p>
 </blockquote>
 <p><strong>Repository:</strong> <a href="https://cora.csuc.cat/repositoris/">cora.csuc.cat/repositoris</a></p>
-</section>
-</section>
+</div>
 <div class="funding-footer">
 <p class="grant-line">
 </p><p><strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union “NextGenerationEU”/PRTR</p>
@@ -403,6 +387,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll('a[href="https://mguinjoan.shinyapps.io/attclimate/"]').forEach(function (a) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noopener");
+  });
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
