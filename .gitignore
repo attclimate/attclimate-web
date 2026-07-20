@@ -10,3 +10,11 @@
 **/*.quarto_ipynb
 .positai
 desktop.ini
+
+# Raw/intermediate map data: too large for git and/or superseded by the
+# real IRT posterior summary (see map/README.md)
+map/data/ccdata_long.rds
+map/data/climate_support_mock.csv
+map/data/build_real_data.R
+map/data/country_year_scores.csv
+map/data/country_year_scores_cross_national.csv
