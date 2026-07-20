@@ -34,5 +34,6 @@ format:
     toc-depth: 2
     link-external-icon: true
     link-external-newwindow: true
+    include-after-body: _navbar-newtab.html
 
 editor: visual

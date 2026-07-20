@@ -1,20 +1,15 @@
 ---
-title: "CORA Data"
+title: "Attclimate dataset"
+format:
+  html:
+    toc: false
 ---
 
 ::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
 
-## ATTClimate Survey Data
+The ATTCLIMATE Survey is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.
 
-The ATTClimate project has made its survey data publicly available through the **CORA** (Consorci de Serveis Universitaris de Catalunya) research data repository. CORA is the open-access repository for research data produced by Catalan universities and research institutions.
-
-The data are deposited at [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/).
-
----
-
-### ATTCLIMATE Survey
-
-The **ATTCLIMATE Survey** is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.
+The ATTClimate project is publicly available through the **CORA** (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/).
 
 **Coverage and sample:**
 
@@ -24,10 +19,6 @@ The **ATTCLIMATE Survey** is a four-wave panel study of the Spanish population f
 | Wave 2 | April 2024 | ~3,019 |
 | Wave 3 | October–November 2024 | ~3,734 |
 | Wave 4 | 2025 | ~3,997 |
-
-Wave 3 was split around the DANA flooding event of 30 October 2024, allowing pre/post comparisons of extreme weather event effects on climate attitudes.
-
-Under the follow-up **ATTCLIMPOLS** project (PID2025-173985OB-I00), the panel will be extended with three further waves (2027, 2028, 2029), each with a representative sample of approximately 4,000 respondents. The resulting seven-wave dataset will span six years, making it one of the longest-running climate attitudes panels available internationally.
 
 **Thematic coverage includes:**
 
