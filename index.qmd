@@ -216,7 +216,7 @@ The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) w
 
 <h3>ATTCLIMPOLS</h3>
 
-<p><em>From Attitudes to Action in Climate Politics</em> (PID2025-173985OB-I00) builds directly on ATTCLIMATE. It extends the Spanish panel with three further waves (2027–2029), constructs a harmonised cross-country database of climate attitudes covering 100+ countries, and deepens the study of political elites' responses to climate change.</p>
+<p><em>From Attitudes to Action in Climate Politics</em> (PID2025-173985OB-I00) builds directly on ATTCLIMATE. It extends the Spanish panel with at least three further waves (2026–2028), constructs a harmonised cross-country database of climate attitudes covering 100+ countries, and deepens the study of political elites' responses to climate change.</p>
 :::
 :::::
 
@@ -224,25 +224,25 @@ The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) w
 
 :::::: rl-grid
 ::: {.rl-card .surface-card}
-<p><strong>Longitudinal survey data.</strong> A seven-wave Spanish panel (2023–2029) tracking how attitudes evolve over time, including how exposure to extreme weather events — such as the October 2024 DANA floods — shapes climate beliefs and policy support.</p>
+<p><a href="data_en.qmd"><strong>Longitudinal survey data.</strong></a> A seven-wave Spanish panel (2023–2029) tracking how attitudes evolve over time, including how exposure to extreme weather events — such as the October 2024 DANA floods — shapes climate beliefs and policy support.</p>
 :::
 
 ::: {.rl-card .surface-card}
-<p><strong>Quality data for climate research.</strong> A harmonised, cross-country database of climate attitudes covering 100+ countries, providing a robust empirical foundation for climate change research worldwide.</p>
+<p><a href="map.qmd"><strong>Quality data for climate research.</strong></a> A harmonised, cross-country database of climate attitudes covering 100+ countries, providing a robust empirical foundation for climate change research worldwide.</p>
 :::
 
 ::: {.rl-card .surface-card}
-<p><strong>Support for public policy.</strong> A deeper look at what drives support for climate mitigation policies — from cost and redistribution framing to how political parties and representatives respond to climate change.</p>
+<p><a href="papers.qmd"><strong>Support for public policy.</strong></a> A deeper look at what drives support for climate mitigation policies — from cost and redistribution framing to how political parties and representatives respond to climate change.</p>
 :::
 ::::::
 
 ## Data
 
-ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations, with three further waves planned under ATTCLIMPOLS (2027–2029). The panel design allows us to track attitude change over time and link individual survey responses to real-world climate events. All harmonised data are available through the [CORA research data repository](https://cora.csuc.cat/repositoris/) — see the [CORA Data](data_en.qmd) page for details. You can also explore the survey data interactively via the [Panel data analysis](https://mguinjoan.shinyapps.io/attclimate/) app.
+ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations, with at least three further waves planned under ATTCLIMPOLS (2026–2029). All harmonised data are available through the [CORA research data repository](https://cora.csuc.cat/repositoris/) — see the [CORA Data](data_en.qmd) page for details. You can also explore the survey data interactively via the [Panel data analysis](https://mguinjoan.shinyapps.io/attclimate/) app.
 
 ### Panel structure
 
-ATTClimate is not four independent cross-sections: each wave attempts to re-interview the same panelists as the previous ones. Retention between consecutive waves is partial — typical of long-running online panels — but large enough to support both simple wave-to-wave trackers and individual-level fixed-effects models that isolate within-person attitude change.
+The ATTCLIMATE survey has a panel structure, which allows researchers to track attitude change over time and link individual survey responses to real-world climate events. The figure below shows the number of interviews in each of the 4 waves: upper arcs show how the number of panelists answered two consecutive waves. In total, 737 respondents have completed all four waves of the ATTCLIMATE panel survey.
 
 ```{=html}
 <div class="panel-diagram-wrap surface-card">
@@ -283,7 +283,7 @@ ATTClimate is not four independent cross-sections: each wave attempts to re-inte
 </div>
 ```
 
-Numbers on the upper arcs show how many panelists answered *both* waves on either side of the arc; the lower arc shows the same for the two endpoint waves, Wave 1 and Wave 4. In total, **737 respondents completed all four waves**, forming the balanced core of the panel used in tracker and fixed-effects analyses.
+The lower arc shows how many panelists answered both the first and the last wave, Wave 1 and Wave 4 — the two waves furthest apart in time.
 ::::::::::
 
 :::: funding-footer

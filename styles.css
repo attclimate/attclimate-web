@@ -147,6 +147,35 @@ body.quarto-light {
   margin-bottom: 0.5rem;
 }
 
+.paper-card-with-cover {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.paper-cover {
+  flex: none;
+  width: 110px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.paper-card-body {
+  min-width: 0;
+  flex: 1;
+}
+
+@media (max-width: 560px) {
+  .paper-card-with-cover {
+    flex-direction: column;
+  }
+  .paper-cover {
+    width: 84px;
+  }
+}
+
 /* ── Shared funding footer (Home, Papers) ────────────────────────────────── */
 .funding-footer {
   text-align: center;
