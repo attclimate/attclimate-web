@@ -300,6 +300,6 @@ The lower arc shows how many panelists answered both the first and the last wave
 </p>
 
 ::: funding-logos
-![](img/ministeri.jpg){width="220"}
+![](img/ministeri.jpg){height="46"} ![](img/uab.png){height="46"} ![](img/upf.png){height="46"}
 :::
 ::::

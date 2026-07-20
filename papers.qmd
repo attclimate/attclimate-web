@@ -56,40 +56,44 @@ format:
 <h5 class="section-heading">Published</h5>
 
 
-<div class="paper-card paper-card-with-cover"
+<div class="paper-card"
      data-status="published"
      data-approach="survey"
      data-authors="guinjoan rodon ardiaca">
-
-  <img class="paper-cover" src="pubs/climatecost.png" alt="Cover of &quot;Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides&quot;">
-  <div class="paper-card-body">
 
   <h6 class="paper-title">Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides</h6>
   <p class="paper-authors">Marc Guinjoan, Toni Rodon, Joel Ardiaca</p>
  <p class="paper-venue"><em>West European Politics</em> (2026). <a href="https://doi.org/10.1080/01402382.2026.2701769" target="_blank">https://doi.org/10.1080/01402382.2026.2701769</a></p>
 
+  <div class="paper-card-with-cover">
+  <img class="paper-cover" src="pubs/climatecost.png" alt="Cover of &quot;Public Support for Climate Policies: Costs, Redistribution, and Ideological Divides&quot;">
+  <div class="paper-card-body">
+
   <p>Despite broad public acknowledgement of climate change as a serious problem, support for specific mitigation policies remains limited and contested. This paper argues that the perceived costs of a policy, its anticipated benefits, and its distributive consequences jointly determine whether citizens support or oppose climate measures — dimensions that existing research has studied in isolation.</p>
   <p>The authors address this through two experimental studies in Spain. Study 1 tests how exposure to the costs or benefits of ten specific climate policies affects stated support: cost framing significantly reduces support, while benefit framing produces a more modest positive effect. Study 2 implements a conjoint experiment allowing respondents to trade off costs, benefits, and redistributive implications in evaluating climate policy packages.</p>
   <p>The conjoint results show that redistribution plays a central role: citizens strongly favour policies that improve the situation of the poorest, suggesting potential coalition-building strategies around eco-social policies. Ideological divides are substantial: left-wing voters are more supportive overall and more sensitive to redistributive cues, while right-wing voters are particularly responsive to cost framing.</p>
   </div>
+  </div>
 </div>
 
 
-<div class="paper-card paper-card-with-cover"
+<div class="paper-card"
      data-status="published"
      data-approach="survey"
      data-authors="rodon guinjoan estruch">
-
-  <img class="paper-cover" src="pubs/limitsofalarm.png" alt="Cover of &quot;The Limits of Alarm&quot;">
-  <div class="paper-card-body">
 
   <h6 class="paper-title">The Limits of Alarm: How Climate Scenarios Fail to Increase Willingness to Act and Pay for Climate Change Policies</h6>
   <p class="paper-authors">Toni Rodon, Marc Guinjoan, Cèlia Estruch-Garcia</p>
   <p class="paper-venue"><em>Political Studies Review</em>, Vol. 24(2), pp. 325–334 (2026). <a href="https://doi.org/10.1177/14789299251399359" target="_blank">https://doi.org/10.1177/14789299251399359</a></p>
 
+  <div class="paper-card-with-cover">
+  <img class="paper-cover" src="pubs/limitsofalarm.png" alt="Cover of &quot;The Limits of Alarm&quot;">
+  <div class="paper-card-body">
+
   <p>A widespread assumption in climate communication is that confronting the public with vivid projections of future climate scenarios will increase their support for mitigation policies. This article puts that assumption to a rigorous empirical test. Using two vignette experiments embedded in representative surveys of the Spanish population, the authors causally examine whether exposure to information about alternative climate scenarios — ranging from moderate to catastrophic — affects citizens' commitment to climate action in two key dimensions: their support for publicly funded climate initiatives, and their willingness to contribute financially.</p>
   <p>The experimental results are strikingly null. Across both surveys and both outcome measures, exposure to future climate scenario information has no significant effect on individuals' willingness to act or to pay. This finding holds across different ideological groups: left-wing and right-wing respondents alike are unaffected by the climate scenario treatments. The authors rule out a range of alternative explanations, including ceiling effects and floor effects, finding that the null result is robust and not an artifact of sample composition.</p>
   <p>The article challenges the prevailing assumption that fear-based or risk-based messaging strategies can generate the political will for ambitious climate policies, and suggests that alternative approaches — centred on co-benefits, social norms, or collective framing — may be more effective in building public coalitions behind climate action.</p>
+  </div>
   </div>
 </div>
 
@@ -302,6 +306,6 @@ format:
 </p>
 
 ::: funding-logos
-![](img/ministeri.jpg){width="220"}
+![](img/ministeri.jpg){height="46"} ![](img/uab.png){height="46"} ![](img/upf.png){height="46"}
 :::
 ::::

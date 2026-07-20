@@ -59,6 +59,6 @@ The ATTClimate project is publicly available through the **CORA** (Consorci de S
 </p>
 
 ::: funding-logos
-![](img/ministeri.jpg){width="220"}
+![](img/ministeri.jpg){height="46"} ![](img/uab.png){height="46"} ![](img/upf.png){height="46"}
 :::
 ::::

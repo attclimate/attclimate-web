@@ -105,6 +105,6 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 </p>
 
 ::: funding-logos
-![](img/ministeri.jpg){width="220"}
+![](img/ministeri.jpg){height="46"} ![](img/uab.png){height="46"} ![](img/upf.png){height="46"}
 :::
 ::::
