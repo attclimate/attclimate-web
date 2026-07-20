@@ -194,7 +194,7 @@ body.quarto-light {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 4rem;
   margin-top: 1rem;
   flex-wrap: wrap;
 }
