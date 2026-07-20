@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>map – ATTClimate / ATTClimpols</title>
+<title>World Attitudes – ATTClimate / ATTClimpols</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="margin:0px;padding:0px;overflow:hidden" class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -260,11 +260,15 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./data_en.html"> 
-<span class="menu-text">CORA Data</span></a>
+<span class="menu-text">Attclimate dataset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./survey_analysis.html"> 
-<span class="menu-text">Shiny App</span></a>
+    <a class="nav-link" href="https://mguinjoan.shinyapps.io/attclimate/"> 
+<span class="menu-text">Panel data analysis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./map.html" aria-current="page"> 
+<span class="menu-text">World attitudes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./papers.html"> 
@@ -283,38 +287,80 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">World Attitudes</h1>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <style>
-
-  /* Create the dark overlay */
-  body {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+  .map-page-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.5rem 2rem 0;
+    line-height: 1.85;
+  }
+  .map-embed-wrap {
+    max-width: 1100px;
+    margin: 2rem auto 1.5rem;
+    padding: 1rem;
+  }
+  .map-embed-wrap iframe {
+    display: block;
     width: 100%;
-    height: 100%;
-    background-color: #ffffff;
+    height: 70vh;
+    max-height: 680px;
+    min-height: 420px;
+    border: none;
+  }
+  .map-footnote {
+    max-width: 900px;
+    margin: 0 auto 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--surface-divider);
+    font-size: 0.8rem;
+    color: var(--muted-text);
+    line-height: 1.7;
   }
 </style>
-
-<p>xcvxb cb</p>
-<iframe src="https://apilab.shinyapps.io/mapa_disasters/" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%">
-</iframe>
-
-<p>bdbdfbgf</p>
+<section id="world-attitudes-on-climate-change" class="level2 map-page-body">
+<h2 class="anchored" data-anchor-id="world-attitudes-on-climate-change">World attitudes on climate change</h2>
+<p>This research line aims to develop an international, harmonized, and longitudinal comparative database on climate change attitudes. While existing large-scale studies have covered around 120–140 countries and provided valuable insights (Andre et al., 2024; Goldberg et al., 2021; Lee et al., 2015), they exhibit substantial gaps in geographic coverage, temporal continuity, and item comparability — limitations that are particularly pronounced in the Global South, as well as in small island nations and microstates. The systematic omission of certain countries risks overlooking perspectives shaped by distinct socioeconomic or contextual factors, as evidence from other research domains suggests (Exton &amp; Smith, 2015). Consequently, global patterns may become biased toward wealthier or survey-intensive regions, leading to incomplete or even misleading interpretations.</p>
+<p>The objective of this line is to overcome these limitations by integrating, expanding, and harmonizing heterogeneous survey sources into a single, coherent data infrastructure. Importantly, this research line does not begin from scratch: Jordi Mas joined the ATTCLIMATE project in January 2024 and, among other tasks, became actively engaged in this line of inquiry, which, originally, had not been included in the original ATTCLIMATE proposal.</p>
+<p>Accordingly, this research line aims to: (1) broaden geographic coverage to include nearly all countries worldwide; (2) extend temporal coverage beyond OECD-focused cases; and (3) construct a harmonized country-year panel on climate attitudes covering more than 100 countries from 2010 to 2025. To this end, we have already begun compiling and standardizing major international and regional surveys and have initiated empirical work, including the estimation of latent climate-support scores below. Therefore, this line should be understood as a direct continuation of ATTCLIMATE — an extension that was neither originally foreseen nor completed within the previous project. Ultimately, the resulting datasets will enable robust cross-country and longitudinal comparisons, support advanced statistical modelling, and provide a foundational resource for researchers and policymakers working on climate governance, public opinion, and climate communication.</p>
+</section>
+<div class="map-embed-wrap surface-card">
+<iframe src="map/widgets/climate_support_map.html" loading="lazy" title="Interactive map of climate change attitudes by country"></iframe>
+</div>
+<section id="methodology" class="level2 map-page-body">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>Because different surveys ask different questions with different response scales, raw survey responses cannot simply be averaged together. The dataset instead applies a <strong>Bayesian ordinal Item Response Theory (IRT) model with partial pooling</strong>, which treats each survey item as an imperfect indicator of a single underlying trait: public support for climate action. Partial pooling lets the model borrow strength across countries and items, producing a comparable, uncertainty-aware climate support score for every country — even where direct survey coverage is sparse. Hover a country on the map for its score and 95% credible interval.</p>
+<p>This first version shows a single cross-sectional snapshot pooling the survey waves fielded so far; a longitudinal view (tracking each country’s attitudes over time) is planned for a future update once enough repeated country-year coverage is available.</p>
+</section>
+<div class="map-footnote">
+<p>This map is based on an internal ATTCLIMPOLS working paper by Jordi Mas (UOC) and Marc Guinjoan (UAB), <em>“Expanding global coverage of climate change support over space and time”</em>, and on a preliminary run of the paper’s Bayesian ordinal IRT model, covering 165 countries. Coverage and estimates will be refined as further survey waves are incorporated and the model is finalised. The paper is a working paper and is not yet available for public distribution.</p>
+</div>
 
 
 

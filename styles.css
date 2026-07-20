@@ -94,6 +94,8 @@ body.quarto-light {
 #papers-list {
   flex: 1;
   min-width: 0;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .section-heading {
@@ -143,6 +145,28 @@ body.quarto-light {
   font-size: 0.92rem;
   line-height: 1.65;
   margin-bottom: 0.5rem;
+}
+
+/* ── Shared funding footer (Home, Papers) ────────────────────────────────── */
+.funding-footer {
+  text-align: center;
+  padding: 2.5rem 1rem 4rem;
+  font-size: 0.85rem;
+  color: var(--muted-text);
+  border-top: 1px solid var(--surface-divider);
+  max-width: 900px;
+  margin: 0 auto;
+}
+.funding-footer .grant-line {
+  margin-bottom: 0.35rem;
+}
+.funding-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 /* ── Shared theme-aware surface utilities (used on Home / Shiny App) ────── */
