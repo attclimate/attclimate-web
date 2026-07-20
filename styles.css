@@ -154,8 +154,8 @@ body.quarto-light {
 }
 
 .paper-cover {
-  flex: none;
-  width: 110px;
+  flex: 0 0 33.333%;
+  width: 33.333%;
   height: auto;
   border-radius: 6px;
   border: 1px solid var(--surface-border);
@@ -164,7 +164,7 @@ body.quarto-light {
 
 .paper-card-body {
   min-width: 0;
-  flex: 1;
+  flex: 1 1 66.666%;
 }
 
 @media (max-width: 560px) {
@@ -172,7 +172,8 @@ body.quarto-light {
     flex-direction: column;
   }
   .paper-cover {
-    width: 84px;
+    width: 60%;
+    flex-basis: auto;
   }
 }
 
