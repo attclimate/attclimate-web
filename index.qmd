@@ -228,7 +228,7 @@ The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) w
 :::
 
 ::: {.rl-card .surface-card}
-<p><a href="map.qmd"><strong>Quality data for climate research.</strong></a> A harmonised, cross-country database of climate attitudes covering 100+ countries, providing a robust empirical foundation for climate change research worldwide.</p>
+<p><strong>Quality data for climate research.</strong> A harmonised, cross-country database of climate attitudes covering 100+ countries, providing a robust empirical foundation for climate change research worldwide.</p>
 :::
 
 ::: {.rl-card .surface-card}

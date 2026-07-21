@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir: ./_site
+  render:
+    - "*.qmd"
+    - "!map.qmd"
   resources:
     - CNAME
-    - map/widgets/
 
 website:
   title: "ATTClimate / ATTClimpols"
@@ -15,8 +17,6 @@ website:
         text: Attclimate dataset
       - href: https://mguinjoan.shinyapps.io/attclimate/
         text: Panel data analysis
-      - href: map.qmd
-        text: World attitudes
       - href: papers.qmd
         text: Papers
       - href: team_en.qmd
