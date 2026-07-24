@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,12 +42,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-64daa3a02a5d4cfaaf6a1140655e5ce1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-d03312063cfab2e1753bdcbb830eb4d1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-189549ecd294ed9837df383a4b42e31c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8a591ff59271d21f6a5d1e80b3747fb5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -312,7 +315,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div style="text-align: justify; max-width: 860px; margin: 0 auto;">
 <p>The ATTCLIMATE Survey is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.</p>
-<p>The ATTClimate project is publicly available through the <strong>CORA</strong> (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at <a href="https://cora.csuc.cat/repositoris/">cora.csuc.cat/repositoris</a>.</p>
+<p>The ATTClimate project is publicly available through the <strong>CORA</strong> (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at <a href="https://doi.org/10.34810/DATA3567">doi.org/10.34810/DATA3567</a>.</p>
 <p><strong>Coverage and sample:</strong></p>
 <table class="caption-top table">
 <thead>
@@ -326,22 +329,22 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Wave 1</td>
 <td>February 2023</td>
-<td>~4,765</td>
+<td>4,764</td>
 </tr>
 <tr class="even">
 <td>Wave 2</td>
 <td>April 2024</td>
-<td>~3,019</td>
+<td>3,019</td>
 </tr>
 <tr class="odd">
 <td>Wave 3</td>
 <td>October–November 2024</td>
-<td>~3,734</td>
+<td>3,644</td>
 </tr>
 <tr class="even">
 <td>Wave 4</td>
 <td>2025</td>
-<td>~3,997</td>
+<td>3,997</td>
 </tr>
 </tbody>
 </table>
@@ -356,17 +359,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p><strong>Available materials:</strong></p>
 <ul>
-<li>Harmonised cross-sectional dataset (all waves stacked)</li>
-<li>Longitudinal panel dataset (respondents tracked across waves)</li>
-<li>Individual wave datasets</li>
+<li>Harmonised dataset (all four waves stacked, in .rds, .csv, .sav and .dta formats)</li>
+<li>Individual wave datasets (same four formats)</li>
 <li>Codebook (variable descriptions, value labels, availability by wave)</li>
 <li>Original questionnaires (Spanish and English)</li>
 </ul>
 <p><strong>Citation:</strong></p>
 <blockquote class="blockquote">
-<p>Guinjoan, Marc; Rodon, Toni et al.&nbsp;(2026). <em>ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change</em>. CORA, Repositori de Dades de Recerca.</p>
+<p>Guinjoan Cesena, Marc; Rodon, Toni (2026). <em>ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change</em>. CORA, Repositori de Dades de Recerca. <a href="https://doi.org/10.34810/DATA3567" class="uri">https://doi.org/10.34810/DATA3567</a></p>
 </blockquote>
-<p><strong>Repository:</strong> <a href="https://cora.csuc.cat/repositoris/">cora.csuc.cat/repositoris</a></p>
+<p><strong>Repository:</strong> <a href="https://doi.org/10.34810/DATA3567">doi.org/10.34810/DATA3567</a></p>
 </div>
 <div class="funding-footer">
 <p class="grant-line">
