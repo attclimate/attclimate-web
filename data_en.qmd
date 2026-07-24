@@ -9,16 +9,16 @@ format:
 
 The ATTCLIMATE Survey is a four-wave panel study of the Spanish population fielded between 2023 and 2025. It tracks citizen attitudes towards climate change and support for a broad range of mitigation policies over time, enabling the analysis of opinion dynamics in response to real-world climate events and political developments.
 
-The ATTClimate project is publicly available through the **CORA** (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/).
+The ATTClimate project is publicly available through the **CORA** (Consorci de Serveis Universitaris de Catalunya) research data repository. The data are deposited at [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567).
 
 **Coverage and sample:**
 
 | Wave | Fieldwork period | N |
 |------|-----------------|---|
-| Wave 1 | February 2023 | ~4,765 |
-| Wave 2 | April 2024 | ~3,019 |
-| Wave 3 | October–November 2024 | ~3,734 |
-| Wave 4 | 2025 | ~3,997 |
+| Wave 1 | February 2023 | 4,764 |
+| Wave 2 | April 2024 | 3,019 |
+| Wave 3 | October–November 2024 | 3,644 |
+| Wave 4 | 2025 | 3,997 |
 
 **Thematic coverage includes:**
 
@@ -31,17 +31,16 @@ The ATTClimate project is publicly available through the **CORA** (Consorci de S
 
 **Available materials:**
 
-- Harmonised cross-sectional dataset (all waves stacked)
-- Longitudinal panel dataset (respondents tracked across waves)
-- Individual wave datasets
+- Harmonised dataset (all four waves stacked, in .rds, .csv, .sav and .dta formats)
+- Individual wave datasets (same four formats)
 - Codebook (variable descriptions, value labels, availability by wave)
 - Original questionnaires (Spanish and English)
 
 **Citation:**
 
-> Guinjoan, Marc; Rodon, Toni et al. (2026). *ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change*. CORA, Repositori de Dades de Recerca.
+> Guinjoan Cesena, Marc; Rodon, Toni (2026). *ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change*. CORA, Repositori de Dades de Recerca. <https://doi.org/10.34810/DATA3567>
 
-**Repository:** [cora.csuc.cat/repositoris](https://cora.csuc.cat/repositoris/)
+**Repository:** [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567)
 
 :::
 

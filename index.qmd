@@ -238,7 +238,7 @@ The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) w
 
 ## Data
 
-ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations, with at least three further waves planned under ATTCLIMPOLS (2026–2029). All harmonised data are available through the [CORA research data repository](https://cora.csuc.cat/repositoris/) — see the [CORA Data](data_en.qmd) page for details. You can also explore the survey data interactively via the [Panel data analysis](https://mguinjoan.shinyapps.io/attclimate/) app.
+ATTClimate has fielded four waves of original survey data (2023–2025) among the Spanish population, accumulating over 15,000 respondent-wave observations, with at least three further waves planned under ATTCLIMPOLS (2026–2029). All harmonised data are available through the [CORA research data repository](https://doi.org/10.34810/DATA3567) — see the [Attclimate dataset](data_en.qmd) page for details. You can also explore the survey data interactively via the [Panel data analysis](https://mguinjoan.shinyapps.io/attclimate/) app.
 
 ### Panel structure
 
