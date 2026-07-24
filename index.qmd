@@ -114,7 +114,7 @@ title: ""
   /* Research line cards */
   .rl-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 1.1rem;
     margin: 1.25rem 0 1rem;
   }
@@ -233,6 +233,13 @@ The programme comprises two consecutive projects. **ATTCLIMATE** (2022–2025) w
 
 ::: {.rl-card .surface-card}
 <p><a href="papers.qmd"><strong>Support for public policy.</strong></a> A deeper look at what drives support for climate mitigation policies — from cost and redistribution framing to how political parties and representatives respond to climate change.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><strong>Stay tuned!</strong> A call for a fully funded 4-year pre-doctoral position (FPI scholarship) in the ATTCLIMPOLS project at the Universitat Autònoma de Barcelona will be made public soon.</p>
+<p>Follow us on social media for more information:<br>
+Toni Rodon — <a href="https://x.com/tonirodon" target="_blank" rel="noopener">X</a> · <a href="https://bsky.app/profile/tonirodon.bsky.social" target="_blank" rel="noopener">Bluesky</a><br>
+Marc Guinjoan — <a href="https://x.com/mguinjoan" target="_blank" rel="noopener">X</a> · <a href="https://bsky.app/profile/mguinjoan.bsky.social" target="_blank" rel="noopener">Bluesky</a></p>
 :::
 ::::::
 
