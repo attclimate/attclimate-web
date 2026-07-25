@@ -114,9 +114,14 @@ title: ""
   /* Research line cards */
   .rl-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.1rem;
     margin: 1.25rem 0 1rem;
+  }
+  @media (max-width: 640px) {
+    .rl-grid {
+      grid-template-columns: 1fr;
+    }
   }
   .rl-card {
     padding: 1.25rem 1.35rem;
