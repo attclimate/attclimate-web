@@ -209,3 +209,9 @@ body.quarto-light {
 .text-muted-theme {
   color: var(--muted-text);
 }
+
+/* ── Language switcher (navbar right) ────────────────────────────────────── */
+.navbar-nav-right .nav-link.lang-active {
+  font-weight: 700 !important;
+  opacity: 1 !important;
+}
