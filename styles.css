@@ -211,7 +211,7 @@ body.quarto-light {
 }
 
 /* ── Language switcher (navbar right) ────────────────────────────────────── */
-.navbar-nav-right .nav-link.lang-active {
+.navbar-nav.ms-auto .nav-link.lang-active {
   font-weight: 700 !important;
   opacity: 1 !important;
 }
