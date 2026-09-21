@@ -646,9 +646,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Left navbar (Home / dataset / Shiny app / Papers / Team): relabel in
     // the current language and repoint to the same-language equivalent page.
-    document.querySelectorAll(".navbar-nav a.nav-link").forEach(function (a) {
-      if (a.closest(".navbar-nav-right")) return;
-
+    // Quarto renders the left group as ul.navbar-nav.me-auto and the right
+    // (language switcher) group as ul.navbar-nav.ms-auto — there is no
+    // "navbar-nav-right" class, so we key off the Bootstrap auto-margin.
+    document.querySelectorAll(".navbar-nav.me-auto a.nav-link").forEach(function (a) {
       var href = a.getAttribute("href") || "";
       if (href.indexOf("shinyapps.io") !== -1) {
         textTarget(a).textContent = NAV_LABELS[lang].shiny;
@@ -667,7 +668,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Right-side ENG / ESP / CAT switcher: point each label at the same
     // page in that language, and bold whichever matches the current one.
-    document.querySelectorAll(".navbar-nav-right a.nav-link").forEach(function (a) {
+    document.querySelectorAll(".navbar-nav.ms-auto a.nav-link").forEach(function (a) {
       var label = (textTarget(a).textContent || "").trim();
       var targetLang = label === "ENG" ? "en" : label === "ESP" ? "es" : label === "CAT" ? "ca" : null;
       if (!targetLang) return;
