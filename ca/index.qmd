@@ -1,0 +1,321 @@
+---
+title: ""
+lang: ca
+toc: false
+---
+
+```{=html}
+<style>
+  /* Break hero out of Quarto's content container */
+  .hero-section {
+    background-image:
+      linear-gradient(180deg, rgba(10,10,20,0.55) 0%, rgba(10,10,20,0.25) 45%, rgba(10,10,20,0.75) 100%),
+      url("../img/sequera.jpeg");
+    background-size: cover;
+    background-position: center 35%;
+    background-repeat: no-repeat;
+    min-height: min(64vh, 520px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -64px;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+  .hero-text {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;
+    max-width: 780px;
+  }
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    margin-bottom: 1.1rem;
+    backdrop-filter: blur(2px);
+  }
+  .hero-text h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 0.9rem;
+    letter-spacing: 0.2px;
+    text-shadow: 0 2px 18px rgba(0,0,0,0.35);
+  }
+  .hero-text p {
+    font-size: 1.15rem;
+    opacity: 0.92;
+    line-height: 1.6;
+  }
+  .scroll-hint {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255,255,255,0.7);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .project-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3.5rem 2rem 1rem;
+    line-height: 1.85;
+  }
+  .project-body h2 {
+    font-size: 1.55rem;
+    margin-top: 2.75rem;
+    margin-bottom: 0.9rem;
+    border-bottom: 1px solid var(--surface-divider);
+    padding-bottom: 0.4rem;
+  }
+  .project-body .lede {
+    font-size: 1.08rem;
+    color: var(--muted-text);
+  }
+  /* Two-project cards */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .project-card {
+    padding: 1.4rem 1.5rem;
+  }
+  .project-card .badge-status {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .badge-status.ongoing { background: rgba(46, 160, 67, 0.18); color: #2ea043; }
+  .badge-status.new { background: rgba(0, 123, 255, 0.18); color: #3b8bff; }
+  .project-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .project-card p {
+    font-size: 0.94rem;
+    margin-bottom: 0;
+  }
+  /* Research line cards */
+  .rl-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+    margin: 1.25rem 0 1rem;
+  }
+  @media (max-width: 640px) {
+    .rl-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  .rl-card {
+    padding: 1.25rem 1.35rem;
+  }
+  .rl-card .rl-num {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--muted-text);
+    margin-bottom: 0.4rem;
+  }
+  .rl-card p {
+    font-size: 0.92rem;
+    margin-bottom: 0;
+  }
+  /* Hide Quarto's auto-generated title */
+  .quarto-title-block {
+    display: none;
+  }
+  /* Panel structure diagram */
+  .panel-diagram-wrap {
+    padding: 1.75rem 1.5rem 1.25rem;
+    margin: 1.5rem 0 1.75rem;
+    overflow-x: auto;
+  }
+  .panel-diagram-wrap svg {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+  .panel-diagram-wrap .arc-label,
+  .panel-diagram-wrap .node-period,
+  .panel-diagram-wrap .node-n {
+    fill: var(--muted-text);
+  }
+  .panel-diagram-wrap .node-label {
+    fill: #ffffff;
+  }
+  .panel-diagram-wrap .arc-line {
+    fill: none;
+    stroke: var(--muted-text);
+    stroke-width: 1.5;
+    stroke-dasharray: 4 3;
+  }
+  .panel-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.9rem;
+    margin: 1.25rem 0 0.5rem;
+  }
+  .panel-stat {
+    padding: 0.9rem 1.1rem;
+    text-align: center;
+  }
+  .panel-stat .stat-value {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .panel-stat .stat-label {
+    font-size: 0.8rem;
+    color: var(--muted-text);
+    margin-top: 0.2rem;
+  }
+</style>
+<div class="hero-section">
+  <div class="hero-text">
+    <span class="hero-eyebrow">ATTCLIMATE &middot; ATTCLIMPOLS</span>
+    <h1>Actituds, canvi climàtic i suport a les polítiques de mitigació</h1>
+    <p>Analitzem com la ciutadania i les elits polítiques a Espanya responen al canvi climàtic &mdash; i què cal perquè la preocupació pública es converteixi en un suport durador a les polítiques.</p>
+  </div>
+  <div class="scroll-hint">&darr; desplaça't per explorar</div>
+</div>
+```
+
+:::::::::: project-body
+## De què tracta aquest projecte?
+
+**ATTClimate** *(Actituds Polítiques, Canvi Climàtic i Suport a les Polítiques de Mitigació)* investiga com la ciutadania espanyola forma les seves opinions sobre el canvi climàtic i les polítiques públiques dissenyades per abordar-lo. En essència, el projecte pregunta: *qui dona suport a les polítiques climàtiques, per què i sota quines condicions?*
+
+El canvi climàtic és un dels grans reptes del nostre temps, però la implementació de polítiques de mitigació eficaces depèn de manera crítica del suport ciutadà. Polítiques com els impostos sobre el carboni, les zones de baixes emissions, els subsidis a les energies renovables o les restriccions als combustibles fòssils comporten costos i contrapartides reals que la ciutadania ha d'acceptar perquè les democràcies les puguin aplicar. Aquest programa de recerca vol comprendre els factors polítics, socials i psicològics que determinen que les persones donin suport o s'oposin a aquestes mesures.
+
+El programa comprèn dos projectes consecutius. **ATTCLIMATE** (2022–2025) tenia la seu a la **Universitat Oberta de Catalunya (UOC)** i la **Universitat Pompeu Fabra (UPF)**, codirigit per Marc Guinjoan i Toni Rodon. **ATTCLIMPOLS** (2026–2029) té la seu a la **Universitat Autònoma de Barcelona (UAB)**, dirigit per Marc Guinjoan com a investigador principal.
+
+::::: project-grid
+::: {.project-card .surface-card}
+[2022 – 2025]{.badge-status .ongoing}
+
+<h3>ATTCLIMATE</h3>
+
+<p>El projecte original (TED2021-132344A-I00), codirigit per Marc Guinjoan (UAB) i Toni Rodon (UPF). Va dur a terme quatre onades d'una enquesta panell representativa a nivell estatal sobre actituds climàtiques i suport a les polítiques, donant lloc a una de les primeres enquestes panell sobre clima del món.</p>
+:::
+
+::: {.project-card .surface-card}
+[2026 – 2029 · Nou]{.badge-status .new}
+
+<h3>ATTCLIMPOLS</h3>
+
+<p><em>De les actituds a l'acció en la política climàtica</em> (PID2025-173985OB-I00) es construeix directament sobre ATTCLIMATE. Amplia el panell espanyol amb almenys tres onades addicionals (2026–2028), construeix una base de dades harmonitzada d'actituds climàtiques en més de 100 països, i aprofundeix en l'estudi de la resposta de les elits polítiques davant el canvi climàtic.</p>
+:::
+:::::
+
+## Línies de recerca
+
+:::::: rl-grid
+::: {.rl-card .surface-card}
+<p><a href="data.qmd"><strong>Dades d'enquesta longitudinal.</strong></a> Un panell espanyol de set onades (2023–2029) que analitza com evolucionen les actituds al llarg del temps, incloent com l'exposició a fenòmens meteorològics extrems — com les inundacions de la DANA de l'octubre de 2024 — condiciona les creences climàtiques i el suport a les polítiques.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><strong>Dades de qualitat per a la recerca climàtica.</strong> Una base de dades harmonitzada i internacional d'actituds climàtiques que cobreix més de 100 països, i que ofereix una base empírica sòlida per a la recerca sobre el canvi climàtic arreu del món.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><a href="papers.qmd"><strong>Suport a les polítiques públiques.</strong></a> Una anàlisi en profunditat de què impulsa el suport a les polítiques de mitigació climàtica — des de l'efecte del cost i la redistribució fins a com responen els partits i representants polítics davant el canvi climàtic.</p>
+:::
+
+::: {.rl-card .surface-card}
+<p><strong>Estem contractant!</strong> Busquem una persona candidata a doctorat per incorporar-se al projecte ATTCLIMPOLS sobre actituds polítiques i canvi climàtic, al Dept. de Ciència Política i Dret Públic de la Universitat Autònoma de Barcelona.</p>
+<p>Termini per manifestar interès: <strong>2 d'octubre de 2026</strong>.</p>
+<p><a href="https://uab-my.sharepoint.com/:b:/g/personal/1407091_uab_cat/IQC2LyBmmTMtRaNIbiYvn9LLAadCPsZpnhwD52fhKK2xROg?e=6pFd4e" target="_blank" rel="noopener">Informació completa de la convocatòria (PDF)</a> · CV, carta de motivació, mostra d'escriptura i 2 referències (1 PDF) → <a href="mailto:marc.guinjoanc@uab.cat?subject=PhD%20ATTCLIMPOLS">marc.guinjoanc@uab.cat</a> (assumpte "PhD ATTCLIMPOLS")</p>
+<p>Segueix-nos a les xarxes socials per a més informació:<br>
+Marc Guinjoan — <a href="https://x.com/mguinjoan" target="_blank" rel="noopener">X</a> · <a href="https://bsky.app/profile/mguinjoan.bsky.social" target="_blank" rel="noopener">Bluesky</a><br>
+Toni Rodon — <a href="https://x.com/tonirodon" target="_blank" rel="noopener">X</a> · <a href="https://bsky.app/profile/tonirodon.bsky.social" target="_blank" rel="noopener">Bluesky</a></p>
+:::
+::::::
+
+## Dades
+
+ATTClimate ha dut a terme quatre onades de dades d'enquesta originals (2023–2025) entre la població espanyola, acumulant més de 15.000 observacions de tipus enquestat-onada, amb almenys tres onades addicionals previstes en el marc d'ATTCLIMPOLS (2026–2029). Totes les dades harmonitzades estan disponibles a través del [repositori de dades de recerca CORA](https://doi.org/10.34810/DATA3567) — consulta la pàgina [Conjunt de dades Attclimate](data.qmd) per a més detalls. També pots explorar les dades de l'enquesta de manera interactiva mitjançant l'aplicació d'[anàlisi de dades del panell](https://mguinjoan.shinyapps.io/attclimate/).
+
+### Estructura del panell
+
+L'enquesta ATTCLIMATE té una estructura de panell, la qual cosa permet analitzar el canvi d'actituds al llarg del temps i vincular les respostes individuals amb esdeveniments climàtics reals. La figura següent mostra el nombre d'entrevistes en cadascuna de les 4 onades: els arcs superiors indiquen quantes persones panelistes van respondre a dues onades consecutives. En total, 737 persones han completat les quatre onades de l'enquesta panell ATTCLIMATE.
+
+```{=html}
+<div class="panel-diagram-wrap surface-card">
+<svg viewBox="0 0 880 315" role="img" aria-label="Diagrama de l'estructura del panell ATTCLIMATE al llarg de quatre onades d'enquesta, que mostra la mida de la mostra per onada i el nombre de persones que van respondre a cada parell d'onades.">
+  <!-- Top arcs: consecutive waves -->
+  <path class="arc-line" d="M110,116 Q220,42 330,116" />
+  <text class="arc-label" x="220" y="58" text-anchor="middle" font-size="15" font-weight="600">1.655</text>
+  <path class="arc-line" d="M330,116 Q440,42 550,116" />
+  <text class="arc-label" x="440" y="58" text-anchor="middle" font-size="15" font-weight="600">1.996</text>
+  <path class="arc-line" d="M550,116 Q660,42 770,116" />
+  <text class="arc-label" x="660" y="58" text-anchor="middle" font-size="15" font-weight="600">1.905</text>
+
+  <!-- Bottom arc: W1-W4 -->
+  <path class="arc-line" d="M110,184 Q440,272 770,184" />
+  <text class="arc-label" x="440" y="286" text-anchor="middle" font-size="14" font-style="italic">1.570 persones van respondre tant a l'Onada 1 com a l'Onada 4</text>
+
+  <!-- Nodes -->
+  <circle cx="110" cy="150" r="34" fill="#002B6E" />
+  <text class="node-label" x="110" y="156" text-anchor="middle" font-size="15" font-weight="700">O1</text>
+  <text class="node-period" x="110" y="205" text-anchor="middle" font-size="12.5">febr. 2023</text>
+  <text class="node-n" x="110" y="224" text-anchor="middle" font-size="12.5">N = 4.764</text>
+
+  <circle cx="330" cy="150" r="34" fill="#0054A8" />
+  <text class="node-label" x="330" y="156" text-anchor="middle" font-size="15" font-weight="700">O2</text>
+  <text class="node-period" x="330" y="205" text-anchor="middle" font-size="12.5">abr. 2024</text>
+  <text class="node-n" x="330" y="224" text-anchor="middle" font-size="12.5">N = 3.019</text>
+
+  <circle cx="550" cy="150" r="34" fill="#4D8FCC" />
+  <text class="node-label" x="550" y="156" text-anchor="middle" font-size="15" font-weight="700">O3</text>
+  <text class="node-period" x="550" y="205" text-anchor="middle" font-size="12.5">oct.&#8211;nov. 2024</text>
+  <text class="node-n" x="550" y="224" text-anchor="middle" font-size="12.5">N = 3.644</text>
+
+  <circle cx="770" cy="150" r="34" fill="#8AB5DE" />
+  <text x="770" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#002B6E">O4</text>
+  <text class="node-period" x="770" y="205" text-anchor="middle" font-size="12.5">maig 2025</text>
+  <text class="node-n" x="770" y="224" text-anchor="middle" font-size="12.5">N = 3.997</text>
+</svg>
+</div>
+```
+
+L'arc inferior mostra quantes persones panelistes van respondre tant a la primera com a l'última onada, l'Onada 1 i l'Onada 4 — les dues onades més allunyades en el temps.
+::::::::::
+
+:::: funding-footer
+<p class="grant-line">
+
+<strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union "NextGenerationEU"/PRTR
+
+</p>
+
+<p class="grant-line">
+
+<strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033
+
+</p>
+
+::: funding-logos
+![](../img/ministeri.jpg){height="46"} ![](../img/uab.png){height="46"} ![](../img/upf.png){height="46"}
+:::
+::::

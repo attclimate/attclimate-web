@@ -1,0 +1,85 @@
+<script>
+(function () {
+  // Root-relative URL of each page, per language.
+  var PAGES = {
+    home:   { en: "/index.html",   es: "/es/index.html",  ca: "/ca/index.html" },
+    data:   { en: "/data_en.html", es: "/es/data.html",   ca: "/ca/data.html" },
+    papers: { en: "/papers.html",  es: "/es/papers.html", ca: "/ca/papers.html" },
+    team:   { en: "/team_en.html", es: "/es/team.html",   ca: "/ca/team.html" }
+  };
+  // Basename used to recognise which left-nav item is which, regardless of
+  // the "../" depth Quarto emits for pages under /es/ or /ca/.
+  var BASENAMES = {
+    home: "index.html",
+    data: "data_en.html",
+    papers: "papers.html",
+    team: "team_en.html"
+  };
+  var NAV_LABELS = {
+    en: { home: "Home",  data: "Attclimate dataset",           shiny: "Panel data analysis",          papers: "Papers",        team: "Team" },
+    es: { home: "Inicio", data: "Conjunto de datos Attclimate", shiny: "Análisis de datos del panel",  papers: "Publicaciones", team: "Equipo" },
+    ca: { home: "Inici",  data: "Conjunt de dades Attclimate",  shiny: "Anàlisi de dades del panell",  papers: "Publicacions",  team: "Equip" }
+  };
+
+  function detectLang() {
+    var p = window.location.pathname;
+    if (/^\/es\//.test(p)) return "es";
+    if (/^\/ca\//.test(p)) return "ca";
+    return "en";
+  }
+
+  function detectPageKey() {
+    var p = window.location.pathname.replace(/^\/(es|ca)\//, "/");
+    if (/\/(index\.html)?$/.test(p)) return "home";
+    if (/\/(data_en|data)\.html$/.test(p)) return "data";
+    if (/\/papers\.html$/.test(p)) return "papers";
+    if (/\/(team_en|team)\.html$/.test(p)) return "team";
+    return null;
+  }
+
+  function textTarget(a) {
+    return a.querySelector(".menu-text") || a;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var lang = detectLang();
+    var pageKey = detectPageKey();
+
+    // Left navbar (Home / dataset / Shiny app / Papers / Team): relabel in
+    // the current language and repoint to the same-language equivalent page.
+    document.querySelectorAll(".navbar-nav a.nav-link").forEach(function (a) {
+      if (a.closest(".navbar-nav-right")) return;
+
+      var href = a.getAttribute("href") || "";
+      if (href.indexOf("shinyapps.io") !== -1) {
+        textTarget(a).textContent = NAV_LABELS[lang].shiny;
+        return;
+      }
+      if (href === "" || href === "./" || href === "/") href = "index.html";
+
+      for (var key in BASENAMES) {
+        if (href.indexOf(BASENAMES[key]) !== -1) {
+          textTarget(a).textContent = NAV_LABELS[lang][key];
+          a.setAttribute("href", PAGES[key][lang]);
+          break;
+        }
+      }
+    });
+
+    // Right-side ENG / ESP / CAT switcher: point each label at the same
+    // page in that language, and bold whichever matches the current one.
+    document.querySelectorAll(".navbar-nav-right a.nav-link").forEach(function (a) {
+      var label = (textTarget(a).textContent || "").trim();
+      var targetLang = label === "ENG" ? "en" : label === "ESP" ? "es" : label === "CAT" ? "ca" : null;
+      if (!targetLang) return;
+
+      if (pageKey && PAGES[pageKey]) {
+        a.setAttribute("href", PAGES[pageKey][targetLang]);
+      }
+      if (targetLang === lang) {
+        a.classList.add("lang-active");
+      }
+    });
+  });
+})();
+</script>

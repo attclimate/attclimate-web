@@ -1,0 +1,64 @@
+---
+title: "Conjunt de dades Attclimate"
+lang: ca
+format:
+  html:
+    toc: false
+---
+
+::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
+
+L'Enquesta ATTCLIMATE és un estudi panell de quatre onades sobre la població espanyola, realitzat entre 2023 i 2025. Analitza les actituds ciutadanes envers el canvi climàtic i el suport a un ampli ventall de polítiques de mitigació al llarg del temps, permetent estudiar la dinàmica de l'opinió pública en resposta a esdeveniments climàtics reals i a l'evolució política.
+
+El projecte ATTClimate està disponible públicament a través del repositori de dades de recerca **CORA** (Consorci de Serveis Universitaris de Catalunya). Les dades estan dipositades a [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567).
+
+**Cobertura i mostra:**
+
+| Onada | Període de treball de camp | N |
+|------|-----------------|---|
+| Onada 1 | Febrer de 2023 | 4.764 |
+| Onada 2 | Abril de 2024 | 3.019 |
+| Onada 3 | Octubre–novembre de 2024 | 3.644 |
+| Onada 4 | 2025 | 3.997 |
+
+**La cobertura temàtica inclou:**
+
+- Suport a les polítiques de mitigació climàtica (impostos sobre el carboni, zones de baixes emissions, energies renovables, etc.)
+- Creences sobre l'origen i la gravetat del canvi climàtic
+- Ideologia política i preferències de partit
+- Confiança institucional
+- Identitat territorial
+- Característiques sociodemogràfiques
+
+**Materials disponibles:**
+
+- Conjunt de dades harmonitzat (les quatre onades combinades, en formats .rds, .csv, .sav i .dta)
+- Conjunts de dades per onada individual (mateixos quatre formats)
+- Llibre de codis (descripcions de variables, etiquetes de valors, disponibilitat per onada)
+- Qüestionaris originals (en espanyol i anglès)
+
+**Citació:**
+
+> Guinjoan Cesena, Marc; Rodon, Toni (2026). *ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change*. CORA, Repositori de Dades de Recerca. <https://doi.org/10.34810/DATA3567>
+
+**Repositori:** [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567)
+
+:::
+
+:::: funding-footer
+<p class="grant-line">
+
+<strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union "NextGenerationEU"/PRTR
+
+</p>
+
+<p class="grant-line">
+
+<strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033
+
+</p>
+
+::: funding-logos
+![](../img/ministeri.jpg){height="46"} ![](../img/uab.png){height="46"} ![](../img/upf.png){height="46"}
+:::
+::::

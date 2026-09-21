@@ -1,0 +1,121 @@
+---
+title: "Equip"
+lang: ca
+---
+
+```{=html}
+<style>
+  .member {
+    display: flex;
+    gap: 1.1rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+  .member-photo {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+  }
+  .member > p {
+    margin: 0;
+  }
+  .member > p:first-of-type {
+    flex: none;
+  }
+  .member > p:last-child {
+    flex: 1;
+  }
+</style>
+```
+
+:::::::::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
+L'equip que es presenta a continuació ha desenvolupat el projecte **ATTCLIMATE** (2022–2025) i continua la seva feina en el marc del nou projecte finançat **ATTCLIMPOLS** (2026–2029).
+
+## Investigadors principals
+
+::: member
+![](../img/members/guinjoan.jpg){.member-photo}
+
+[**Marc Guinjoan (UAB)**](https://sites.google.com/site/marcguinjoan) va ser coinvestigador principal d'ATTCLIMATE i és investigador principal d'ATTCLIMPOLS. És professor al Departament de Ciència Política i Dret Públic de la Universitat Autònoma de Barcelona. Les seves principals línies de recerca inclouen el comportament polític i electoral, els partits polítics, els sistemes electorals, el populisme i la psicologia política. També ha treballat àmpliament sobre processos de descentralització, identitats i preferències territorials.
+:::
+
+::: member
+![](../img/members/rodon.jpg){.member-photo}
+
+[**Toni Rodon (UPF)**](https://tonirodon.cat/) va ser coinvestigador principal d'ATTCLIMATE. Rodon és professor agregat (Associate Professor) al Departament de Ciències Polítiques i Socials de la Universitat Pompeu Fabra, i investigador a la London School of Economics and Political Science (Regne Unit). Els seus interessos de recerca inclouen el comportament polític, l'opinió pública, l'economia política històrica i la geografia política, entre d'altres.
+:::
+
+------------------------------------------------------------------------
+
+## Equip actual
+
+::: member
+![](../img/members/mas.jpg){.member-photo}
+
+[**Jordi Mas (UOC)**](https://www.jordimas.cat/) és professor a la Facultat de Dret i Ciència Política de la Universitat Oberta de Catalunya. Els seus interessos de recerca inclouen la governança de dades, l'economia política i les institucions polítiques.
+:::
+
+::: member
+![](../img/members/romanin.jpg){.member-photo}
+
+[**Elena Romanin**](https://elenaromanin.github.io/index.html) és doctoranda en Ciències Polítiques i Socials a la Universitat Pompeu Fabra. Anteriorment va ser investigadora al Research and Expertise Centre for Survey Methodology (UPF), on va col·laborar en el projecte de recerca ICOS Cities Pilot Applications in Urban Landscapes – Towards integrated city Observatories for greenhouse gases (PAUL). Ha cursat el Màster en Economia i Desenvolupament a la Universitat de Florència, i el Grau en Estudis Internacionals a la Universitat de Trento.
+:::
+
+::: member
+![](../img/members/biering.jpg){.member-photo}
+
+[**Gabriel Biering**](https://directori.uab.cat/uabdirectori/veureDetallPersona?cid=354f67785a376b446c5564744f68727876434b6173413d3d&cole=P_INVESTIGADOR) és doctorand al Departament de Ciència Política de la Universitat Autònoma de Barcelona. És Màster de recerca en Institucions i Economia Política M.Sc. (Universitat de Barcelona, 2024) i graduat en Filosofia, Política i Economia B.A. (Universität Witten/Herdecke, 2021). La seva recerca se centra en la capacitat de resposta democràtica i el canvi climàtic.
+:::
+
+::: member
+![](../img/members/ardiaca.jpg){.member-photo}
+
+[**Joel Ardiaca**](https://joelardiaca.github.io/) és assistent de recerca. Actualment treballa com a estadístic al Centre d'Estudis d'Opinió i cursa el màster en Estadística i Investigació Operativa a la Universitat Politècnica de Catalunya. Ha completat el doble grau en Estadística i Sociologia a la Universitat Autònoma de Barcelona.
+:::
+
+::: member
+![](../img/members/ioannidis.jpg){.member-photo}
+
+[**Nikandros Ioannidis**](https://nikandrosioannidis.com/) és doctor en Ciències Polítiques i Socials per la Universitat Pompeu Fabra i és Special Teaching Staff a la Cyprus University of Technology. La seva recerca se centra en el comportament polític, l'opinió pública i l'anàlisi d'actituds relacionades amb el conflicte i el clima mitjançant mètodes quantitatius i computacionals avançats. Té una àmplia experiència en anàlisi espaciotemporal, integració de dades geocodificades i construcció de bases de dades a gran escala.
+:::
+
+------------------------------------------------------------------------
+
+## Antics membres
+
+[**Roger Sanjaume**](https://rogersanjaume.cat/) va ser programador analista de dades al projecte. Actualment treballa com a enginyer de dades en una cooperativa del sector elèctric. Ha col·laborat amb projectes de recerca com l'Institutions and Political Economy Research Group (IPErG) com a analista de dades.
+
+[**Cèlia Estruch**](https://celiaestruch.cat/) va ser assistent de recerca al projecte. Ha cursat el Màster en Ciència Política i Economia Política a la London School of Economics and Political Science (Regne Unit), el postgrau en Anàlisi de Dades per a l'Anàlisi Política i la Gestió Pública a la Universitat de Barcelona, i el Grau en Filosofia, Política i Economia a la Universitat Pompeu Fabra.
+
+[**Julia Múgica**](https://juliamugica.net/) és una científica i artista mexicana amb formació interdisciplinària en biologia, psicologia i física computacional. Li interessa comprendre com els col·lectius prenen decisions que donen lloc a la sincronia conductual. La seva recerca combina l'anàlisi de dades, el comportament col·lectiu, els sistemes complexos i el processament del llenguatge natural, tant en contextos científics com artístics. Va ser investigadora al projecte ATTCLIMATE, contribuint a un article que analitza els discursos de legisladors nord-americans sobre el canvi climàtic mitjançant processament del llenguatge natural.
+
+---
+
+## Col·laboradors
+
+Persones que han col·laborat amb el projecte en diferents moments i nivells d'implicació:
+
+- [Arnau López Fabón](https://es.linkedin.com/in/arnaulopezfabon)
+- [Irene Rodríguez López](http://irenerodriguez.cat/index.html)
+- [Inés Arjona Torres](https://www.linkedin.com/in/in%C3%A9s-arjona-torres-959690264/)
+::::::::::
+
+:::: funding-footer
+<p class="grant-line">
+
+<strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union "NextGenerationEU"/PRTR
+
+</p>
+
+<p class="grant-line">
+
+<strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033
+
+</p>
+
+::: funding-logos
+![](../img/ministeri.jpg){height="46"} ![](../img/uab.png){height="46"} ![](../img/upf.png){height="46"}
+:::
+::::

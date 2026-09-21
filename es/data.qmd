@@ -1,0 +1,64 @@
+---
+title: "Conjunto de datos Attclimate"
+lang: es
+format:
+  html:
+    toc: false
+---
+
+::: {style="text-align: justify; max-width: 860px; margin: 0 auto;"}
+
+La Encuesta ATTCLIMATE es un estudio panel de cuatro oleadas sobre la población española, realizado entre 2023 y 2025. Analiza las actitudes ciudadanas hacia el cambio climático y el apoyo a un amplio abanico de políticas de mitigación a lo largo del tiempo, permitiendo estudiar la dinámica de la opinión pública en respuesta a eventos climáticos reales y a la evolución política.
+
+El proyecto ATTClimate está disponible públicamente a través del repositorio de datos de investigación **CORA** (Consorci de Serveis Universitaris de Catalunya). Los datos están depositados en [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567).
+
+**Cobertura y muestra:**
+
+| Oleada | Periodo de trabajo de campo | N |
+|------|-----------------|---|
+| Oleada 1 | Febrero de 2023 | 4.764 |
+| Oleada 2 | Abril de 2024 | 3.019 |
+| Oleada 3 | Octubre–noviembre de 2024 | 3.644 |
+| Oleada 4 | 2025 | 3.997 |
+
+**La cobertura temática incluye:**
+
+- Apoyo a las políticas de mitigación climática (impuestos al carbono, zonas de bajas emisiones, energías renovables, etc.)
+- Creencias sobre el origen y la gravedad del cambio climático
+- Ideología política y preferencias de partido
+- Confianza institucional
+- Identidad territorial
+- Características sociodemográficas
+
+**Materiales disponibles:**
+
+- Conjunto de datos armonizado (las cuatro oleadas combinadas, en formatos .rds, .csv, .sav y .dta)
+- Conjuntos de datos por oleada individual (mismos cuatro formatos)
+- Libro de códigos (descripciones de variables, etiquetas de valores, disponibilidad por oleada)
+- Cuestionarios originales (en español e inglés)
+
+**Cita:**
+
+> Guinjoan Cesena, Marc; Rodon, Toni (2026). *ATTCLIMATE: Tracking Public Attitudes and Policy Views on Climate Change*. CORA, Repositori de Dades de Recerca. <https://doi.org/10.34810/DATA3567>
+
+**Repositorio:** [doi.org/10.34810/DATA3567](https://doi.org/10.34810/DATA3567)
+
+:::
+
+:::: funding-footer
+<p class="grant-line">
+
+<strong>ATTCLIMATE</strong> · Project TED2021-132344A-I00 · MCIN/AEI/10.13039/501100011033 · European Union "NextGenerationEU"/PRTR
+
+</p>
+
+<p class="grant-line">
+
+<strong>ATTCLIMPOLS</strong> · Project PID2025-173985OB-I00 · MCIN/AEI/10.13039/501100011033
+
+</p>
+
+::: funding-logos
+![](../img/ministeri.jpg){height="46"} ![](../img/uab.png){height="46"} ![](../img/upf.png){height="46"}
+:::
+::::
