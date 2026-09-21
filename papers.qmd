@@ -10,7 +10,7 @@ format:
 <div id="papers-layout">
 
 <!-- ── Sidebar ─────────────────────────────────────────────────────────── -->
-<aside id="papers-sidebar">
+<aside id="papers-sidebar" class="headroom-target">
   <p class="sidebar-title">Filter</p>
 
   <div class="filter-group">
