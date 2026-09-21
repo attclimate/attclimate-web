@@ -93,6 +93,18 @@ toc: false
   .project-card {
     padding: 1.4rem 1.5rem;
   }
+  .project-card .badge-status {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    padding: 0.2rem 0.7rem;
+    margin-bottom: 0.6rem;
+  }
+  .badge-status.ongoing { background: rgba(46, 160, 67, 0.18); color: #2ea043; }
+  .badge-status.new { background: rgba(0, 123, 255, 0.18); color: #3b8bff; }
   .project-card h3 {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
@@ -195,27 +207,23 @@ toc: false
 
 El cambio climático es uno de los grandes retos de nuestro tiempo, pero la implementación de políticas de mitigación eficaces depende de manera crítica del apoyo ciudadano. Políticas como los impuestos al carbono, las zonas de bajas emisiones, las subvenciones a las energías renovables o las restricciones a los combustibles fósiles implican costes y compensaciones reales que la ciudadanía debe aceptar para que las democracias puedan aplicarlas. Este programa de investigación pretende comprender los factores políticos, sociales y psicológicos que determinan que las personas apoyen o se opongan a estas medidas.
 
-Ese apoyo rara vez sigue un patrón sencillo. Está condicionado por **sesgos ideológicos y partidistas** — el escepticismo es notablemente mayor entre el electorado de derechas y, especialmente, de extrema derecha, para quienes la regulación climática suele presentarse como una amenaza a la libertad individual. Está condicionado por **razones distributivas** — la ciudadanía que soporta directamente los costes de una política, o que la percibe como injusta para los hogares con menos recursos, tiende mucho más a oponerse a ella, como se vio en reacciones como las protestas de los «chalecos amarillos» en Francia contra el impuesto al carbono. Y está condicionado por la **proximidad** — incluso quienes respaldan la acción climática en abstracto suelen resistirse a medidas concretas que afectan a su propia calle o rutina diaria, el patrón clásico de la oposición de tipo NIMBY. Estos sesgos, además, interactúan con las crisis económicas, el cambio generacional y los realineamientos partidistas, que pueden reforzar o suavizar las actitudes climáticas mucho después de que una política se proponga por primera vez.
-
-Comprender estas dinámicas no es solo un ejercicio académico. ATTClimate y ATTCLIMPOLS pretenden generar conocimiento útil para quienes diseñan políticas públicas — identificando qué diseños de política generan un apoyo amplio, qué grupos son más propensos a resistirse a una medida concreta y por qué, y cómo los gobiernos pueden anticipar la resistencia antes de que descarrile la implementación de una política. El programa también trata sus datos como un bien público: la encuesta panel resultante es una de las más amplias y de mayor duración de su tipo en el mundo, y está disponible gratuitamente para la comunidad investigadora.
-
 El programa comprende dos proyectos consecutivos. **ATTCLIMATE** (2022–2025) tuvo su sede en la **Universitat Oberta de Catalunya (UOC)** y la **Universitat Pompeu Fabra (UPF)**, codirigido por Marc Guinjoan y Toni Rodon. **ATTCLIMPOLS** (2026–2029) tiene su sede en la **Universitat Autònoma de Barcelona (UAB)**, dirigido por Marc Guinjoan como investigador principal.
 
 ::::: project-grid
 ::: {.project-card .surface-card}
+[2022 – 2025]{.badge-status .ongoing}
+
 <h3>ATTCLIMATE</h3>
 
 <p>El proyecto original (TED2021-132344A-I00), codirigido por Marc Guinjoan (UAB) y Toni Rodon (UPF). Llevó a cabo cuatro oleadas de una encuesta panel representativa a nivel nacional sobre actitudes climáticas y apoyo a las políticas, dando lugar a una de las primeras encuestas panel sobre clima del mundo.</p>
-
-<p>ATTCLIMATE investigó cómo la ciudadanía española forma sus creencias sobre el cambio climático y decide si apoya las políticas diseñadas para abordarlo. Hacer seguimiento de las mismas personas a lo largo de cuatro oleadas permitió un análisis genuino de cambio intraindividual sobre cómo evolucionan las actitudes en respuesta a eventos reales — incluidas las inundaciones de la DANA de octubre de 2024 — en lugar de basarse en comparaciones puntuales entre personas distintas. El proyecto superó ampliamente su alcance inicial, pasando de una única encuesta prevista y tres artículos a cuatro oleadas de panel y más de cinco líneas de investigación activas, además de formar a dos doctorandos que trabajan sobre actitudes climáticas.</p>
 :::
 
 ::: {.project-card .surface-card}
+[2026 – 2029 · Nuevo]{.badge-status .new}
+
 <h3>ATTCLIMPOLS</h3>
 
 <p><em>De las actitudes a la acción en la política climática</em> (PID2025-173985OB-I00) se construye directamente sobre ATTCLIMATE. Amplía el panel español con al menos tres oleadas adicionales (2026–2028), construye una base de datos armonizada de actitudes climáticas en más de 100 países, y profundiza en el estudio de la respuesta de las élites políticas ante el cambio climático.</p>
-
-<p>ATTCLIMPOLS desarrolla cinco líneas de investigación interconectadas: mejorar los datos globales de actitudes climáticas y su comparabilidad; hacer seguimiento del cambio intraindividual en creencias y apoyo a las políticas a medida que cambian las condiciones económicas, la ideología y la composición generacional; estimar cuánta renta está dispuesta a sacrificar la ciudadanía por mejores condiciones climáticas y medioambientales; y examinar las consecuencias electorales de políticas medioambientales controvertidas, como la recogida de residuos puerta a puerta. En conjunto, estas líneas buscan identificar no solo si la ciudadanía apoya la acción climática, sino bajo qué condiciones ese apoyo se mantiene.</p>
 :::
 :::::
 
