@@ -98,6 +98,20 @@ format:
   </div>
 </div>
 
+<div class="paper-card"
+     data-status="published"
+     data-approach="survey"
+     data-authors="romanin">
+
+  <h6 class="paper-title">Healthier, Not Just Greener: Public Response to Different Benefit Framings in Carbon Tax Support in Spain</h6>
+  <p class="paper-authors">Elena Romanin</p>
+  <p class="paper-venue"><em>Electoral Studies</em>. Accepted for publication.</p>
+
+  <p>Los esfuerzos por implementar políticas climáticas suelen encontrar resistencia pública. Este estudio, basado en un experimento de encuesta preregistrado en España (N = 2.768), examina cómo distintos encuadres de la fiscalidad del carbono — que enfatizan los costes, los beneficios climáticos primarios, los cobeneficios y sus combinaciones — condicionan el apoyo público. En comparación con una condición de referencia sin información, los mensajes centrados en el coste reducen el apoyo, mientras que los encuadres de beneficio lo aumentan, en particular los que destacan cobeneficios locales como la mejora de la calidad del aire y de la salud pública.</p>
+  <p>Los cobeneficios también resultan más eficaces para contrarrestar el impacto negativo de la relevancia del coste. Estos resultados sugieren que los resultados inmediatos y tangibles resuenan con más fuerza en el público que los objetivos climáticos lejanos. El análisis de las respuestas abiertas confirma esta interpretación: los cobeneficios resultaron más destacados cognitivamente, y las personas encuestadas los mencionaron con más frecuencia al explicar sus opiniones.</p>
+  <p>El estudio también revela heterogeneidad en las respuestas: la información sobre costes reduce el apoyo especialmente entre las personas de izquierdas y de rentas más bajas, mientras que el encuadre de beneficio resulta más persuasivo entre las personas de derechas y de rentas más altas. En conjunto, estos resultados subrayan el papel modesto pero sistemático del encuadre a la hora de moldear las actitudes hacia la fiscalidad del carbono, y su potencial para orientar el diseño de políticas climáticas más aceptables socialmente.</p>
+</div>
+
 <hr class="section-divider">
 
 <!-- ── WORKING PAPERS ─────────────────────────────────────────────── -->
@@ -219,18 +233,6 @@ format:
   <p>En segundo lugar, proporcionar información normativa precisa no produce ningún efecto significativo sobre el apoyo a ninguna de las tres políticas evaluadas, con independencia del encuadre, el grupo de referencia o las creencias previas de las personas encuestadas. Estos resultados invitan a la cautela a la hora de asumir que los mensajes basados en normas sociales pueden por sí solos generar apoyo a la política climática, y amplían el ámbito geográfico de esta literatura al sur de Europa.</p>
 </div>
 
-<div class="paper-card"
-     data-status="working"
-     data-approach="survey"
-     data-authors="romanin">
-
-  <h6 class="paper-title">Healthier, Not Just Greener: Public Response to Different Benefit Framings in Carbon Tax Support in Spain</h6>
-  <p class="paper-authors">Elena Romanin</p>
-
-  <p>Los esfuerzos por implementar políticas climáticas suelen encontrar resistencia pública. Este estudio, basado en un experimento de encuesta preregistrado en España (N = 2.768), examina cómo distintos encuadres de la fiscalidad del carbono — que enfatizan los costes, los beneficios climáticos primarios, los cobeneficios y sus combinaciones — condicionan el apoyo público. En comparación con una condición de referencia sin información, los mensajes centrados en el coste reducen el apoyo, mientras que los encuadres de beneficio lo aumentan, en particular los que destacan cobeneficios locales como la mejora de la calidad del aire y de la salud pública.</p>
-  <p>Los cobeneficios también resultan más eficaces para contrarrestar el impacto negativo de la relevancia del coste. Estos resultados sugieren que los resultados inmediatos y tangibles resuenan con más fuerza en el público que los objetivos climáticos lejanos. El análisis de las respuestas abiertas confirma esta interpretación: los cobeneficios resultaron más destacados cognitivamente, y las personas encuestadas los mencionaron con más frecuencia al explicar sus opiniones.</p>
-  <p>El estudio también revela heterogeneidad en las respuestas: la información sobre costes reduce el apoyo especialmente entre las personas de izquierdas y de rentas más bajas, mientras que el encuadre de beneficio resulta más persuasivo entre las personas de derechas y de rentas más altas. En conjunto, estos resultados subrayan el papel modesto pero sistemático del encuadre a la hora de moldear las actitudes hacia la fiscalidad del carbono, y su potencial para orientar el diseño de políticas climáticas más aceptables socialmente.</p>
-</div>
 
 </div><!-- #papers-list -->
 </div><!-- #papers-layout -->

@@ -98,6 +98,20 @@ format:
   </div>
 </div>
 
+<div class="paper-card"
+     data-status="published"
+     data-approach="survey"
+     data-authors="romanin">
+
+  <h6 class="paper-title">Healthier, Not Just Greener: Public Response to Different Benefit Framings in Carbon Tax Support in Spain</h6>
+  <p class="paper-authors">Elena Romanin</p>
+  <p class="paper-venue"><em>Electoral Studies</em>. Accepted for publication.</p>
+
+  <p>Els esforços per implementar polítiques climàtiques solen trobar resistència pública. Aquest estudi, basat en un experiment d'enquesta preregistrat a Espanya (N = 2.768), examina com diferents enquadraments de la fiscalitat del carboni — que emfasitzen els costos, els beneficis climàtics primaris, els cobeneficis i les seves combinacions — condicionen el suport públic. En comparació amb una condició de referència sense informació, els missatges centrats en el cost redueixen el suport, mentre que els enquadraments de benefici l'augmenten, en particular els que destaquen cobeneficis locals com la millora de la qualitat de l'aire i de la salut pública.</p>
+  <p>Els cobeneficis també resulten més eficaços per contrarestar l'impacte negatiu de la rellevància del cost. Aquests resultats suggereixen que els resultats immediats i tangibles ressonen amb més força en el públic que els objectius climàtics llunyans. L'anàlisi de les respostes obertes confirma aquesta interpretació: els cobeneficis van resultar més destacats cognitivament, i les persones enquestades els van esmentar amb més freqüència en explicar les seves opinions.</p>
+  <p>L'estudi també revela heterogeneïtat en les respostes: la informació sobre costos redueix el suport especialment entre les persones d'esquerres i de rendes més baixes, mentre que l'enquadrament de benefici resulta més persuasiu entre les persones de dretes i de rendes més altes. En conjunt, aquests resultats subratllen el paper modest però sistemàtic de l'enquadrament a l'hora de modelar les actituds envers la fiscalitat del carboni, i el seu potencial per orientar el disseny de polítiques climàtiques més acceptables socialment.</p>
+</div>
+
 <hr class="section-divider">
 
 <!-- ── WORKING PAPERS ─────────────────────────────────────────────── -->
@@ -219,18 +233,6 @@ format:
   <p>En segon lloc, proporcionar informació normativa precisa no produeix cap efecte significatiu sobre el suport a cap de les tres polítiques avaluades, amb independència de l'enquadrament, el grup de referència o les creences prèvies de les persones enquestades. Aquests resultats conviden a la cautela a l'hora d'assumir que els missatges basats en normes socials poden, per si sols, generar suport a la política climàtica, i amplien l'àmbit geogràfic d'aquesta literatura al sud d'Europa.</p>
 </div>
 
-<div class="paper-card"
-     data-status="working"
-     data-approach="survey"
-     data-authors="romanin">
-
-  <h6 class="paper-title">Healthier, Not Just Greener: Public Response to Different Benefit Framings in Carbon Tax Support in Spain</h6>
-  <p class="paper-authors">Elena Romanin</p>
-
-  <p>Els esforços per implementar polítiques climàtiques solen trobar resistència pública. Aquest estudi, basat en un experiment d'enquesta preregistrat a Espanya (N = 2.768), examina com diferents enquadraments de la fiscalitat del carboni — que emfasitzen els costos, els beneficis climàtics primaris, els cobeneficis i les seves combinacions — condicionen el suport públic. En comparació amb una condició de referència sense informació, els missatges centrats en el cost redueixen el suport, mentre que els enquadraments de benefici l'augmenten, en particular els que destaquen cobeneficis locals com la millora de la qualitat de l'aire i de la salut pública.</p>
-  <p>Els cobeneficis també resulten més eficaços per contrarestar l'impacte negatiu de la rellevància del cost. Aquests resultats suggereixen que els resultats immediats i tangibles ressonen amb més força en el públic que els objectius climàtics llunyans. L'anàlisi de les respostes obertes confirma aquesta interpretació: els cobeneficis van resultar més destacats cognitivament, i les persones enquestades els van esmentar amb més freqüència en explicar les seves opinions.</p>
-  <p>L'estudi també revela heterogeneïtat en les respostes: la informació sobre costos redueix el suport especialment entre les persones d'esquerres i de rendes més baixes, mentre que l'enquadrament de benefici resulta més persuasiu entre les persones de dretes i de rendes més altes. En conjunt, aquests resultats subratllen el paper modest però sistemàtic de l'enquadrament a l'hora de modelar les actituds envers la fiscalitat del carboni, i el seu potencial per orientar el disseny de polítiques climàtiques més acceptables socialment.</p>
-</div>
 
 </div><!-- #papers-list -->
 </div><!-- #papers-layout -->
