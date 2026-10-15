@@ -81,6 +81,12 @@ El equipo que se presenta a continuación ha desarrollado el proyecto **ATTCLIMA
 [**Nikandros Ioannidis**](https://nikandrosioannidis.com/) es doctor en Ciencias Políticas y Sociales por la Universitat Pompeu Fabra y es Special Teaching Staff en la Cyprus University of Technology. Su investigación se centra en el comportamiento político, la opinión pública y el análisis de actitudes relacionadas con el conflicto y el clima mediante métodos cuantitativos y computacionales avanzados. Cuenta con amplia experiencia en análisis espaciotemporal, integración de datos geocodificados y construcción de bases de datos a gran escala.
 :::
 
+::: member
+![](../img/members/blanchet.jpg){.member-photo}
+
+[**Blai Blanchet (UAB)**](https://www.linkedin.com/in/blai-blanchet-guti%C3%A9rrez-756517229) es asistente de investigación en el proyecto ATTCLIMPOLS. Es graduado en Economía (UAB, 2024) y Máster en Instituciones y Economía Política (UB, 2026).
+:::
+
 ------------------------------------------------------------------------
 
 ## Antiguos miembros

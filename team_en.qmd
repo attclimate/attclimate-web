@@ -80,6 +80,12 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 [**Nikandros Ioannidis**](https://nikandrosioannidis.com/) holds a PhD in Political and Social Sciences from Universitat Pompeu Fabra and is Special Teaching Staff at the Cyprus University of Technology. His research focuses on political behaviour, public opinion, and the analysis of conflict- and climate-related attitudes using advanced quantitative and computational methods. He has extensive expertise in spatiotemporal analysis, geocoded data integration, and the construction of large-scale datasets.
 :::
 
+::: member
+![](img/members/blanchet.jpg){.member-photo}
+
+[**Blai Blanchet (UAB)**](https://www.linkedin.com/in/blai-blanchet-guti%C3%A9rrez-756517229) is a research assistant in the ATTCLIMPOLS project. He holds a bachelor's degree in Economics (UAB, 2024) and a master's degree in Institutions and Political Economy (UB, 2026).
+:::
+
 ------------------------------------------------------------------------
 
 ## Former Members
