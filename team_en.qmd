@@ -81,9 +81,15 @@ The team below has developed the **ATTCLIMATE** project (2022–2025) and contin
 :::
 
 ::: member
+![](img/members/brugge.jpg){.member-photo}
+
+[**Clara Brügge**](https://www.linkedin.com/in/clara-br%C3%BCgge-385770171) is a postdoctoral researcher in the ATTCLIMPOLS project. She holds a PhD in Environmental Politics from ETH Zurich, where she examined public responses to the trade-offs associated with different climate change mitigation strategies and co-managed the Swiss Environmental Panel. Her research interests include political behavior, public opinion, and political economy, with a particular focus on climate and environmental politics.
+:::
+
+::: member
 ![](img/members/blanchet.jpg){.member-photo}
 
-[**Blai Blanchet (UAB)**](https://www.linkedin.com/in/blai-blanchet-guti%C3%A9rrez-756517229) is a research assistant in the ATTCLIMPOLS project. He holds a bachelor's degree in Economics (UAB, 2024) and a master's degree in Institutions and Political Economy (UB, 2026).
+[**Blai Blanchet**](https://www.linkedin.com/in/blai-blanchet-guti%C3%A9rrez-756517229) is a research assistant in the ATTCLIMPOLS project. He holds a bachelor's degree in Economics (UAB, 2024) and a master's degree in Institutions and Political Economy (UB, 2026).
 :::
 
 ------------------------------------------------------------------------
