@@ -106,9 +106,15 @@ format:
   <p class="paper-authors">Elena Romanin</p>
   <p class="paper-venue"><em>Electoral Studies</em>, Vol. 104, Article 103144 (2026). <a href="https://doi.org/10.1016/j.electstud.2026.103144" target="_blank">https://doi.org/10.1016/j.electstud.2026.103144</a></p>
 
+  <div class="paper-card-with-cover">
+  <img class="paper-cover" src="pubs/out_of_breath.png" alt="Cover of &quot;Out of breath, out of mind&quot;">
+  <div class="paper-card-body">
+
   <p>Efforts to implement climate policies often face public resistance. This study, based on a pre-registered survey experiment in Spain, tests how different framings of carbon taxation, emphasizing costs, primary climate benefits, co-benefits, and their combinations, shape public support. Compared to a baseline with no additional information, cost-focused messages reduce support, while benefit frames increase it; co-benefits (cleaner air, better health) produce the largest increase, though in isolation this is not statistically distinguishable from the primary-benefit frame.</p>
   <p>When paired with cost information, co-benefit framing sustains support more effectively than primary climate benefits, suggesting that immediate, tangible outcomes resonate more strongly with the public than distant climate goals. A dictionary-based analysis of open-ended responses corroborates this interpretation: co-benefit and cost treatments activate frame-aligned language, whereas the primary benefits treatment does not.</p>
   <p>The study further reveals systematic heterogeneity in responses: cost information reduces support most among left-leaning and lower-income respondents, while co-benefit framing is more persuasive among center- and right-leaning and higher-income respondents. Together, these findings point to a modest but systematic role of framing in shaping attitudes toward carbon taxation, with implications for designing more publicly acceptable climate policies.</p>
+  </div>
+  </div>
 </div>
 
 <hr class="section-divider">
