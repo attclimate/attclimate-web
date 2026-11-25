@@ -108,7 +108,7 @@ format:
   <p class="paper-venue"><em>Electoral Studies</em>, Vol. 104, Article 103144 (2026). <a href="https://doi.org/10.1016/j.electstud.2026.103144" target="_blank">https://doi.org/10.1016/j.electstud.2026.103144</a></p>
 
   <div class="paper-card-with-cover">
-  <img class="paper-cover" src="../pubs/out_of_breath.png" alt="Cover of &quot;Out of breath, out of mind&quot;">
+  <img class="paper-cover" src="../pubs/out_of_breath_2.png" alt="Cover of &quot;Out of breath, out of mind&quot;">
   <div class="paper-card-body">
 
   <p>Los esfuerzos por implementar políticas climáticas suelen encontrar resistencia pública. Este estudio, basado en un experimento de encuesta preregistrado en España, examina cómo distintos encuadres de la fiscalidad del carbono, que enfatizan los costes, los beneficios climáticos primarios, los cobeneficios y sus combinaciones, condicionan el apoyo público. En comparación con una condición de referencia sin información adicional, los mensajes centrados en el coste reducen el apoyo, mientras que los encuadres de beneficio lo aumentan; los cobeneficios (aire más limpio, mejor salud) producen el mayor aumento, aunque por sí solos no se distinguen estadísticamente del encuadre de beneficio primario.</p>
